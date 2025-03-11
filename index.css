@@ -1,4 +1,4 @@
-@font-face {font-family: 'APL386';src: url('APL386.ttf');}
+@font-face {font-family: 'APL387';src: url('APL387.ttf');}
 @font-face {font-family: 'APL385';src: url('APL385.ttf');}
 input,label{
   position: fixed;
@@ -8,7 +8,7 @@ input,label{
 * {
   font-weight: unset;
 }
-#APL386{top:3ex;}label[for="APL386"]{top:3ex;}#APL386:checked~*:not(.x){font-family: 'APL386'!important;}
+#APL387{top:3ex;}label[for="APL387"]{top:3ex;}#APL387:checked~*:not(.x){font-family: 'APL387'!important;}
 #APL385{top:5ex;}label[for="APL385"]{top:5ex;}#APL385:checked~*:not(.x){font-family: 'APL385'!important;}
 label{
   left:2em;
