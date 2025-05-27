@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="product" format="1">
+  <advance width="600"/>
+  <unicode hex="220F"/>
+  <outline>
+    <contour>
+      <point x="81" y="659" type="line" smooth="yes"/>
+      <point x="30" y="659"/>
+      <point x="30" y="700" type="qcurve" smooth="yes"/>
+      <point x="30" y="740"/>
+      <point x="81" y="740" type="qcurve" smooth="yes"/>
+      <point x="519" y="740" type="line" smooth="yes"/>
+      <point x="570" y="740"/>
+      <point x="570" y="699" type="qcurve" smooth="yes"/>
+      <point x="570" y="659"/>
+      <point x="519" y="659" type="qcurve" smooth="yes"/>
+      <point x="499" y="659" type="line"/>
+      <point x="499" y="2" type="line" smooth="yes"/>
+      <point x="499" y="-50"/>
+      <point x="455" y="-50" type="qcurve" smooth="yes"/>
+      <point x="412" y="-50"/>
+      <point x="412" y="2" type="qcurve" smooth="yes"/>
+      <point x="412" y="659" type="line"/>
+      <point x="188" y="659" type="line"/>
+      <point x="188" y="2" type="line" smooth="yes"/>
+      <point x="188" y="-50"/>
+      <point x="144" y="-50" type="qcurve" smooth="yes"/>
+      <point x="101" y="-50"/>
+      <point x="101" y="2" type="qcurve" smooth="yes"/>
+      <point x="101" y="659" type="line"/>
+    </contour>
+  </outline>
+</glyph>

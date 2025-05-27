@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eta" format="1">
+  <advance width="600"/>
+  <unicode hex="0397"/>
+  <outline>
+    <contour>
+      <point x="309" y="670" type="move" name="Anchor-5"/>
+    </contour>
+    <contour>
+      <point x="309" y="0" type="move" name="Anchor-4"/>
+    </contour>
+    <contour>
+      <point x="158" y="52" type="line" smooth="yes"/>
+      <point x="158" y="0"/>
+      <point x="114" y="0" type="qcurve" smooth="yes"/>
+      <point x="71" y="0"/>
+      <point x="71" y="52" type="qcurve" smooth="yes"/>
+      <point x="71" y="598" type="line" smooth="yes"/>
+      <point x="71" y="650"/>
+      <point x="115" y="650" type="qcurve" smooth="yes"/>
+      <point x="158" y="650"/>
+      <point x="158" y="598" type="qcurve" smooth="yes"/>
+      <point x="158" y="376" type="line"/>
+      <point x="442" y="376" type="line"/>
+      <point x="442" y="598" type="line" smooth="yes"/>
+      <point x="442" y="650"/>
+      <point x="486" y="650" type="qcurve" smooth="yes"/>
+      <point x="529" y="650"/>
+      <point x="529" y="598" type="qcurve" smooth="yes"/>
+      <point x="529" y="52" type="line" smooth="yes"/>
+      <point x="529" y="0"/>
+      <point x="485" y="0" type="qcurve" smooth="yes"/>
+      <point x="442" y="0"/>
+      <point x="442" y="52" type="qcurve" smooth="yes"/>
+      <point x="442" y="296" type="line"/>
+      <point x="158" y="296" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicaland" format="1">
+  <advance width="600"/>
+  <unicode hex="2227"/>
+  <outline>
+    <contour>
+      <point x="185" y="84" type="line" smooth="yes"/>
+      <point x="176" y="67"/>
+      <point x="133" y="59"/>
+      <point x="117" y="69" type="qcurve" smooth="yes"/>
+      <point x="100" y="80"/>
+      <point x="88" y="122"/>
+      <point x="98" y="139" type="qcurve" smooth="yes"/>
+      <point x="250" y="398" type="line" smooth="yes"/>
+      <point x="266" y="425"/>
+      <point x="331" y="425"/>
+      <point x="348" y="396" type="qcurve" smooth="yes"/>
+      <point x="502" y="135" type="line" smooth="yes"/>
+      <point x="512" y="118"/>
+      <point x="499" y="80"/>
+      <point x="481" y="69" type="qcurve" smooth="yes"/>
+      <point x="461" y="58"/>
+      <point x="421" y="68"/>
+      <point x="411" y="86" type="qcurve" smooth="yes"/>
+      <point x="299" y="299" type="line"/>
+    </contour>
+  </outline>
+</glyph>
