@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0307.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="300" y="646" type="move" name="Anchor-9"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="move" name="_Anchor-9"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="move" name="_Anchor-7"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="move" name="_Anchor-5"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="move" name="_Anchor-3"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="move" name="_Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="231" y="798" type="qcurve" smooth="yes"/>
+      <point x="231" y="827"/>
+      <point x="271" y="868"/>
+      <point x="329" y="868"/>
+      <point x="369" y="827"/>
+      <point x="369" y="798" type="qcurve" smooth="yes"/>
+      <point x="369" y="770"/>
+      <point x="328" y="729"/>
+      <point x="272" y="729"/>
+      <point x="231" y="770"/>
+    </contour>
+  </outline>
+</glyph>

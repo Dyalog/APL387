@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphatonos" format="1">
+  <advance width="600"/>
+  <unicode hex="0386"/>
+  <outline>
+    <contour>
+      <point x="34" y="910" type="move" name="Anchor-5"/>
+    </contour>
+    <contour>
+      <point x="300" y="0" type="move" name="Anchor-4"/>
+    </contour>
+    <contour>
+      <point x="260" y="632" type="line" smooth="yes"/>
+      <point x="271" y="661"/>
+      <point x="298" y="661" type="qcurve" smooth="yes"/>
+      <point x="324" y="661"/>
+      <point x="335" y="633" type="qcurve" smooth="yes"/>
+      <point x="553" y="71" type="line" smooth="yes"/>
+      <point x="572" y="20"/>
+      <point x="530" y="3" type="qcurve" smooth="yes"/>
+      <point x="487" y="-11"/>
+      <point x="469" y="40" type="qcurve" smooth="yes"/>
+      <point x="419" y="176" type="line"/>
+      <point x="179" y="176" type="line"/>
+      <point x="129" y="40" type="line" smooth="yes"/>
+      <point x="111" y="-11"/>
+      <point x="68" y="3" type="qcurve" smooth="yes"/>
+      <point x="26" y="20"/>
+      <point x="45" y="71" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="75" y="500" type="qcurve" smooth="yes"/>
+      <point x="63" y="508"/>
+      <point x="58" y="536"/>
+      <point x="67" y="549" type="qcurve" smooth="yes"/>
+      <point x="156" y="677" type="line" smooth="yes"/>
+      <point x="165" y="691"/>
+      <point x="193" y="696"/>
+      <point x="203" y="687" type="qcurve" smooth="yes"/>
+      <point x="215" y="680"/>
+      <point x="220" y="651"/>
+      <point x="212" y="639" type="qcurve" smooth="yes"/>
+      <point x="123" y="511" type="line" smooth="yes"/>
+      <point x="114" y="498"/>
+      <point x="86" y="492"/>
+    </contour>
+    <contour>
+      <point x="208" y="256" type="line"/>
+      <point x="390" y="256" type="line"/>
+      <point x="299" y="503" type="line"/>
+    </contour>
+  </outline>
+</glyph>

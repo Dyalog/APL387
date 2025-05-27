@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Agrave" format="1">
+  <advance width="600"/>
+  <unicode hex="00C0"/>
+  <outline>
+    <contour>
+      <point x="263" y="721" type="move" name="Anchor-7"/>
+    </contour>
+    <contour>
+      <point x="300" y="0" type="move" name="Anchor-6"/>
+    </contour>
+    <contour>
+      <point x="260" y="632" type="line" smooth="yes"/>
+      <point x="271" y="661"/>
+      <point x="298" y="661" type="qcurve" smooth="yes"/>
+      <point x="324" y="661"/>
+      <point x="335" y="633" type="qcurve" smooth="yes"/>
+      <point x="553" y="71" type="line" smooth="yes"/>
+      <point x="572" y="20"/>
+      <point x="530" y="3" type="qcurve" smooth="yes"/>
+      <point x="487" y="-11"/>
+      <point x="469" y="40" type="qcurve" smooth="yes"/>
+      <point x="419" y="176" type="line"/>
+      <point x="179" y="176" type="line"/>
+      <point x="129" y="40" type="line" smooth="yes"/>
+      <point x="111" y="-11"/>
+      <point x="68" y="3" type="qcurve" smooth="yes"/>
+      <point x="26" y="20"/>
+      <point x="45" y="71" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="413" y="698" type="qcurve" smooth="yes"/>
+      <point x="408" y="685"/>
+      <point x="381" y="676"/>
+      <point x="367" y="682" type="qcurve" smooth="yes"/>
+      <point x="223" y="743" type="line" smooth="yes"/>
+      <point x="210" y="749"/>
+      <point x="200" y="775"/>
+      <point x="210" y="801"/>
+      <point x="236" y="811"/>
+      <point x="251" y="805" type="qcurve" smooth="yes"/>
+      <point x="394" y="744" type="line" smooth="yes"/>
+      <point x="408" y="738"/>
+      <point x="419" y="711"/>
+    </contour>
+    <contour>
+      <point x="208" y="256" type="line"/>
+      <point x="390" y="256" type="line"/>
+      <point x="299" y="503" type="line"/>
+    </contour>
+  </outline>
+</glyph>

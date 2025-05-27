@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotmath" format="1">
+  <advance width="600"/>
+  <unicode hex="22C5"/>
+  <outline>
+    <contour>
+      <point x="241" y="203"/>
+      <point x="158" y="286"/>
+      <point x="158" y="404"/>
+      <point x="241" y="486"/>
+      <point x="300" y="486" type="qcurve" smooth="yes"/>
+      <point x="358" y="486"/>
+      <point x="441" y="404"/>
+      <point x="441" y="286"/>
+      <point x="359" y="203"/>
+    </contour>
+  </outline>
+</glyph>
