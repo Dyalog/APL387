@@ -3,6 +3,24 @@
   <advance width="0"/>
   <outline>
     <contour>
+      <point x="300" y="484" type="move" name="_Anchor9"/>
+    </contour>
+    <contour>
+      <point x="300" y="616" type="move" name="Anchor9"/>
+    </contour>
+    <contour>
+      <point x="300" y="484" type="move" name="_Anchor7"/>
+    </contour>
+    <contour>
+      <point x="300" y="484" type="move" name="_Anchor5"/>
+    </contour>
+    <contour>
+      <point x="300" y="484" type="move" name="_Anchor3"/>
+    </contour>
+    <contour>
+      <point x="300" y="484" type="move" name="_Anchor1"/>
+    </contour>
+    <contour>
       <point x="300" y="616" type="move" name="Anchor-9"/>
     </contour>
     <contour>
@@ -21,7 +39,6 @@
       <point x="300" y="484" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="119" y="594"/>
       <point x="139" y="616"/>
       <point x="154" y="616" type="qcurve" smooth="yes"/>
       <point x="445" y="616" type="line" smooth="yes"/>
@@ -33,6 +50,7 @@
       <point x="154" y="538" type="line" smooth="yes"/>
       <point x="139" y="538"/>
       <point x="119" y="560"/>
+      <point x="119" y="594"/>
     </contour>
   </outline>
 </glyph>

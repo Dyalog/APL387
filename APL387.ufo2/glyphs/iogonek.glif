@@ -33,7 +33,6 @@
       <point x="379" y="-150"/>
     </contour>
     <contour>
-      <point x="293" y="543"/>
       <point x="257" y="579"/>
       <point x="257" y="605" type="qcurve" smooth="yes"/>
       <point x="257" y="630"/>
@@ -44,6 +43,7 @@
       <point x="380" y="605" type="qcurve" smooth="yes"/>
       <point x="380" y="579"/>
       <point x="345" y="543"/>
+      <point x="293" y="543"/>
     </contour>
   </outline>
 </glyph>
