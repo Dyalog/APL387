@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1D54E" format="1">
   <advance width="600"/>
+  <unicode hex="1D54E"/>
   <outline>
+    <contour>
+      <point x="318" y="0" type="move" name="Anchor0"/>
+    </contour>
+    <contour>
+      <point x="318" y="670" type="move" name="Anchor1"/>
+    </contour>
     <contour>
       <point x="318" y="670" type="move" name="Anchor-1"/>
     </contour>

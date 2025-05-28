@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni211D" format="1">
   <advance width="600"/>
+  <unicode hex="211D"/>
   <outline>
+    <contour>
+      <point x="299" y="0" type="move" name="Anchor0"/>
+    </contour>
+    <contour>
+      <point x="299" y="670" type="move" name="Anchor1"/>
+    </contour>
     <contour>
       <point x="299" y="670" type="move" name="Anchor-1"/>
     </contour>

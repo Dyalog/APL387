@@ -4,6 +4,12 @@
   <unicode hex="016E"/>
   <outline>
     <contour>
+      <point x="300" y="0" type="move" name="Anchor6"/>
+    </contour>
+    <contour>
+      <point x="293" y="848" type="move" name="Anchor7"/>
+    </contour>
+    <contour>
       <point x="293" y="848" type="move" name="Anchor-7"/>
     </contour>
     <contour>
@@ -41,7 +47,6 @@
       <point x="401" y="-11"/>
     </contour>
     <contour>
-      <point x="253" y="648"/>
       <point x="194" y="707"/>
       <point x="194" y="746" type="qcurve" smooth="yes"/>
       <point x="194" y="788"/>
@@ -51,9 +56,9 @@
       <point x="392" y="746" type="qcurve" smooth="yes"/>
       <point x="392" y="707"/>
       <point x="333" y="648"/>
+      <point x="253" y="648"/>
     </contour>
     <contour>
-      <point x="309" y="707"/>
       <point x="333" y="731"/>
       <point x="333" y="747" type="qcurve" smooth="yes"/>
       <point x="333" y="764"/>
@@ -63,6 +68,7 @@
       <point x="253" y="747" type="qcurve" smooth="yes"/>
       <point x="253" y="731"/>
       <point x="277" y="707"/>
+      <point x="309" y="707"/>
     </contour>
   </outline>
 </glyph>
