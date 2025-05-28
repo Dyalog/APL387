@@ -25,6 +25,7 @@ lookup kernHorizontalKerninglookup0 {
 
 lookup markMarkPositioninglookup1 {
   lookupflag 0;
+  markClass [\uni0326 ] <anchor 293 0> @Anchor0;
   markClass [\gravecomb ] <anchor 251 483> @Anchor1;
   markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor1;
   markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor1;
@@ -41,7 +42,6 @@ lookup markMarkPositioninglookup1 {
   markClass [\gravecomb.case ] <anchor 280 650> @Anchor1;
   markClass [\uni030A.case ] <anchor 263 628> @Anchor1;
   markClass [\uni0304.case ] <anchor 306 650> @Anchor1;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor0;
   pos base [\peseta ] <anchor 337 0> mark @Anchor0
 	<anchor 337 670> mark @Anchor1;
   pos base [\Euro ] <anchor 354 0> mark @Anchor0
@@ -153,6 +153,7 @@ lookup markMarkPositioninglookup1 {
 
 lookup markMarkPositioninglookup2 {
   lookupflag 0;
+  markClass [\uni0326 ] <anchor 293 0> @Anchor2;
   markClass [\gravecomb ] <anchor 251 483> @Anchor3;
   markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor3;
   markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor3;
@@ -169,7 +170,6 @@ lookup markMarkPositioninglookup2 {
   markClass [\gravecomb.case ] <anchor 280 650> @Anchor3;
   markClass [\uni030A.case ] <anchor 263 628> @Anchor3;
   markClass [\uni0304.case ] <anchor 306 650> @Anchor3;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor2;
   pos base [\uni0400 ] <anchor 241 0> mark @Anchor2
 	<anchor 233 721> mark @Anchor3;
   pos base [\uni0401 ] <anchor 241 0> mark @Anchor2
@@ -233,6 +233,7 @@ lookup markMarkPositioninglookup2 {
 
 lookup markMarkPositioninglookup3 {
   lookupflag 0;
+  markClass [\uni0326 ] <anchor 293 0> @Anchor4;
   markClass [\gravecomb ] <anchor 251 483> @Anchor5;
   markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor5;
   markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor5;
@@ -249,7 +250,6 @@ lookup markMarkPositioninglookup3 {
   markClass [\gravecomb.case ] <anchor 280 650> @Anchor5;
   markClass [\uni030A.case ] <anchor 263 628> @Anchor5;
   markClass [\uni0304.case ] <anchor 306 650> @Anchor5;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor4;
   pos base [\uni0376 ] <anchor 290 0> mark @Anchor4
 	<anchor 290 670> mark @Anchor5;
   pos base [\Alphatonos ] <anchor 300 0> mark @Anchor4
