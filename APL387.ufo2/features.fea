@@ -107,11 +107,11 @@ lookup markMarkPositioninglookup1 {
 	<anchor 288 668> mark @Anchor1;
   pos base [\uni24BA ] <anchor 231 0> mark @Anchor0
 	<anchor 231 670> mark @Anchor1;
-  pos base [\uni24BB \u1D53D ] <anchor 251 0> mark @Anchor0
+  pos base [\uni24BB ] <anchor 251 0> mark @Anchor0
 	<anchor 251 670> mark @Anchor1;
-  pos base [\uni24BC \uni24C6 \u1D53E ] <anchor 300 0> mark @Anchor0
+  pos base [\uni24BC \uni24C6 ] <anchor 300 0> mark @Anchor0
 	<anchor 300 680> mark @Anchor1;
-  pos base [\uni24BD \uni211D ] <anchor 299 0> mark @Anchor0
+  pos base [\uni24BD ] <anchor 299 0> mark @Anchor0
 	<anchor 299 670> mark @Anchor1;
   pos base [\uni24BE ] <anchor 240 -4> mark @Anchor0
 	<anchor 240 666> mark @Anchor1;
@@ -129,7 +129,7 @@ lookup markMarkPositioninglookup1 {
 	<anchor 267 670> mark @Anchor1;
   pos base [\uni24C7 ] <anchor 279 0> mark @Anchor0
 	<anchor 279 670> mark @Anchor1;
-  pos base [\uni24C8 \u1D54A ] <anchor 274 0> mark @Anchor0
+  pos base [\uni24C8 ] <anchor 274 0> mark @Anchor0
 	<anchor 284 690> mark @Anchor1;
   pos base [\uni24C9 ] <anchor 281 0> mark @Anchor0
 	<anchor 281 670> mark @Anchor1;
@@ -139,14 +139,12 @@ lookup markMarkPositioninglookup1 {
 	<anchor 300 670> mark @Anchor1;
   pos base [\uni24CC ] <anchor 320 0> mark @Anchor0
 	<anchor 320 670> mark @Anchor1;
-  pos base [\uni24CD \u1D54F ] <anchor 271 0> mark @Anchor0
+  pos base [\uni24CD ] <anchor 271 0> mark @Anchor0
 	<anchor 271 670> mark @Anchor1;
   pos base [\uni24CE ] <anchor 275 0> mark @Anchor0
 	<anchor 275 670> mark @Anchor1;
   pos base [\uni24D0 ] <anchor 256 -10> mark @Anchor0
 	<anchor 293 483> mark @Anchor1;
-  pos base [\u1D54E ] <anchor 318 0> mark @Anchor0
-	<anchor 318 670> mark @Anchor1;
   pos base [\Ccommaaccent ] <anchor 311 0> mark @Anchor0
 	<anchor 311 680> mark @Anchor1;
 } markMarkPositioninglookup1;
@@ -806,7 +804,12 @@ feature mkmk {
 	\uni2B2B \uniFFFD \CR \uni004A0301 \uni006A0301 \g.001 \uni0406.001 
 	\uni044F.001 \u1D53D \u1D53E \uni211D \u1D54A \u1D54E \u1D54F \u1D557 \u1D558 
 	\u1D563 \u1D564 \u1D568 \u1D569 \section.001 \asciicircum.001 \percent.001 
-	\Ccommaaccent \Tcommaaccent1 \ccommaaccent ];
+	\Ccommaaccent \Tcommaaccent1 \ccommaaccent \uni2102 \uni210D \uni2115 \uni2119 
+	\uni211A \uni2124 \u1D538 \u1D539 \u1D53B \u1D53C \u1D540 \u1D541 \u1D542 \u1D543 
+	\u1D544 \u1D546 \u1D54B \u1D54C \u1D54D \u1D550 \u1D552 \u1D553 \u1D554 \u1D555 
+	\u1D556 \u1D559 \u1D55A \u1D55B \u1D55C \u1D55D \u1D55E \u1D55F \u1D560 \u1D561 
+	\u1D562 \u1D565 \u1D566 \u1D567 \u1D56A \u1D56B \u1D7CE \u1D7CF \u1D7D0 \u1D7D1 
+	\u1D7D2 \u1D7D3 \u1D7D4 \u1D7D5 \u1D7D6 \u1D7D7 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
