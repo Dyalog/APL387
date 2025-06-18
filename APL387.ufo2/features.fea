@@ -808,14 +808,14 @@ feature mkmk {
 	\uni211A \uni2124 \u1D538 \u1D539 \u1D53B \u1D53C \u1D540 \u1D541 \u1D542 \u1D543 
 	\u1D544 \u1D546 \u1D54B \u1D54C \u1D54D \u1D550 \u1D552 \u1D553 \u1D554 \u1D555 
 	\u1D556 \u1D559 \u1D55A \u1D55B \u1D55C \u1D55D \u1D55E \u1D55F \u1D560 \u1D561 
-	\u1D562 \u1D565 \u1D566 \u1D567 \u1D56A \u1D56B \u1D7CE \u1D7CF \u1D7D0 \u1D7D1 
-	\u1D7D2 \u1D7D3 \u1D7D4 \u1D7D5 \u1D7D6 \u1D7D7 \uni23E8 \uni1D0A \uni21C7 
+	\u1D562 \u1D565 \u1D566 \u1D567 \u1D56A \u1D56B \uni23E8 \uni1D0A \uni21C7 
 	\uni219A \filledbox \H22073 \uni298B \uni298C \uni223B \uni2E20 \uni2E21 
 	\uni2221 \Rfraktur \Ifraktur \uni22B2 \uni22B3 \uni22B4 \uni22B5 \uni21C2 
 	\uni21BE \uni2A33 \uni22F5 \uni29FA \uni2D67 \uni07F9 \twodotenleader \uni2AC7 
 	\uni22F7 \uni2A53 \uni2A54 \uni25E1 \uni25E0 \uni2313 \uni1463 \uni1452 \uni229E 
 	\uni2AE4 \uni2AE3 \uni22A9 \uni2474 \uni293A \therefore \uni297D \uni297C 
-	\uni2E1A \uni21FE \uni21FD \uni2056 \uni2B1A ];
+	\uni2E1A \uni21FE \uni21FD \uni2056 \uni2B1A \u1D7D8 \u1D7D9 \u1D7DA \u1D7DB 
+	\u1D7DC \u1D7DD \u1D7DE \u1D7DF \u1D7E0 \u1D7E1 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 

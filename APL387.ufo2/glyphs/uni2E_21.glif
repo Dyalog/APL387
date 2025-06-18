@@ -4,7 +4,6 @@
   <unicode hex="2E21"/>
   <outline>
     <contour>
-      <point x="420" y="721"/>
       <point x="447" y="693"/>
       <point x="447" y="672" type="qcurve" smooth="yes"/>
       <point x="447" y="323" type="line"/>
@@ -25,6 +24,7 @@
       <point x="354" y="672" type="line" smooth="yes"/>
       <point x="354" y="693"/>
       <point x="380" y="721"/>
+      <point x="420" y="721"/>
     </contour>
   </outline>
 </glyph>
