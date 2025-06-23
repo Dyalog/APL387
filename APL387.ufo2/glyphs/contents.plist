@@ -1418,7 +1418,7 @@
     <string>union.glif</string>
     <key>integral</key>
     <string>integral.glif</string>
-    <key>uni2235</key>
+    <key>because</key>
     <string>uni2235.glif</string>
     <key>similar</key>
     <string>similar.glif</string>
@@ -2534,5 +2534,9 @@
     <string>uni259E_.glif</string>
     <key>uni259F</key>
     <string>uni259F_.glif</string>
+    <key>because_cv01</key>
+    <string>because_cv01.glif</string>
+    <key>therefore_cv01</key>
+    <string>therefore_cv01.glif</string>
   </dict>
 </plist>
