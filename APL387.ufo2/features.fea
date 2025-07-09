@@ -727,7 +727,6 @@ feature mkmk {
       lookup mkmkMarktoMarklookup5;
       lookup mkmkMarktoMarklookup6;
 } mkmk;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
