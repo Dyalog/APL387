@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2025/07/10 09:44:14</string>
+    <string>2025/07/10 10:13:16</string>
     <key>openTypeHheaAscender</key>
     <integer>910</integer>
     <key>openTypeHheaDescender</key>
@@ -38,8 +38,6 @@
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
     <string>Adám Brudzewsky</string>
-    <key>openTypeNameVersion</key>
-    <string>Version 2.001;Glyphs 3.3 (3337)</string>
     <key>openTypeNameUniqueID</key>
     <string>FontForge 2.0 : APL387 Unicode : 11-3-2025</string>
     <key>openTypeNamePreferredFamilyName</key>

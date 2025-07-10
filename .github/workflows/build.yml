@@ -28,7 +28,7 @@ jobs:
           rm ff.AppImage
 
       - name: Run script
-        run: './ff/AppRun -script $(pwd)/script.py $(pwd)'
+        run: './ff/AppRun -script $(pwd)/script.py $(pwd) $(git rev-parse HEAD)'
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

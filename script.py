@@ -11,8 +11,11 @@ EXTENSIONS = [
 ]
 
 path = sys.argv[1]
+commit = sys.argv[2]
 
 apl387 = fontforge.open(f'{path}/APL387.ufo2')
+
+apl387.version = commit
 
 try:
 	os.mkdir(f'{path}/output')
