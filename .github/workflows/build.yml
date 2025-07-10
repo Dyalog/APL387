@@ -29,6 +29,8 @@ jobs:
 
       - name: Run script
         run: './ff/AppRun -script $(pwd)/script.py $(pwd)'
+        env:
+          COMMIT: ${{ github.sha }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

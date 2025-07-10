@@ -14,6 +14,12 @@ path = sys.argv[1]
 
 apl387 = fontforge.open(f'{path}/APL387.ufo2')
 
+print(apl387.version)
+
+apl387.version = os.getenv('COMMIT') or 'unknown'
+
+print(apl387.version)
+
 try:
 	os.mkdir(f'{path}/output')
 except:
