@@ -3,64 +3,7 @@
   <advance width="600"/>
   <unicode hex="2368"/>
   <outline>
-    <contour>
-      <point x="492" y="358"/>
-      <point x="492" y="383" type="qcurve" smooth="yes"/>
-      <point x="492" y="431"/>
-      <point x="532" y="431" type="qcurve" smooth="yes"/>
-      <point x="570" y="431"/>
-      <point x="570" y="387" type="qcurve" smooth="yes"/>
-      <point x="570" y="319"/>
-      <point x="488" y="233"/>
-      <point x="427" y="233" type="qcurve" smooth="yes"/>
-      <point x="395" y="234"/>
-      <point x="329" y="268"/>
-      <point x="283" y="307"/>
-      <point x="223" y="341"/>
-      <point x="195" y="342" type="qcurve" smooth="yes"/>
-      <point x="118" y="345"/>
-      <point x="118" y="281" type="qcurve" smooth="yes"/>
-      <point x="118" y="233"/>
-      <point x="78" y="233" type="qcurve" smooth="yes"/>
-      <point x="62" y="233"/>
-      <point x="40" y="257"/>
-      <point x="40" y="278" type="qcurve" smooth="yes"/>
-      <point x="40" y="354"/>
-      <point x="123" y="431"/>
-      <point x="193" y="431" type="qcurve" smooth="yes"/>
-      <point x="230" y="431"/>
-      <point x="300" y="397"/>
-      <point x="344" y="357"/>
-      <point x="402" y="323"/>
-      <point x="454" y="323"/>
-    </contour>
-    <contour>
-      <point x="127" y="717" type="qcurve" smooth="yes"/>
-      <point x="127" y="745"/>
-      <point x="166" y="785"/>
-      <point x="194" y="785" type="qcurve" smooth="yes"/>
-      <point x="221" y="785"/>
-      <point x="260" y="745"/>
-      <point x="260" y="717" type="qcurve" smooth="yes"/>
-      <point x="260" y="690"/>
-      <point x="221" y="650"/>
-      <point x="194" y="650" type="qcurve" smooth="yes"/>
-      <point x="166" y="650"/>
-      <point x="127" y="690"/>
-    </contour>
-    <contour>
-      <point x="340" y="717" type="qcurve" smooth="yes"/>
-      <point x="340" y="745"/>
-      <point x="379" y="785"/>
-      <point x="407" y="785" type="qcurve" smooth="yes"/>
-      <point x="434" y="785"/>
-      <point x="473" y="745"/>
-      <point x="473" y="717" type="qcurve" smooth="yes"/>
-      <point x="473" y="690"/>
-      <point x="434" y="650"/>
-      <point x="407" y="650" type="qcurve" smooth="yes"/>
-      <point x="379" y="650"/>
-      <point x="340" y="690"/>
-    </contour>
+    <component base="part_dieresis"/>
+    <component base="part_tilde"/>
   </outline>
 </glyph>

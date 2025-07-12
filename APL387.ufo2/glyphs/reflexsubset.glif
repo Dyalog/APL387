@@ -3,42 +3,7 @@
   <advance width="600"/>
   <unicode hex="2286"/>
   <outline>
-    <contour>
-      <point x="35" y="-95"/>
-      <point x="83" y="-95" type="qcurve" smooth="yes"/>
-      <point x="507" y="-95" type="line" smooth="yes"/>
-      <point x="555" y="-95"/>
-      <point x="555" y="-181"/>
-      <point x="507" y="-181" type="qcurve" smooth="yes"/>
-      <point x="83" y="-181" type="line" smooth="yes"/>
-      <point x="35" y="-181"/>
-    </contour>
-    <contour>
-      <point x="271" y="512" type="line" smooth="yes"/>
-      <point x="195" y="512"/>
-      <point x="90" y="406"/>
-      <point x="90" y="254"/>
-      <point x="195" y="148"/>
-      <point x="271" y="148" type="qcurve" smooth="yes"/>
-      <point x="474" y="148" type="line" smooth="yes"/>
-      <point x="494" y="148"/>
-      <point x="520" y="172"/>
-      <point x="520" y="208"/>
-      <point x="494" y="232"/>
-      <point x="474" y="232" type="qcurve" smooth="yes"/>
-      <point x="281" y="232" type="line" smooth="yes"/>
-      <point x="240" y="232"/>
-      <point x="183" y="290"/>
-      <point x="183" y="331" type="qcurve" smooth="yes"/>
-      <point x="183" y="371"/>
-      <point x="241" y="428"/>
-      <point x="281" y="428" type="qcurve" smooth="yes"/>
-      <point x="474" y="428" type="line" smooth="yes"/>
-      <point x="494" y="428"/>
-      <point x="520" y="452"/>
-      <point x="520" y="488"/>
-      <point x="494" y="512"/>
-      <point x="474" y="512" type="qcurve" smooth="yes"/>
-    </contour>
+    <component base="part_underbar"/>
+    <component base="part_shoe_left"/>
   </outline>
 </glyph>

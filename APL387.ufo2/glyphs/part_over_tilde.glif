@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_over_tilde" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="part_tilde" yOffset="370"/>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_backslash" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="part_slash" xScale="0.587785" yScale="0.587785" xyScale="0.809017" yxScale="-0.809017" xOffset="385.359" yOffset="-104.952"/>
+  </outline>
+</glyph>

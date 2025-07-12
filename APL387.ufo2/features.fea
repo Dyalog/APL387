@@ -98,11 +98,6 @@ lookup markMarkPositioninglookup1 {
 	<anchor 285 670> mark @Anchor1;
   pos base [\existential ] <anchor 259 0> mark @Anchor0
 	<anchor 259 670> mark @Anchor1;
-  pos base [\uni2336 \uni234B ] <anchor 240 0> mark @Anchor0
-	<anchor 240 670> mark @Anchor1;
-  pos base [\uni2361 ] <anchor 197 760> mark @Anchor1;
-  pos base [\uni2362 ] <anchor 197 670> mark @Anchor1;
-  pos base [\uni236B ] <anchor 303 811> mark @Anchor1;
   pos base [\uni2400 ] <anchor 474 0> mark @Anchor0
 	<anchor 474 234> mark @Anchor1;
   pos base [\uni2401 ] <anchor 502 0> mark @Anchor0
@@ -868,7 +863,14 @@ feature mkmk {
 	\SF220000 \SF210000 \SF500000 \SF490000 \SF280000 \SF270000 \uni256D \uni256E 
 	\uni256F \uni2570 \uni2571 \uni2572 \uni2573 \uni2596 \uni2597 \uni2598 \uni2599 
 	\uni259A \uni259B \uni259C \uni259D \uni259E \uni259F \because_cv01 
-	\therefore_cv01 ];
+	\therefore_cv01 \part_circle \part_star \part_dieresis \part_jot \part_stile 
+	\part_shoe_left \part_shoe_down \part_shoe_right \part_shoe_up \part_tilde 
+	\part_underbar \part_over_tilde \part_del \part_wedge_left \part_wedge_down 
+	\part_wedge_right \part_wedge_up \part_epsilon \part_bar \part_overbar 
+	\part_tack_left \part_tack_down \part_tack_right \part_tack_up 
+	\part_cancel_45 \part_cancel_30 \part_cancel_mid \part_slash \part_backslash 
+	\part_diamond \part_quad \part_delta \part_dot_above \part_under_tilde 
+	\part_three_dots \part_mid_colon ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 

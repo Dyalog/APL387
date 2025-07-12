@@ -3,45 +3,7 @@
   <advance width="600"/>
   <unicode hex="07F9"/>
   <outline>
-    <contour>
-      <point x="122" y="650" type="qcurve" smooth="yes"/>
-      <point x="478" y="650" type="line" smooth="yes"/>
-      <point x="494" y="650"/>
-      <point x="516" y="626"/>
-      <point x="516" y="609" type="qcurve" smooth="yes"/>
-      <point x="516" y="591"/>
-      <point x="493" y="568"/>
-      <point x="476" y="568" type="qcurve" smooth="yes"/>
-      <point x="125" y="568" type="line" smooth="yes"/>
-      <point x="107" y="568"/>
-      <point x="83.9995" y="592"/>
-      <point x="84" y="609" type="qcurve" smooth="yes"/>
-      <point x="84" y="625"/>
-      <point x="106" y="650"/>
-    </contour>
-    <contour>
-      <point x="374" y="428"/>
-      <point x="374" y="397" type="qcurve" smooth="yes"/>
-      <point x="374" y="367"/>
-      <point x="331" y="323"/>
-      <point x="269" y="323"/>
-      <point x="226" y="367"/>
-      <point x="226" y="397" type="qcurve" smooth="yes"/>
-      <point x="226" y="428"/>
-      <point x="269" y="472"/>
-      <point x="331" y="472"/>
-    </contour>
-    <contour>
-      <point x="374" y="102"/>
-      <point x="374" y="71" type="qcurve" smooth="yes"/>
-      <point x="374" y="41"/>
-      <point x="331" y="-3.00049"/>
-      <point x="269" y="-3"/>
-      <point x="226" y="41.0005"/>
-      <point x="226" y="71" type="qcurve" smooth="yes"/>
-      <point x="226" y="102"/>
-      <point x="269" y="146"/>
-      <point x="331" y="146"/>
-    </contour>
+    <component base="part_overbar"/>
+    <component base="part_mid_colon"/>
   </outline>
 </glyph>

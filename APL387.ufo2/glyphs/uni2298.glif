@@ -3,41 +3,6 @@
   <advance width="600"/>
   <unicode hex="2298"/>
   <outline>
-    <contour>
-      <point x="299" y="36" type="qcurve" smooth="yes"/>
-      <point x="181" y="36"/>
-      <point x="13" y="200"/>
-      <point x="13" y="323" type="qcurve" smooth="yes"/>
-      <point x="13" y="449"/>
-      <point x="182" y="614"/>
-      <point x="299" y="614" type="qcurve" smooth="yes"/>
-      <point x="419" y="614"/>
-      <point x="587" y="446"/>
-      <point x="587" y="327" type="qcurve" smooth="yes"/>
-      <point x="587" y="202"/>
-      <point x="423" y="36"/>
-    </contour>
-    <contour>
-      <point x="299" y="108" type="qcurve" smooth="yes"/>
-      <point x="391" y="108"/>
-      <point x="515" y="233"/>
-      <point x="515" y="327" type="qcurve" smooth="yes"/>
-      <point x="515" y="392"/>
-      <point x="480" y="445" type="qcurve"/>
-      <point x="479" y="444" type="line"/>
-      <point x="182" y="145" type="line"/>
-      <point x="181" y="144" type="line"/>
-      <point x="236" y="108"/>
-    </contour>
-    <contour>
-      <point x="419" y="506" type="line"/>
-      <point x="364" y="542"/>
-      <point x="299" y="542" type="qcurve" smooth="yes"/>
-      <point x="211" y="542"/>
-      <point x="85" y="418"/>
-      <point x="85" y="323" type="qcurve" smooth="yes"/>
-      <point x="85" y="258"/>
-      <point x="120" y="205" type="qcurve"/>
-    </contour>
+    <component base="uni229D" xScale="0.707107" yScale="0.707107" xyScale="0.707107" yxScale="-0.707107" xOffset="317.374" yOffset="-117.646"/>
   </outline>
 </glyph>

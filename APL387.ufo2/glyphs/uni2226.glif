@@ -3,53 +3,7 @@
   <advance width="600"/>
   <unicode hex="2226"/>
   <outline>
-    <contour>
-      <point x="243" y="-77" type="line" smooth="yes"/>
-      <point x="243" y="-94"/>
-      <point x="218" y="-117"/>
-      <point x="182" y="-117"/>
-      <point x="157" y="-92"/>
-      <point x="157" y="-75" type="qcurve" smooth="yes"/>
-      <point x="157" y="146" type="line"/>
-      <point x="95" y="88" type="line" smooth="yes"/>
-      <point x="61" y="56"/>
-      <point x="30" y="87" type="qcurve" smooth="yes"/>
-      <point x="18" y="98"/>
-      <point x="20" y="135"/>
-      <point x="34" y="148" type="qcurve" smooth="yes"/>
-      <point x="157" y="262" type="line"/>
-      <point x="157" y="716" type="line" smooth="yes"/>
-      <point x="157" y="734"/>
-      <point x="183" y="759"/>
-      <point x="200" y="759" type="qcurve" smooth="yes"/>
-      <point x="216" y="759"/>
-      <point x="243" y="736"/>
-      <point x="243" y="719" type="qcurve" smooth="yes"/>
-      <point x="243" y="342" type="line"/>
-      <point x="357" y="448" type="line"/>
-      <point x="357" y="716" type="line" smooth="yes"/>
-      <point x="357" y="734"/>
-      <point x="383" y="759"/>
-      <point x="400" y="759" type="qcurve" smooth="yes"/>
-      <point x="416" y="759"/>
-      <point x="443" y="736"/>
-      <point x="443" y="719" type="qcurve" smooth="yes"/>
-      <point x="443" y="528" type="line"/>
-      <point x="507" y="587" type="line" smooth="yes"/>
-      <point x="539" y="617"/>
-      <point x="570" y="589" type="qcurve" smooth="yes"/>
-      <point x="582" y="575"/>
-      <point x="580" y="538"/>
-      <point x="566" y="525" type="qcurve" smooth="yes"/>
-      <point x="443" y="411" type="line"/>
-      <point x="443" y="-77" type="line" smooth="yes"/>
-      <point x="443" y="-94"/>
-      <point x="418" y="-117"/>
-      <point x="382" y="-117"/>
-      <point x="357" y="-92"/>
-      <point x="357" y="-75" type="qcurve" smooth="yes"/>
-      <point x="357" y="331" type="line"/>
-      <point x="243" y="225" type="line"/>
-    </contour>
+    <component base="uni2225"/>
+    <component base="part_cancel_45"/>
   </outline>
 </glyph>
