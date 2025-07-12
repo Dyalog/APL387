@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_wedge_down" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="185.095" y="484.219" type="line" smooth="yes"/>
+      <point x="176.095" y="501.219"/>
+      <point x="133.095" y="509.219"/>
+      <point x="117.095" y="499.219" type="qcurve" smooth="yes"/>
+      <point x="100.095" y="488.219"/>
+      <point x="88.0947" y="446.219"/>
+      <point x="98.0947" y="429.219" type="qcurve" smooth="yes"/>
+      <point x="98.0947" y="429.219"/>
+      <point x="250.095" y="170.219" type="qcurve" smooth="yes"/>
+      <point x="266.095" y="143.219"/>
+      <point x="331.095" y="143.219"/>
+      <point x="348.095" y="172.219" type="qcurve" smooth="yes"/>
+      <point x="348.095" y="172.219"/>
+      <point x="502.095" y="433.219" type="qcurve" smooth="yes"/>
+      <point x="512.095" y="450.219"/>
+      <point x="499.095" y="488.219"/>
+      <point x="481.095" y="499.219" type="qcurve" smooth="yes"/>
+      <point x="461.095" y="510.219"/>
+      <point x="421.095" y="500.219"/>
+      <point x="411.095" y="482.219" type="qcurve" smooth="yes"/>
+      <point x="411.095" y="482.219"/>
+      <point x="299.095" y="269.219" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

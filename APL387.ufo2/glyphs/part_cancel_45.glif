@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_cancel_45" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="110" y="48" type="qcurve" smooth="yes"/>
+      <point x="110" y="48"/>
+      <point x="556" y="528" type="qcurve" smooth="yes"/>
+      <point x="572" y="544"/>
+      <point x="572" y="584"/>
+      <point x="557" y="598" type="qcurve" smooth="yes"/>
+      <point x="543.933" y="611.067"/>
+      <point x="525.64" y="611.067" type="qcurve" smooth="yes"/>
+      <point x="524.333" y="611.067"/>
+      <point x="523" y="611" type="qcurve" smooth="yes"/>
+      <point x="503" y="610"/>
+      <point x="488" y="594" type="qcurve" smooth="yes"/>
+      <point x="488" y="594"/>
+      <point x="41" y="114" type="qcurve" smooth="yes"/>
+      <point x="26" y="98"/>
+      <point x="26" y="58"/>
+      <point x="40" y="44" type="qcurve" smooth="yes"/>
+      <point x="54" y="30.9333"/>
+      <point x="72.3556" y="30.9333" type="qcurve" smooth="yes"/>
+      <point x="73.6667" y="30.9333"/>
+      <point x="75" y="31" type="qcurve" smooth="yes"/>
+      <point x="95" y="32"/>
+    </contour>
+  </outline>
+</glyph>

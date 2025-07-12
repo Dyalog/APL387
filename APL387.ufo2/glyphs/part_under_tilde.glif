@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_under_tilde" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="193" y="-2.5" type="qcurve" smooth="yes"/>
+      <point x="230" y="-2.5"/>
+      <point x="293" y="-33.4995"/>
+      <point x="329" y="-71.5005"/>
+      <point x="375" y="-102.5"/>
+      <point x="398" y="-102.5" type="qcurve" smooth="yes"/>
+      <point x="462" y="-102.5"/>
+      <point x="462" y="-50.5" type="qcurve" smooth="yes"/>
+      <point x="462" y="-2.5"/>
+      <point x="502" y="-2.5" type="qcurve" smooth="yes"/>
+      <point x="540" y="-2.5"/>
+      <point x="540" y="-46.5" type="qcurve" smooth="yes"/>
+      <point x="540" y="-104.5"/>
+      <point x="460" y="-187.5"/>
+      <point x="407" y="-187.5" type="qcurve" smooth="yes"/>
+      <point x="371" y="-187.5"/>
+      <point x="310" y="-156.5"/>
+      <point x="274" y="-119.5"/>
+      <point x="222" y="-87.4995"/>
+      <point x="195" y="-85.5" type="qcurve" smooth="yes"/>
+      <point x="167" y="-83.5005"/>
+      <point x="128" y="-111.5"/>
+      <point x="128" y="-139.5" type="qcurve" smooth="yes"/>
+      <point x="128" y="-187.5"/>
+      <point x="88" y="-187.5" type="qcurve" smooth="yes"/>
+      <point x="71.9995" y="-187.5"/>
+      <point x="50.0005" y="-161.5"/>
+      <point x="50" y="-135.5" type="qcurve" smooth="yes"/>
+      <point x="50" y="-74.4995"/>
+      <point x="131" y="-2.5"/>
+    </contour>
+  </outline>
+</glyph>

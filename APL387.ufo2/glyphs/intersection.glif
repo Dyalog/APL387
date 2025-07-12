@@ -3,32 +3,6 @@
   <advance width="600"/>
   <unicode hex="2229"/>
   <outline>
-    <contour>
-      <point x="123" y="341" type="line" smooth="yes"/>
-      <point x="123" y="417"/>
-      <point x="229" y="522"/>
-      <point x="381" y="522"/>
-      <point x="487" y="417"/>
-      <point x="487" y="341" type="qcurve" smooth="yes"/>
-      <point x="487" y="98" type="line" smooth="yes"/>
-      <point x="487" y="78"/>
-      <point x="463" y="52"/>
-      <point x="427" y="52"/>
-      <point x="403" y="78"/>
-      <point x="403" y="98" type="qcurve" smooth="yes"/>
-      <point x="403" y="331" type="line" smooth="yes"/>
-      <point x="403" y="371"/>
-      <point x="346" y="429"/>
-      <point x="306" y="429" type="qcurve" smooth="yes"/>
-      <point x="265" y="429"/>
-      <point x="207" y="372"/>
-      <point x="207" y="331" type="qcurve" smooth="yes"/>
-      <point x="207" y="98" type="line" smooth="yes"/>
-      <point x="207" y="78"/>
-      <point x="183" y="52"/>
-      <point x="147" y="52"/>
-      <point x="123" y="78"/>
-      <point x="123" y="98" type="qcurve" smooth="yes"/>
-    </contour>
+    <component base="part_shoe_up"/>
   </outline>
 </glyph>

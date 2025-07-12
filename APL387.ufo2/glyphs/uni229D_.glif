@@ -3,39 +3,6 @@
   <advance width="600"/>
   <unicode hex="229D"/>
   <outline>
-    <contour>
-      <point x="299" y="36" type="qcurve" smooth="yes"/>
-      <point x="181" y="36"/>
-      <point x="13" y="200"/>
-      <point x="13" y="323" type="qcurve" smooth="yes"/>
-      <point x="13" y="449"/>
-      <point x="182" y="614"/>
-      <point x="299" y="614" type="qcurve" smooth="yes"/>
-      <point x="419" y="614"/>
-      <point x="587" y="446"/>
-      <point x="587" y="327" type="qcurve" smooth="yes"/>
-      <point x="587" y="202"/>
-      <point x="423" y="36"/>
-    </contour>
-    <contour>
-      <point x="299" y="108" type="qcurve" smooth="yes"/>
-      <point x="380" y="108"/>
-      <point x="497" y="205"/>
-      <point x="511" y="282" type="qcurve"/>
-      <point x="94" y="282" type="line"/>
-      <point x="89" y="282" type="line"/>
-      <point x="103" y="206"/>
-      <point x="222" y="108"/>
-    </contour>
-    <contour>
-      <point x="89" y="368" type="qcurve"/>
-      <point x="91" y="368" type="line"/>
-      <point x="511" y="368" type="line"/>
-      <point x="497" y="443"/>
-      <point x="377" y="542"/>
-      <point x="299" y="542" type="qcurve" smooth="yes"/>
-      <point x="223" y="542"/>
-      <point x="104" y="445"/>
-    </contour>
+    <component base="uni2296"/>
   </outline>
 </glyph>
