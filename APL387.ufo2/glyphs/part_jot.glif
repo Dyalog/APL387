@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_jot" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="462.5" y="322" type="qcurve" smooth="yes"/>
+      <point x="462.5" y="391"/>
+      <point x="367.5" y="489"/>
+      <point x="233.5" y="489"/>
+      <point x="137.5" y="391"/>
+      <point x="137.5" y="322" type="qcurve" smooth="yes"/>
+      <point x="137.5" y="257"/>
+      <point x="234.5" y="161"/>
+      <point x="366.5" y="161"/>
+      <point x="462.5" y="257"/>
+    </contour>
+    <contour>
+      <point x="217.5" y="322" type="qcurve" smooth="yes"/>
+      <point x="217.5" y="358"/>
+      <point x="266.5" y="409"/>
+      <point x="334.5" y="409"/>
+      <point x="383.5" y="358"/>
+      <point x="383.5" y="322" type="qcurve" smooth="yes"/>
+      <point x="383.5" y="290"/>
+      <point x="333.5" y="241"/>
+      <point x="267.5" y="241"/>
+      <point x="217.5" y="290"/>
+    </contour>
+  </outline>
+</glyph>
