@@ -3,54 +3,7 @@
   <advance width="600"/>
   <unicode hex="1435"/>
   <outline>
-    <contour>
-      <point x="116" y="711" type="qcurve" smooth="yes"/>
-      <point x="116" y="739"/>
-      <point x="155" y="779"/>
-      <point x="183" y="779" type="qcurve" smooth="yes"/>
-      <point x="210" y="779"/>
-      <point x="249" y="739"/>
-      <point x="249" y="711" type="qcurve" smooth="yes"/>
-      <point x="249" y="684"/>
-      <point x="210" y="644"/>
-      <point x="183" y="644" type="qcurve" smooth="yes"/>
-      <point x="155" y="644"/>
-      <point x="116" y="684"/>
-    </contour>
-    <contour>
-      <point x="329" y="711" type="qcurve" smooth="yes"/>
-      <point x="329" y="739"/>
-      <point x="368" y="779"/>
-      <point x="396" y="779" type="qcurve" smooth="yes"/>
-      <point x="423" y="779"/>
-      <point x="462" y="739"/>
-      <point x="462" y="711" type="qcurve" smooth="yes"/>
-      <point x="462" y="684"/>
-      <point x="423" y="644"/>
-      <point x="396" y="644" type="qcurve" smooth="yes"/>
-      <point x="368" y="644"/>
-      <point x="329" y="684"/>
-    </contour>
-    <contour>
-      <point x="143" y="379" type="line" smooth="yes"/>
-      <point x="125" y="388"/>
-      <point x="119" y="430"/>
-      <point x="128" y="447" type="qcurve" smooth="yes"/>
-      <point x="137" y="466"/>
-      <point x="172" y="479"/>
-      <point x="198" y="466" type="qcurve" smooth="yes"/>
-      <point x="457" y="314" type="line" smooth="yes"/>
-      <point x="484" y="298"/>
-      <point x="483" y="233"/>
-      <point x="455" y="216" type="qcurve" smooth="yes"/>
-      <point x="194" y="62" type="line" smooth="yes"/>
-      <point x="177" y="52"/>
-      <point x="139" y="65"/>
-      <point x="128" y="83" type="qcurve" smooth="yes"/>
-      <point x="117" y="103"/>
-      <point x="127" y="143"/>
-      <point x="145" y="153" type="qcurve" smooth="yes"/>
-      <point x="358" y="265" type="line"/>
-    </contour>
+    <component base="part_dieresis"/>
+    <component base="part_wedge_right"/>
   </outline>
 </glyph>
