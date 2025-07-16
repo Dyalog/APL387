@@ -2590,5 +2590,17 @@
     <string>part_three_dots.glif</string>
     <key>part_mid_colon</key>
     <string>part_mid_colon.glif</string>
+    <key>zero_ss01</key>
+    <string>zero_ss01.glif</string>
+    <key>sup_zero_ss01</key>
+    <string>sup_zero_ss01.glif</string>
+    <key>sub_zero_ss01</key>
+    <string>sub_zero_ss01.glif</string>
+    <key>nand_ss02</key>
+    <string>nand_ss02.glif</string>
+    <key>nor_ss02</key>
+    <string>nor_ss02.glif</string>
+    <key>obv_ss02</key>
+    <string>obv_ss02.glif</string>
   </dict>
 </plist>

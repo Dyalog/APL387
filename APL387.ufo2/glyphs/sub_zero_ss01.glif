@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sub_zero_ss01" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="300" y="281" type="qcurve" smooth="yes"/>
+      <point x="362" y="281"/>
+      <point x="456" y="166"/>
+      <point x="456" y="-10.0005"/>
+      <point x="362" y="-125"/>
+      <point x="300" y="-125" type="qcurve" smooth="yes"/>
+      <point x="237" y="-125"/>
+      <point x="143" y="-11"/>
+      <point x="143" y="167"/>
+      <point x="237" y="281"/>
+    </contour>
+    <contour>
+      <point x="300" y="226" type="qcurve" smooth="yes"/>
+      <point x="263" y="226"/>
+      <point x="206" y="143"/>
+      <point x="206" y="13.0005"/>
+      <point x="263" y="-68.9995"/>
+      <point x="300" y="-69" type="qcurve" smooth="yes"/>
+      <point x="336" y="-69"/>
+      <point x="393" y="14.0005"/>
+      <point x="393" y="78" type="qcurve" smooth="yes"/>
+      <point x="393" y="143"/>
+      <point x="336" y="226"/>
+    </contour>
+  </outline>
+</glyph>
