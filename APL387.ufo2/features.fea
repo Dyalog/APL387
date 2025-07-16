@@ -19,11 +19,95 @@ languagesystem tfng dflt;
 # GSUB 
 
 
+lookup ss01StyleSet1lookup1 {
+  lookupflag 0;
+    sub \zero by \zero_ss01 ;
+    sub \uni2070 by \sup_zero_ss01 ;
+    sub \uni2080 by \sub_zero_ss01 ;
+} ss01StyleSet1lookup1;
+
+lookup ss02StyleSet2lookup2 {
+  lookupflag 0;
+    sub \uni236B by \obv_ss02 ;
+    sub \uni2371 by \nor_ss02 ;
+    sub \uni2372 by \nand_ss02 ;
+} ss02StyleSet2lookup2;
+
 lookup cv01CharacterVariants01lookup0 {
   lookupflag 0;
     sub \because by \because_cv01 ;
     sub \therefore by \therefore_cv01 ;
 } cv01CharacterVariants01lookup0;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script cans;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script cyrl;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script math;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script nko ;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+
+ script tfng;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+} ss01;
+
+feature ss02 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script cans;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script cyrl;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script latn;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script math;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script nko ;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+
+ script tfng;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+} ss02;
 
 feature cv01 {
 
@@ -722,6 +806,7 @@ feature mkmk {
       lookup mkmkMarktoMarklookup5;
       lookup mkmkMarktoMarklookup6;
 } mkmk;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
@@ -870,7 +955,8 @@ feature mkmk {
 	\part_tack_left \part_tack_down \part_tack_right \part_tack_up 
 	\part_cancel_45 \part_cancel_30 \part_cancel_mid \part_slash \part_backslash 
 	\part_diamond \part_quad \part_delta \part_dot_above \part_under_tilde 
-	\part_three_dots \part_mid_colon ];
+	\part_three_dots \part_mid_colon \zero_ss01 \sup_zero_ss01 \sub_zero_ss01 
+	\nand_ss02 \nor_ss02 \obv_ss02 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
