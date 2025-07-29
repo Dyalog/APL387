@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nand_ss02" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="part_tilde"/>
+    <component base="part_wedge_up"/>
+  </outline>
+</glyph>

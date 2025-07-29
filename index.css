@@ -1,20 +1,18 @@
 @font-face {font-family: 'APL387';src: url('APL387.ttf');}
 @font-face {font-family: 'APL385';src: url('APL385.ttf');}
-input,label{
+#c{
   position: fixed;
   background: rgba(255,255,255,0.7);
   font-size: 18;
 }
 * {
   font-weight: unset;
+  font-feature-settings: inherit;
 }
-#APL387{top:3ex;}label[for="APL387"]{top:3ex;}#APL387:checked~*:not(.x){font-family: 'APL387'!important;}
-#APL385{top:5ex;}label[for="APL385"]{top:5ex;}#APL385:checked~*:not(.x){font-family: 'APL385'!important;}
+:has(#APL387:checked) *:not(.x){font-family: 'APL387'!important;}
+:has(#APL385:checked) *:not(.x){font-family: 'APL385'!important;}
 label{
   left:2em;
-}
-h1{
-  padding-top:3ex; 
 }
 h1>span {
   float: right;
