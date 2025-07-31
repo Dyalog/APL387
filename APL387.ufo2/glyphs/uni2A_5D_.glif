@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A5D" format="1">
+  <advance width="600"/>
+  <unicode hex="2A5D"/>
+  <outline>
+    <component base="part_wedge_down"/>
+    <component base="part_bar"/>
+  </outline>
+</glyph>

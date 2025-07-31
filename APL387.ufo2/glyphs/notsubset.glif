@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notsubset" format="1">
+  <advance width="600"/>
+  <unicode hex="2284"/>
+  <outline>
+    <component base="part_cancel_mid"/>
+    <component base="part_shoe_left"/>
+  </outline>
+</glyph>

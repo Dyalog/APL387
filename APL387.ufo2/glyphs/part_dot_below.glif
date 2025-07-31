@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_dot_below" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="303.5" y="-35" type="qcurve" smooth="yes"/>
+      <point x="330.5" y="-35"/>
+      <point x="369.5" y="-75"/>
+      <point x="369.5" y="-103" type="qcurve" smooth="yes"/>
+      <point x="369.5" y="-130"/>
+      <point x="330.5" y="-170"/>
+      <point x="303.5" y="-170" type="qcurve" smooth="yes"/>
+      <point x="275.5" y="-170"/>
+      <point x="236.5" y="-130"/>
+      <point x="236.5" y="-103" type="qcurve" smooth="yes"/>
+      <point x="236.5" y="-75"/>
+      <point x="275.5" y="-35"/>
+    </contour>
+  </outline>
+</glyph>
