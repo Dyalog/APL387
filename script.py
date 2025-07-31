@@ -96,6 +96,7 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
 	''')
 	for feature in features:
 		compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+	compare.write('<br><a href="/chars">compare characters individually</a>')
 	same = '''
 <textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta387.value=this.value"></textarea>
 <table>
@@ -218,7 +219,7 @@ with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
 		index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
 	index.write('''
 		</div>
-    <h1>APL387 Unicode<sup> <a href="APL387.ttf">download</a></sup><span><sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
+    <h1>APL387 Unicode<sup> <a href="APL387.ttf">download</a></sup> <span><sup><a href="/compare">side by side with APL385</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
     <p>A redrawn and extended version of Adrian Smith's classic <a href="https://apl385.com/fonts/index.htm">APL385</a> font with clean rounded look.</p>
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
