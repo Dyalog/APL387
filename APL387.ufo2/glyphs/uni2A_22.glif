@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A22" format="1">
+  <advance width="600"/>
+  <unicode hex="2A22"/>
+  <outline>
+    <component base="plus" yOffset="-200"/>
+    <component base="part_jot" yOffset="205"/>
+  </outline>
+</glyph>

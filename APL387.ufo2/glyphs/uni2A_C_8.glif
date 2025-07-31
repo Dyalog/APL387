@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AC8" format="1">
+  <advance width="600"/>
+  <unicode hex="2AC8"/>
+  <outline>
+    <component base="part_under_tilde"/>
+    <component base="part_shoe_right"/>
+  </outline>
+</glyph>

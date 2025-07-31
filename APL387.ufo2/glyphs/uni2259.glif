@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2259" format="1">
+  <advance width="600"/>
+  <unicode hex="2259"/>
+  <outline>
+    <component base="part_wedge_up" yOffset="200"/>
+    <component base="equal" yOffset="-200"/>
+  </outline>
+</glyph>

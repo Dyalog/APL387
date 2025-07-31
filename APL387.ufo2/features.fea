@@ -955,7 +955,15 @@ feature mkmk {
 	\part_cancel_45 \part_cancel_30 \part_cancel_mid \part_slash \part_backslash 
 	\part_diamond \part_quad \part_delta \part_dot_above \part_under_tilde 
 	\part_three_dots \part_mid_colon \zero_ss01 \sup_zero_ss01 \sub_zero_ss01 
-	\nand_ss02 \nor_ss02 \obv_ss02 ];
+	\nand_ss02 \nor_ss02 \obv_ss02 \part_dot_below \uni222C \uni222E \uni2236 
+	\uni2237 \uni2238 \uni2239 \uni223D \uni223F \uni2240 \uni2250 \uni2254 \uni2255 
+	\uni2257 \uni2259 \uni225A \uni225B \uni226A \uni226B \uni226C \uni226D \uni226E 
+	\uni226F \uni2272 \uni2273 \uni2276 \uni2277 \uni2278 \uni2279 \notsubset 
+	\uni2285 \uni2293 \uni229C \uni229F \uni22A0 \uni22A1 \uni22C7 \uni22D5 \uni22DC 
+	\uni22DD \uni22EE \uni22EF \uni22F0 \uni22F1 \uni22F6 \uni22F8 \uni22FD \uni22FE 
+	\uni22FF \uni2A22 \uni2A23 \uni2A24 \uni2A25 \uni2A26 \uni2A2A \uni2A30 \uni2A31 
+	\uni2A38 \uni2A59 \uni2A5C \uni2A5D \uni2A5F \uni2A66 \uni2A67 \uni2A6A \uni2AA4 
+	\uni2AC8 \uni2AEF \uni2AF0 \uni2AF2 \uni2AF3 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 

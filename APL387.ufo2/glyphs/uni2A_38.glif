@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A38" format="1">
+  <advance width="600"/>
+  <unicode hex="2A38"/>
+  <outline>
+    <component base="divide"/>
+    <component base="part_circle"/>
+  </outline>
+</glyph>

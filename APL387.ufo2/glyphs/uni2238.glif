@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2238" format="1">
+  <advance width="600"/>
+  <unicode hex="2238"/>
+  <outline>
+    <component base="part_dot_above"/>
+    <component base="part_bar"/>
+  </outline>
+</glyph>

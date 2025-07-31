@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni225A" format="1">
+  <advance width="600"/>
+  <unicode hex="225A"/>
+  <outline>
+    <component base="equal" yOffset="-200"/>
+    <component base="part_wedge_down" yOffset="200"/>
+  </outline>
+</glyph>
