@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="27E0"/>
   <outline>
-    <component base="part_bar" yOffset="-8"/>
+    <component base="part_bar"/>
     <component base="part_diamond"/>
   </outline>
 </glyph>
