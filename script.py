@@ -96,7 +96,7 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
 	''')
 	for feature in features:
 		compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
-	compare.write('<br><a href="../chars">compare characters individually</a>')
+	compare.write('<br><a href="./chars">compare characters individually</a>')
 	same = '''
 <textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta387.value=this.value"></textarea>
 <table>
