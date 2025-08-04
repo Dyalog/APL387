@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2240" format="1">
+<glyph name="uni2241" format="1">
   <advance width="600"/>
-  <unicode hex="2240"/>
+  <unicode hex="2241"/>
   <outline>
     <component base="part_cancel_mid"/>
     <component base="part_tilde"/>
