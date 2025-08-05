@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27CE" format="1">
+  <advance width="600"/>
+  <unicode hex="27CE"/>
+  <outline>
+    <component base="part_wedge_up" xOffset="2"/>
+    <component base="H22073"/>
+  </outline>
+</glyph>

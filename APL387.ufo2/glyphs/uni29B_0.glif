@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni29B0" format="1">
+  <advance width="600"/>
+  <unicode hex="29B0"/>
+  <outline>
+    <component base="part_cancel_45" xScale="0" yScale="0" xyScale="1" yxScale="-1" xOffset="620" yOffset="22.0005"/>
+    <component base="part_circle"/>
+  </outline>
+</glyph>

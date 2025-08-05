@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni29C6" format="1">
+  <advance width="600"/>
+  <unicode hex="29C6"/>
+  <outline>
+    <component base="part_star"/>
+    <component base="H22073"/>
+  </outline>
+</glyph>

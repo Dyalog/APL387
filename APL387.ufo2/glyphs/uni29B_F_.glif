@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni29BF" format="1">
+  <advance width="600"/>
+  <unicode hex="29BF"/>
+  <outline>
+    <component base="dotmath" yOffset="-17"/>
+    <component base="part_circle"/>
+  </outline>
+</glyph>
