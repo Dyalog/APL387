@@ -969,7 +969,9 @@ feature mkmk {
 	\uni14DA \uni14D7 \uni2302 \uni25B6 \uni25C0 \uni25B3 \uni25B7 \uni25BD \uni25C1 
 	\uni25B4 \uni25B8 \uni25BE \uni25C2 \uni25B5 \uni25B9 \uni25BF \uni25C3 \uni25EC 
 	\uni22BF \uni25F8 \uni25F9 \uni25FA \uni25FF \uni29CA \uni29CB \uni1F7D5 
-	\uni25F0 \uni25F1 \uni25F2 \uni25F3 ];
+	\uni25F0 \uni25F1 \uni25F2 \uni25F3 \uni221F \uni2220 \uni2222 \uni22BE \uni27C0 
+	\uni299B \uni299C \uni29A0 \uni29A1 \uni29A2 \uni29A3 \uni29A4 \uni29A5 \uni299F 
+	\uni2BFE \uni2335 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
