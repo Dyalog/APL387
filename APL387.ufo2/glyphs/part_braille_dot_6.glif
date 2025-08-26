@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_braille_dot_6" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="463.5" y="232.227" type="qcurve" smooth="yes"/>
+      <point x="493.5" y="232.227"/>
+      <point x="537.5" y="189.227"/>
+      <point x="537.5" y="127.226"/>
+      <point x="493.5" y="84.2271"/>
+      <point x="463.5" y="84.2266" type="qcurve" smooth="yes"/>
+      <point x="432.5" y="84.2266"/>
+      <point x="388.5" y="127.226"/>
+      <point x="388.5" y="189.227"/>
+      <point x="432.5" y="232.226"/>
+    </contour>
+  </outline>
+</glyph>

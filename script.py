@@ -17,6 +17,24 @@ apl387 = fontforge.open(f'{path}/APL387.ufo2')
 
 apl387.version = commit
 
+braille_dots = [apl387.createMappedChar(f'part_braille_dot_{i+1}') for i in range(8)]
+
+for braille_index in range(0x100):
+	glyph = apl387.createChar(0x2800 + braille_index)
+	apl387.selection.select('space')
+	apl387.copy()
+	apl387.selection.select(glyph)
+	apl387.paste()
+	bits = [ch == '1' for ch in bin(braille_index)[2:].rjust(8, '0')][::-1]
+	if braille_index in [0x1b, 0xc0]:
+		print(bits)
+	for bit_idx, bit in enumerate(bits):
+		if bit:
+			apl387.selection.select(braille_dots[bit_idx])
+			apl387.copy()
+			apl387.selection.select(glyph)
+			apl387.pasteInto()
+
 try:
 	os.mkdir(f'{path}/output')
 except:
