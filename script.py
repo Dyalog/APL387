@@ -1,13 +1,18 @@
 import fontforge
 import os
 import sys
+from itertools import chain, combinations
+
+def powerset(iterable):
+    s = list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
 
 EXTENSIONS = [
-	'ttf',
-	'otf',
-	'woff',
-	'woff2',
-	'svg',
+  'ttf',
+  'otf',
+  'woff',
+  'woff2',
+  'svg',
 ]
 
 path = sys.argv[1]
@@ -18,14 +23,14 @@ apl387 = fontforge.open(f'{path}/APL387.ufo2')
 apl387.version = commit
 
 try:
-	os.mkdir(f'{path}/output')
+  os.mkdir(f'{path}/output')
 except:
-	pass
+  pass
 
 features = [apl387.getLookupInfo(lookup)[2][0][0] for lookup in apl387.gsub_lookups]
 
 with open(f'{path}/output/chars.html', 'w') as chars:
-	chars.write('''
+  chars.write('''
 <html lang="en">
   <head>
     <meta charset="utf-8" /> 
@@ -42,17 +47,17 @@ span{white-space:pre}
 <body onload="w=document.querySelector`span`.offsetWidth;document.querySelectorAll`span`.forEach(e=>e.style.opacity=0.2**(e.offsetWidth!=w))">
 <table>
 <tr><th>APL385 Unicode</th><th>new APL387 Unicode</th></tr>
-	''')
-	for gl in sorted((gl for gl in apl387.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode):
-		chars.write(f'<tr><td><span>&#{gl.unicode};</span></td><td><span>&#{gl.unicode};</span></td></tr>\n')
-	chars.write('''
+  ''')
+  for gl in sorted((gl for gl in apl387.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode):
+    chars.write(f'<tr><td><span>&#{gl.unicode};</span></td><td><span>&#{gl.unicode};</span></td></tr>\n')
+  chars.write('''
 </table>
 </body>
 </html>
-	''')
+  ''')
 
 with open(f'{path}/output/compare.html', 'w', encoding='utf-8') as compare:
-	compare.write('''
+  compare.write('''
 <html lang="en">
   <head>
     <meta charset="utf-8" /> 
@@ -62,7 +67,7 @@ with open(f'{path}/output/compare.html', 'w', encoding='utf-8') as compare:
 @font-face {font-family: 'APL385';src: url('APL385.ttf');}
 * {
   font-weight: unset;
-	font-feature-settings: inherit;
+  font-feature-settings: inherit;
 }
 
 body {
@@ -93,11 +98,11 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
 </style>
   </head>
   <body>
-	''')
-	for feature in features:
-		compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
-	compare.write('<br><a href="./chars">compare characters individually</a>')
-	same = '''
+  ''')
+  for feature in features:
+    compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+  compare.write('<br><a href="./chars">compare characters individually</a>')
+  same = '''
 <textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta387.value=this.value"></textarea>
 <table>
 <tbody><tr><th>Class</th>
@@ -181,27 +186,27 @@ w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic
     <blockquote>APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.</blockquote>
 <p>All supported characters:</p>
 <pre>
-	'''
-	for idx, gl in enumerate(sorted((gl for gl in apl387.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode)):
-		if idx != 0 and idx % 16 == 0: same += '\n'
-		same += f'&#{gl.unicode};'
-	same += '</pre>'
-	compare.write(f'''
+  '''
+  for idx, gl in enumerate(sorted((gl for gl in apl387.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode)):
+    if idx != 0 and idx % 16 == 0: same += '\n'
+    same += f'&#{gl.unicode};'
+  same += '</pre>'
+  compare.write(f'''
 <div>
 <section id='APL385'><h2>APL385 Unicode</h2>
-	{same}
+  {same}
 </section>
 <section id='APL387'><h2>New APL387 Unicode</h2>
-	{same}
+  {same}
 </section>
 </div>
-	<script src="features.js"></script>
+  <script src="features.js"></script>
   </body>
 </html>
-	''')
+  ''')
 
 with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
-	index.write('''
+  index.write('''
 <html lang="en">
   <head>
     <meta charset="utf-8" /> 
@@ -210,16 +215,16 @@ with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-		<div class="c">
+    <div class="c">
       <input id="APL387" class="x" type="radio" name="f" value="APL387" checked=""><label class="x" for="APL387">APL387.ttf</label>
       <input id="APL385" class="x" type="radio" name="f" value="APL385"            ><label class="x" for="APL385">APL385.ttf</label>
-			<br>
-	''')
-	for feature in features:
-		index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
-	index.write('''
-		</div>
-    <h1>APL387 Unicode<sup> <a href="APL387.ttf">download</a></sup> <span><sup><a href="./compare">side by side with APL385</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
+      <br>
+  ''')
+  for feature in features:
+    index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+  index.write('''
+    </div>
+    <h1>APL387 Unicode<sup> <a href="APL387.ttf">download</a> <a href="" id="wb">download with baked features</a></sup> <span><sup><a href="./compare">side by side with APL385</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
     <p>A redrawn and extended version of Adrian Smith's classic <a href="https://apl385.com/fonts/index.htm">APL385</a> font with clean rounded look.</p>
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
@@ -307,9 +312,47 @@ w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic
     <p>Sample text:</p>
     <blockquote>APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.</blockquote>
   </body>
-	<script src="features.js"></script>
+  <script src="features.js"></script>
 </html>		 
-	''')
+  ''')
 
-for ext in EXTENSIONS:
-	apl387.generate(f'{path}/output/APL387.{ext}')	
+def bake_feature(lookup: str):
+  subtable = apl387.getLookupSubtables(lookup)[0]
+  to_swap = []
+  for glyph in apl387.glyphs():
+    lookups = glyph.getPosSub(subtable)
+    if len(lookups) == 0: continue
+    elif len(lookups) == 1:
+      to_swap.append((glyph, apl387.createMappedChar(lookups[0][2])))
+    else:
+      raise RuntimeError(f'Glyph {glyph.glyphname} has more than one lookup, I don\'t know what to do.')
+  for a, b in to_swap:
+    swap_glyphs(a, b)
+  
+temp = apl387.createChar(-1, 'swapTemp')
+
+def swap_glyphs(a, b):
+  apl387.selection.select(a)
+  apl387.copy()
+  apl387.selection.select(temp)
+  apl387.paste()
+  apl387.selection.select(b)
+  apl387.copy()
+  apl387.selection.select(a)
+  apl387.paste()
+  apl387.selection.select(temp)
+  apl387.copy()
+  apl387.selection.select(b)
+  apl387.paste()
+
+for subset in powerset(apl387.gsub_lookups):
+  baked_features = [apl387.getLookupInfo(lookup)[2][0][0] for lookup in subset]
+  apl387.familyname = f'APL387 Unicode {" ".join(baked_features)}' if len(subset) else 'APL387 Unicode'
+  file_name = f'APL387-{"-".join(baked_features)}' if len(subset) else 'APL387'
+  for lookup in subset:
+    bake_feature(lookup)
+  for ext in EXTENSIONS:
+    apl387.generate(f'{path}/output/{file_name}.{ext}')	
+  # undo swaps
+  for lookup in subset:
+    bake_feature(lookup)

@@ -41,4 +41,10 @@ textarea {
   font-size: inherit;
   font-family: inherit;
 }
+#wb {
+  display: none;
+}
+#wb.s {
+  display: unset;
+}
     
