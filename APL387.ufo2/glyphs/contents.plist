@@ -2880,5 +2880,21 @@
     <string>uni2B_F_E_.glif</string>
     <key>uni2335</key>
     <string>uni2335.glif</string>
+    <key>part_braille_dot_1</key>
+    <string>part_braille_dot_1.glif</string>
+    <key>part_braille_dot_2</key>
+    <string>part_braille_dot_2.glif</string>
+    <key>part_braille_dot_3</key>
+    <string>part_braille_dot_3.glif</string>
+    <key>part_braille_dot_4</key>
+    <string>part_braille_dot_4.glif</string>
+    <key>part_braille_dot_5</key>
+    <string>part_braille_dot_5.glif</string>
+    <key>part_braille_dot_6</key>
+    <string>part_braille_dot_6.glif</string>
+    <key>part_braille_dot_7</key>
+    <string>part_braille_dot_7.glif</string>
+    <key>part_braille_dot_8</key>
+    <string>part_braille_dot_8.glif</string>
   </dict>
 </plist>
