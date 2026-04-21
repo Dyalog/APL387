@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2025/12/12 15:45:50</string>
+    <string>2026/04/21 08:42:16</string>
     <key>openTypeHheaAscender</key>
     <integer>910</integer>
     <key>openTypeHheaDescender</key>
@@ -132,5 +132,7 @@
     <integer>50</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-125</integer>
+    <key>postscriptIsFixedPitch</key>
+    <false/>
   </dict>
 </plist>
