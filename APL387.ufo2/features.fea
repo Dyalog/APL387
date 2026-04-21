@@ -946,7 +946,11 @@ feature mkmk {
 	\uni299B \uni299C \uni29A0 \uni29A1 \uni29A2 \uni29A3 \uni29A4 \uni29A5 \uni299F 
 	\uni2BFE \uni2335 \part_braille_dot_1 \part_braille_dot_2 
 	\part_braille_dot_3 \part_braille_dot_4 \part_braille_dot_5 
-	\part_braille_dot_6 \part_braille_dot_7 \part_braille_dot_8 ];
+	\part_braille_dot_6 \part_braille_dot_7 \part_braille_dot_8 \proportional 
+	\uni2242 \uni2243 \congruent \uni2246 \uni2247 \uni224A \uni224C \uni2251 
+	\uni2252 \uni2253 \uni225C \uni227A \uni227B \uni227C \uni227D \uni227E \uni227F 
+	\uni2280 \uni2281 \uni22CE \uni22CF \uni22DE \uni22DF \uni2AAA \uni2AAB \uni2AAC 
+	\uni2AAD \uni2AAF \uni2AB0 \uni214B ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 

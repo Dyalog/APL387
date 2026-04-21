@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AAA" format="1">
+  <advance width="600"/>
+  <unicode hex="2AAA"/>
+  <outline>
+    <component base="part_bar" xOffset="30" yOffset="-5"/>
+    <component base="part_wedge_left"/>
+  </outline>
+</glyph>

@@ -2896,5 +2896,67 @@
     <string>part_braille_dot_7.glif</string>
     <key>part_braille_dot_8</key>
     <string>part_braille_dot_8.glif</string>
+    <key>proportional</key>
+    <string>proportional.glif</string>
+    <key>uni2242</key>
+    <string>uni2242.glif</string>
+    <key>uni2243</key>
+    <string>uni2243.glif</string>
+    <key>congruent</key>
+    <string>congruent.glif</string>
+    <key>uni2246</key>
+    <string>uni2246.glif</string>
+    <key>uni2247</key>
+    <string>uni2247.glif</string>
+    <key>uni224A</key>
+    <string>uni224A_.glif</string>
+    <key>uni224C</key>
+    <string>uni224C_.glif</string>
+    <key>uni2251</key>
+    <string>uni2251.glif</string>
+    <key>uni2252</key>
+    <string>uni2252.glif</string>
+    <key>uni2253</key>
+    <string>uni2253.glif</string>
+    <key>uni225C</key>
+    <string>uni225C_.glif</string>
+    <key>uni227A</key>
+    <string>uni227A_.glif</string>
+    <key>uni227B</key>
+    <string>uni227B_.glif</string>
+    <key>uni227C</key>
+    <string>uni227C_.glif</string>
+    <key>uni227D</key>
+    <string>uni227D_.glif</string>
+    <key>uni227E</key>
+    <string>uni227E_.glif</string>
+    <key>uni227F</key>
+    <string>uni227F_.glif</string>
+    <key>uni2280</key>
+    <string>uni2280.glif</string>
+    <key>uni2281</key>
+    <string>uni2281.glif</string>
+    <key>uni22CE</key>
+    <string>uni22C_E_.glif</string>
+    <key>uni22CF</key>
+    <string>uni22C_F_.glif</string>
+    <key>uni22DE</key>
+    <string>uni22D_E_.glif</string>
+    <key>uni22DF</key>
+    <string>uni22D_F_.glif</string>
+    <key>uni2AAA</key>
+    <string>uni2A_A_A_.glif</string>
+    <key>uni2AAB</key>
+    <string>uni2A_A_B_.glif</string>
+    <key>uni2AAC</key>
+    <string>uni2A_A_C_.glif</string>
+    <key>uni2AAD</key>
+    <string>uni2A_A_D_.glif</string>
+    <key>uni2AAF</key>
+    <string>uni2A_A_F_.glif</string>
+    <key>uni2AB0</key>
+    <string>uni2A_B_0.glif</string>
+    <key>uni214B</key>
+    <string>uni214B_.glif</string>
   </dict>
 </plist>

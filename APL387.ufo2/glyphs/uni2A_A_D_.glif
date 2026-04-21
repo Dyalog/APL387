@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AAD" format="1">
+  <advance width="600"/>
+  <unicode hex="2AAD"/>
+  <outline>
+    <component base="part_underbar"/>
+    <component base="uni2AAB"/>
+  </outline>
+</glyph>
