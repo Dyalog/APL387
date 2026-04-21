@@ -11,9 +11,5 @@
       <point x="0" y="-151.254" type="line"/>
       <point x="550.559" y="910" type="line"/>
     </contour>
-    <contour>
-      <point x="599" y="-244.632" type="move"/>
-      <point x="0" y="910" type="line"/>
-    </contour>
   </outline>
 </glyph>
