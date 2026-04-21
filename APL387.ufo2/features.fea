@@ -147,14 +147,6 @@ feature cv01 {
 # GPOS 
 
 
-lookup kernHorizontalKerninglookup0 {
-  lookupflag IgnoreMarks;
-    pos \S \T -120;
-    pos \i \j -50;
-    pos \Gamma \uni0394 -80;
-    pos \uni0433 \uni0434 0;
-} kernHorizontalKerninglookup0;
-
 lookup markMarkPositioninglookup1 {
   lookupflag 0;
   markClass [\uni0326 ] <anchor 293 0> @Anchor0;
@@ -733,25 +725,6 @@ lookup mkmkMarktoMarklookup6 {
   pos mark [\tildecomb.case ] <anchor 303 661> mark @Anchor9;
   pos mark [\uni0304.case ] <anchor 306 608> mark @Anchor9;
 } mkmkMarktoMarklookup6;
-
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script cyrl;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script grek;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script latn;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-} kern;
 
 feature mark {
 
