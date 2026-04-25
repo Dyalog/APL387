@@ -49,8 +49,7 @@
       <point x="334.463" y="171.469" type="qcurve" smooth="yes"/>
       <point x="334.677" y="172.343"/>
       <point x="334.854" y="173.25" type="qcurve" smooth="yes"/>
-      <point x="334.854" y="173.25"/>
-      <point x="337.828" y="194.048" type="qcurve" smooth="yes"/>
+      <point x="337.828" y="194.048" type="line" smooth="yes"/>
       <point x="340.803" y="214.846"/>
       <point x="362.555" y="280.311"/>
       <point x="395.98" y="351.146"/>
