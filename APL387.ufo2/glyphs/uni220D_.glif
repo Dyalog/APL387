@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="220D"/>
   <outline>
-    <component base="part_epsilon" xScale="-1" yScale="-1" xOffset="606" yOffset="661"/>
+    <component base="part_epsilon_reversed"/>
   </outline>
 </glyph>

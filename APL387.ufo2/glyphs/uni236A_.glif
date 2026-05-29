@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="236A"/>
   <outline>
-    <component base="comma"/>
+    <component base="part_comma"/>
     <component base="part_bar"/>
   </outline>
 </glyph>

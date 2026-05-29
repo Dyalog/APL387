@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="2338"/>
   <outline>
-    <component base="equal"/>
+    <component base="part_equals"/>
     <component base="part_quad"/>
   </outline>
 </glyph>

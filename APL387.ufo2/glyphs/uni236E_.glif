@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="236E"/>
   <outline>
-    <component base="semicolon" yOffset="111"/>
+    <component base="part_semicolon" yOffset="110"/>
     <component base="part_underbar"/>
   </outline>
 </glyph>

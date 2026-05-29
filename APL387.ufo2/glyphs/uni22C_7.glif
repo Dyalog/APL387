@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="22C7"/>
   <outline>
-    <component base="divide"/>
-    <component base="multiply"/>
+    <component base="part_times"/>
+    <component base="part_divide"/>
   </outline>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="220C"/>
   <outline>
+    <component base="part_epsilon_reversed"/>
     <component base="part_cancel_30"/>
-    <component base="uni220D"/>
   </outline>
 </glyph>

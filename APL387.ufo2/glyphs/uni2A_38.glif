@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="2A38"/>
   <outline>
-    <component base="divide"/>
+    <component base="part_divide"/>
     <component base="part_circle"/>
   </outline>
 </glyph>

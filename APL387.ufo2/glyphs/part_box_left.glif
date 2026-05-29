@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_box_left" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="484" y="563" type="qcurve" smooth="yes"/>
+      <point x="126" y="563" type="line" smooth="yes"/>
+      <point x="106" y="563"/>
+      <point x="80" y="536"/>
+      <point x="80" y="517" type="qcurve" smooth="yes"/>
+      <point x="80" y="139" type="line" smooth="yes"/>
+      <point x="80" y="120"/>
+      <point x="106" y="93"/>
+      <point x="126" y="93" type="qcurve" smooth="yes"/>
+      <point x="484" y="93" type="line" smooth="yes"/>
+      <point x="504" y="93"/>
+      <point x="530" y="117"/>
+      <point x="530" y="153"/>
+      <point x="504" y="177"/>
+      <point x="484" y="177" type="qcurve" smooth="yes"/>
+      <point x="171" y="177" type="line"/>
+      <point x="171" y="479" type="line"/>
+      <point x="484" y="479" type="line" smooth="yes"/>
+      <point x="504" y="479"/>
+      <point x="530" y="503"/>
+      <point x="530" y="539"/>
+      <point x="504" y="563"/>
+    </contour>
+  </outline>
+</glyph>

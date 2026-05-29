@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="2262"/>
   <outline>
+    <component base="part_equivalent"/>
     <component base="part_cancel_30"/>
-    <component base="equivalence"/>
   </outline>
 </glyph>

@@ -3,7 +3,8 @@
   <advance width="600"/>
   <unicode hex="2AAC"/>
   <outline>
+    <component base="part_bar" xOffset="30" yOffset="-5"/>
+    <component base="part_wedge_left"/>
     <component base="part_underbar"/>
-    <component base="uni2AAA"/>
   </outline>
 </glyph>

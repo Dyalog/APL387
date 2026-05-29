@@ -3,8 +3,8 @@
   <advance width="600"/>
   <unicode hex="2251"/>
   <outline>
+    <component base="part_equals"/>
     <component base="part_dot_below"/>
     <component base="part_dot_above"/>
-    <component base="equal"/>
   </outline>
 </glyph>

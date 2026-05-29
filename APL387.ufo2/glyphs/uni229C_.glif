@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="229C"/>
   <outline>
+    <component base="part_equals"/>
     <component base="part_circle"/>
-    <component base="equal"/>
   </outline>
 </glyph>

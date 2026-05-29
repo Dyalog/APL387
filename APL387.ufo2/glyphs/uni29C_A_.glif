@@ -4,6 +4,6 @@
   <unicode hex="29CA"/>
   <outline>
     <component base="part_dot_above"/>
-    <component base="uni25B3"/>
+    <component base="part_tri"/>
   </outline>
 </glyph>

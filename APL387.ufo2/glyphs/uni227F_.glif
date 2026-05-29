@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="227F"/>
   <outline>
+    <component base="part_curly_wedge_right"/>
     <component base="part_under_tilde"/>
-    <component base="uni227B"/>
   </outline>
 </glyph>

@@ -2960,5 +2960,63 @@
     <string>uni214B_.glif</string>
     <key>uni23E8_ss01</key>
     <string>uni23E_8_ss01.glif</string>
+    <key>part_plus</key>
+    <string>part_plus.glif</string>
+    <key>part_epsilon_reversed</key>
+    <string>part_epsilon_reversed.glif</string>
+    <key>part_equals</key>
+    <string>part_equals.glif</string>
+    <key>part_box_left</key>
+    <string>part_box_left.glif</string>
+    <key>part_box_down</key>
+    <string>part_box_down.glif</string>
+    <key>part_box_right</key>
+    <string>part_box_right.glif</string>
+    <key>part_box_up</key>
+    <string>part_box_up.glif</string>
+    <key>part_times</key>
+    <string>part_times.glif</string>
+    <key>part_arrow_left</key>
+    <string>part_arrow_left.glif</string>
+    <key>part_arrow_down</key>
+    <string>part_arrow_down.glif</string>
+    <key>part_arrow_right</key>
+    <string>part_arrow_right.glif</string>
+    <key>part_arrow_up</key>
+    <string>part_arrow_up.glif</string>
+    <key>part_quote</key>
+    <string>part_quote.glif</string>
+    <key>part_comma</key>
+    <string>part_comma.glif</string>
+    <key>part_semicolon</key>
+    <string>part_semicolon.glif</string>
+    <key>part_triangle_left</key>
+    <string>part_triangle_left.glif</string>
+    <key>part_triangle_down</key>
+    <string>part_triangle_down.glif</string>
+    <key>part_triangle_right</key>
+    <string>part_triangle_right.glif</string>
+    <key>part_triangle_up</key>
+    <string>part_triangle_up.glif</string>
+    <key>part_square</key>
+    <string>part_square.glif</string>
+    <key>part_divide</key>
+    <string>part_divide.glif</string>
+    <key>part_parallel</key>
+    <string>part_parallel.glif</string>
+    <key>part_equivalent</key>
+    <string>part_equivalent.glif</string>
+    <key>part_tri</key>
+    <string>part_tri.glif</string>
+    <key>part_angle</key>
+    <string>part_angle.glif</string>
+    <key>part_curly_wedge_left</key>
+    <string>part_curly_wedge_left.glif</string>
+    <key>part_curly_wedge_down</key>
+    <string>part_curly_wedge_down.glif</string>
+    <key>part_curly_wedge_right</key>
+    <string>part_curly_wedge_right.glif</string>
+    <key>part_curly_wedge_up</key>
+    <string>part_curly_wedge_up.glif</string>
   </dict>
 </plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="part_triangle_left" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="457.809" y="552.422" type="qcurve" smooth="yes"/>
+      <point x="479.293" y="552.813"/>
+      <point x="491.793" y="527.812" type="qcurve" smooth="yes"/>
+      <point x="496.868" y="516.22"/>
+      <point x="496.475" y="496.246" type="qcurve" smooth="yes"/>
+      <point x="496.475" y="151.535" type="line" smooth="yes"/>
+      <point x="496.402" y="150.137"/>
+      <point x="496.378" y="145.285" type="qcurve" smooth="yes"/>
+      <point x="496.245" y="131.273"/>
+      <point x="491.793" y="121.812" type="qcurve" smooth="yes"/>
+      <point x="473.793" y="81.812"/>
+      <point x="428.793" y="107.812" type="qcurve" smooth="yes"/>
+      <point x="136.793" y="282.812" type="line" smooth="yes"/>
+      <point x="103.793" y="302.812"/>
+      <point x="103.793" y="348.812"/>
+      <point x="135.793" y="366.812" type="qcurve" smooth="yes"/>
+      <point x="428.793" y="542.812" type="line" smooth="yes"/>
+      <point x="444.918" y="552.188"/>
+    </contour>
+    <contour>
+      <point x="416.475" y="441.137" type="line"/>
+      <point x="221.793" y="324.812" type="line"/>
+      <point x="416.475" y="208.488" type="line"/>
+    </contour>
+  </outline>
+</glyph>
