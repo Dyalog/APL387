@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="2259"/>
   <outline>
+    <component base="part_equals" yOffset="-200"/>
     <component base="part_wedge_up" yOffset="200"/>
-    <component base="equal" yOffset="-200"/>
   </outline>
 </glyph>

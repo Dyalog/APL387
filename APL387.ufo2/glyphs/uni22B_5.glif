@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="22B5"/>
   <outline>
+    <component base="part_triangle_right"/>
     <component base="part_underbar"/>
-    <component base="uni22B3"/>
   </outline>
 </glyph>

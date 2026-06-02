@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="29A3"/>
   <outline>
-    <component base="uni2220" xScale="-0.469472" yScale="-0.469472" xyScale="0.882948" yxScale="-0.882948" xOffset="677.154" yOffset="137.729"/>
+    <component base="part_angle" xScale="-1" xOffset="600"/>
   </outline>
 </glyph>

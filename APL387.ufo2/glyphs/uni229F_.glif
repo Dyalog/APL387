@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="229F"/>
   <outline>
+    <component base="part_square"/>
     <component base="part_bar"/>
-    <component base="H22073"/>
   </outline>
 </glyph>

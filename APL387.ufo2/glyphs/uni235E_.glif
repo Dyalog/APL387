@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="235E"/>
   <outline>
-    <component base="quotesingle"/>
+    <component base="part_quote"/>
     <component base="part_quad"/>
   </outline>
 </glyph>

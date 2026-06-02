@@ -363,14 +363,29 @@ def swap_glyphs(a, b):
   apl387.selection.select(b)
   apl387.paste()
 
-for subset in powerset(apl387.gsub_lookups):
-  baked_features = [apl387.getLookupInfo(lookup)[2][0][0] for lookup in subset]
-  apl387.familyname = f'APL387 Unicode {" ".join(baked_features)}' if len(subset) else 'APL387 Unicode'
-  file_name = f'APL387-{"-".join(baked_features)}' if len(subset) else 'APL387'
-  for lookup in subset:
-    bake_feature(lookup)
-  for ext in EXTENSIONS:
-    apl387.generate(f'{path}/output/{file_name}.{ext}')	
-  # undo swaps
-  for lookup in subset:
-    bake_feature(lookup)
+def export_all(name, font):
+  for subset in powerset(font.gsub_lookups):
+    baked_features = [font.getLookupInfo(lookup)[2][0][0] for lookup in subset]
+    font.familyname = f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'
+    font.fontname = f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'
+    file_name = f'{name}-{"-".join(baked_features)}' if len(subset) else name
+    for lookup in subset:
+      bake_feature(lookup)
+    for ext in EXTENSIONS:
+      font.generate(f'{path}/output/{file_name}.{ext}')	
+    # undo swaps
+    for lookup in subset:
+      bake_feature(lookup)
+
+export_all('APL387', apl387)
+
+apl335 = apl387 # no need to clone, original font isn't needed anymore
+
+for glyph in apl335.glyphs():
+	if glyph.unicode == -1: continue # ignore parts
+	glyph.left_side_bearing = 50
+	glyph.right_side_bearing = 50
+   
+apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
+
+export_all('APL335', apl335)

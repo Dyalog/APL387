@@ -951,7 +951,14 @@ feature mkmk {
 	\uni2242 \uni2243 \congruent \uni2246 \uni2247 \uni224A \uni224C \uni2251 
 	\uni2252 \uni2253 \uni225C \uni227A \uni227B \uni227C \uni227D \uni227E \uni227F 
 	\uni2280 \uni2281 \uni22CE \uni22CF \uni22DE \uni22DF \uni2AAA \uni2AAB \uni2AAC 
-	\uni2AAD \uni2AAF \uni2AB0 \uni214B \uni23E8_ss01 ];
+	\uni2AAD \uni2AAF \uni2AB0 \uni214B \uni23E8_ss01 \part_plus 
+	\part_epsilon_reversed \part_equals \part_box_left \part_box_down 
+	\part_box_right \part_box_up \part_times \part_arrow_left \part_arrow_down 
+	\part_arrow_right \part_arrow_up \part_quote \part_comma \part_semicolon 
+	\part_triangle_left \part_triangle_down \part_triangle_right 
+	\part_triangle_up \part_square \part_divide \part_parallel \part_equivalent 
+	\part_tri \part_angle \part_curly_wedge_left \part_curly_wedge_down 
+	\part_curly_wedge_right \part_curly_wedge_up ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 

@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="29E5"/>
   <outline>
-    <component base="equivalence"/>
+    <component base="part_equivalent"/>
     <component base="uni2AFD"/>
   </outline>
 </glyph>
