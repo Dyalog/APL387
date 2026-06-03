@@ -422,7 +422,7 @@ apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
 
 apl335.addLookup('kern', 'gpos_pair', (), (('kern', (('DFLT', ('dflt',)), ('brai', ('dflt',)), ('cans', ('dflt',)), ('cyrl', ('dflt',)), ('grek', ('dflt',)), ('latn', ('dflt',)), ('math', ('dflt',)), ('nko ', ('dflt',)), ('tfng', ('dflt',)))),))
 apl335.addLookupSubtable('kern', 'kern-0')
-with open('kerning.tsv') as kerning:
+with open(f'{path}/kerning.tsv') as kerning:
   reader = csv.reader(kerning, delimiter='\t')
   for line in reader:
     first = apl335.createChar(ord(line[0]))
