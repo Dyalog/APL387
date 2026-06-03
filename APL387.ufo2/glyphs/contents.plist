@@ -2514,9 +2514,9 @@
     <string>uni259E_.glif</string>
     <key>uni259F</key>
     <string>uni259F_.glif</string>
-    <key>because_cv01</key>
+    <key>because.cv01</key>
     <string>because_cv01.glif</string>
-    <key>therefore_cv01</key>
+    <key>therefore.cv01</key>
     <string>therefore_cv01.glif</string>
     <key>part_circle</key>
     <string>part_circle.glif</string>
@@ -2586,21 +2586,19 @@
     <string>part_dot_above.glif</string>
     <key>part_under_tilde</key>
     <string>part_under_tilde.glif</string>
-    <key>part_three_dots</key>
-    <string>part_three_dots.glif</string>
     <key>part_mid_colon</key>
     <string>part_mid_colon.glif</string>
-    <key>zero_ss01</key>
+    <key>zero.ss01</key>
     <string>zero_ss01.glif</string>
-    <key>sup_zero_ss01</key>
+    <key>uni2070.ss01</key>
     <string>sup_zero_ss01.glif</string>
-    <key>sub_zero_ss01</key>
+    <key>uni2080.ss01</key>
     <string>sub_zero_ss01.glif</string>
-    <key>nand_ss02</key>
+    <key>uni2372.ss02</key>
     <string>nand_ss02.glif</string>
-    <key>nor_ss02</key>
+    <key>uni2371.ss02</key>
     <string>nor_ss02.glif</string>
-    <key>obv_ss02</key>
+    <key>uni236B.ss02</key>
     <string>obv_ss02.glif</string>
     <key>part_dot_below</key>
     <string>part_dot_below.glif</string>
@@ -2958,7 +2956,7 @@
     <string>uni2A_B_0.glif</string>
     <key>uni214B</key>
     <string>uni214B_.glif</string>
-    <key>uni23E8_ss01</key>
+    <key>uni23E8.ss01</key>
     <string>uni23E_8_ss01.glif</string>
     <key>part_plus</key>
     <string>part_plus.glif</string>
@@ -3018,5 +3016,7 @@
     <string>part_curly_wedge_right.glif</string>
     <key>part_curly_wedge_up</key>
     <string>part_curly_wedge_up.glif</string>
+    <key>part_three_dots</key>
+    <string>part_three_dots.glif</string>
   </dict>
 </plist>

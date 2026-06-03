@@ -361,6 +361,8 @@ w←⊃(⊃0⍴⍵){
 </html>		 
     ''')
 
+for glyph in apl387.glyphs(): glyph.unlinkRef()
+
 def bake_feature(lookup: str):
   subtable = apl387.getLookupSubtables(lookup)[0]
   to_swap = []
@@ -411,7 +413,7 @@ index_page('APL385', 'APL387')
 apl335 = apl387 # no need to clone, original font isn't needed anymore
 
 for glyph in apl335.glyphs():
-	if glyph.unicode == -1: continue # ignore parts
+	if glyph.glyphname.startswith('part_'): continue # ignore parts
 	glyph.left_side_bearing = 50
 	glyph.right_side_bearing = 50
    
