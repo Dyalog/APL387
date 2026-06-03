@@ -259,7 +259,7 @@ def index_page(old, new, propo = False, name = 'index', compare_name = 'compare'
     </div>
     <h1>{new} Unicode<sup> <a href="{new}.ttf">download</a> <a href="" id="wb">download with baked features</a></sup> <span><sup><a href="./{compare_name}">side by side with {old}</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
     <p>A redrawn and extended version of Adrian Smith's classic <a href="https://apl385.com/fonts/index.htm">{old}</a> font with clean rounded look.</p>
-    <p><a href=".">APL387 (monospace)</a> <a href="./{compare_name}">APL335 (proportional)</a></p>
+    <p><a href=".">APL387 (monospace)</a> <a href="./335">APL335 (proportional)</a></p>
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
     </blockquote>
