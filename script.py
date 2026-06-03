@@ -74,15 +74,19 @@ span{white-space:pre}
 </html>
   ''')
 
-with open(f'{path}/output/compare.html', 'w', encoding='utf-8') as compare:
-  compare.write('''
-<html lang="en">
-  <head>
-    <meta charset="utf-8" /> 
-    <title>APL387 Comparison</title>
-    <style>
-@font-face {font-family: 'APL387';src: url('APL387.ttf');}
-@font-face {font-family: 'APL385';src: url('APL385.ttf');}
+def compare_page(font, old, new, propo = False, name = 'compare'):
+  with open(f'{path}/output/{name}.html', 'w', encoding='utf-8') as compare:
+    compare.write(f'''
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" /> 
+      <title>{new} Comparison</title>
+      <style>
+@font-face {'{'}font-family: '{new}';src: url('{new}.ttf');{'}'}
+@font-face {'{'}font-family: '{old}';src: url('{old}.ttf');{'}'}
+#{old}{'{'}font-family:{old}!important{'}'}
+#{new}{'{'}font-family:{new}!important{'}'}
+''' + '''
 * {
   font-weight: unset;
   font-feature-settings: inherit;
@@ -111,17 +115,16 @@ textarea {
 }
 table{font-size:inherit}
 section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top}
-#APL385{font-family:APL385!important}
-#APL387{font-family:APL387!important}
 </style>
-  </head>
-  <body>
-  ''')
-  for feature in features:
-    compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
-  compare.write('<br><a href="./chars">compare characters individually</a>')
-  same = '''
+    </head>
+    <body>
+    ''')
+    for feature in features:
+      compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+    compare.write('<br><a href="./chars">compare characters individually</a>')
+    same = '''
 <textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta387.value=this.value"></textarea>
+<p>Supports every special character used by any APL implementation:</p>
 <table>
 <tbody><tr><th>Class</th>
 <th>Glyphs
@@ -170,12 +173,12 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
       ¦‖¬°∓µ·∵¼½¾↔↕∉≉≣⊖⊕⊖⊗⊘⊝⊛⊻⊼⊽⋔⌈⌉⌊⌋<br>
       `´¡¿‼‽¢£¤¥ © ® ºª«»‘’‚‛“”„‟§¶<br>
       ♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧♀♂
-    </blockquote>
+    </blockquote>''' + ('''
     <p>Single and double line drawing characters, and blocks and shades:</p>
     <blockquote style="line-height: 1.15;">┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
-               │ ││ ║ ║║ █▉▊▋▌▍▎▏<br>
-               ├─┼┤ ╠═╬╣ ▌▀▄▐<br>
-               └─┴┘ ╚═╩╝ ░▒▓</blockquote>
+              │ ││ ║ ║║ █▉▊▋▌▍▎▏<br>
+              ├─┼┤ ╠═╬╣ ▌▀▄▐<br>
+              └─┴┘ ╚═╩╝ ░▒▓</blockquote>''' if not propo else '') + '''
     <p>Includes both uppercase and lowercase underscored alphabets, plus superscript and subscript digits:</p>
     <blockquote>
       ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ<br>
@@ -188,7 +191,7 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
     <p>And Cyrillic:</p>
     <blockquote>ЀЁЂЃЄЅІЇЈЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёѓєѕіїјў</blockquote>
     <p>Sample APL code:</p>
-    <blockquote style="line-height: 1;"><pre style="font-family: inherit;">
+    <blockquote style="line-height: 1;"><pre style="font-family: inherit;">''' + ('''
 w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic; use ↓
     (e a)←|⍺                         ⍝├ 0 0 1 1 1  dyadic; use /
     T←⌽⍣(0&gt;⊃⌽⍺)                      ⍝└──→⍺⍺←─────┐
@@ -199,51 +202,63 @@ w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic
     a=2:(⊖¯1↓need⍴⊢⍵)Pad(¯1↓need⍴⊖⍵) ⍝  2 1│1 2 3 4 5│5 4  Reverse
     a=3:(⊖⊢1↓need⍴⊢⍵)Pad(⊢1↓need⍴⊖⍵) ⍝  3 2│1 2 3 4 5│4 3  Mirror
     a=4:(⊖¯1↓need⍴⊖⍵)Pad(¯1↓need⍴⊢⍵) ⍝  4 5│1 2 3 4 5│1 2  Wrap
-}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵          ⍝     └────⍵────┘</pre></blockquote>
-    <p>Sample text:</p>
-    <blockquote>APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.</blockquote>
-<p>All supported characters:</p>
-<pre>
-  '''
-  for idx, gl in enumerate(sorted((gl for gl in apl387.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode)):
-    if idx != 0 and idx % 16 == 0: same += '\n'
-    same += f'&#{gl.unicode};'
-  same += '</pre>'
-  compare.write(f'''
-<div>
-<section id='APL385'><h2>APL385 Unicode</h2>
-  {same}
-</section>
-<section id='APL387'><h2>New APL387 Unicode</h2>
-  {same}
-</section>
-</div>
-  <script src="features.js"></script>
-  </body>
-</html>
-  ''')
+}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵          ⍝     └────⍵────┘''' if not propo else '''
+w←⊃(⊃0⍴⍵){
+    (e a)←|⍺
+    T←⌽⍣(0&gt;⊃⌽⍺)
+    Pad←⍵⍵⍉(T⊣)⍪⍵⍪(T⊢)
+    need←(1+e),1↓⍴⍵
+    a=0:(1↓need⍴0↑⍵)Pad(1↓need⍴0↑⊢⍵)
+    a=1:(1↓need⍴1↑⍵)Pad(1↓need⍴1↑⊖⍵)
+    a=2:(⊖¯1↓need⍴⊢⍵)Pad(¯1↓need⍴⊖⍵)
+    a=3:(⊖⊢1↓need⍴⊢⍵)Pad(⊢1↓need⍴⊖⍵)
+    a=4:(⊖¯1↓need⍴⊖⍵)Pad(¯1↓need⍴⊢⍵)
+}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵''') + '''</pre></blockquote>
+      <p>Sample text:</p>
+      <blockquote>APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.</blockquote>
+  <p>All supported characters:</p>
+  <pre>
+    '''
+    for idx, gl in enumerate(sorted((gl for gl in font.glyphs() if gl.unicode != -1), key=lambda gl: gl.unicode)):
+      if idx != 0 and idx % 16 == 0: same += '\n'
+      same += f'&#{gl.unicode};'
+    same += '</pre>'
+    compare.write(f'''
+  <div>
+  <section id='{old}'><h2>{old} Unicode</h2>
+    {same}
+  </section>
+  <section id='{new}'><h2>New {new} Unicode</h2>
+    {same}
+  </section>
+  </div>
+    <script src="features.js"></script>
+    </body>
+  </html>
+    ''')
 
-with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
-  index.write('''
+def index_page(old, new, propo = False, name = 'index', compare_name = 'compare'):
+  with open(f'{path}/output/{name}.html', 'w', encoding='utf-8') as index:
+    index.write(f'''
 <html lang="en">
   <head>
     <meta charset="utf-8" /> 
-    <title>APL387 - A New APL385</title>
+    <title>{new} - A New {old}</title>
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <div class="c">
-      <input id="APL387" class="x" type="radio" name="f" value="APL387" checked=""><label class="x" for="APL387">APL387.ttf</label>
-      <input id="APL385" class="x" type="radio" name="f" value="APL385"            ><label class="x" for="APL385">APL385.ttf</label>
+      <input id="{new}" class="x" type="radio" name="f" value="{new}" checked=""><label class="x" for="APL387">{new}.ttf</label>
+      <input id="{old}" class="x" type="radio" name="f" value="{old}"           ><label class="x" for="APL387">{old}.ttf</label>
       <br>
   ''')
-  for feature in features:
-    index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
-  index.write('''
+    for feature in features:
+      index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+    index.write(f'''
     </div>
-    <h1>APL387 Unicode<sup> <a href="APL387.ttf">download</a> <a href="" id="wb">download with baked features</a></sup> <span><sup><a href="./compare">side by side with APL385</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
-    <p>A redrawn and extended version of Adrian Smith's classic <a href="https://apl385.com/fonts/index.htm">APL385</a> font with clean rounded look.</p>
+    <h1>{new} Unicode<sup> <a href="{new}.ttf">download</a> <a href="" id="wb">download with baked features</a></sup> <span><sup><a href="./{compare_name}">side by side with {old}</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
+    <p>A redrawn and extended version of Adrian Smith's classic <a href="https://apl385.com/fonts/index.htm">{old}</a> font with clean rounded look.</p>
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
     </blockquote>
@@ -295,12 +310,12 @@ with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
       ¦‖¬°∓µ·∵¼½¾↔↕∉≉≣⊖⊕⊖⊗⊘⊝⊛⊻⊼⊽⋔⌈⌉⌊⌋<br>
       `´¡¿‼‽¢£¤¥ © ® ºª«»‘’‚‛“”„‟§¶<br>
       ♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧♀♂
-    </blockquote>
+    </blockquote>''' + ('''
     <p>Single and double line drawing characters, and blocks and shades:</p>
     <blockquote style="line-height: 1.15;">┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
                │ ││ ║ ║║ █▉▊▋▌▍▎▏<br>
                ├─┼┤ ╠═╬╣ ▌▀▄▐<br>
-               └─┴┘ ╚═╩╝ ░▒▓</blockquote>
+               └─┴┘ ╚═╩╝ ░▒▓</blockquote>''' if not propo else '') + '''
     <p>Includes both uppercase and lowercase underscored and double-struck alphabets, plus superscript and subscript digits:</p>
     <blockquote>
       ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ<br>
@@ -315,7 +330,7 @@ with open(f'{path}/output/index.html', 'w', encoding='utf-8') as index:
     <p>And Cyrillic:</p>
     <blockquote>ЀЁЂЃЄЅІЇЈЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёѓєѕіїјў</blockquote>
     <p>Sample APL code:</p>
-    <blockquote style="line-height: 1;"><pre style="font-family: inherit;">
+    <blockquote style="line-height: 1;"><pre style="font-family: inherit;">''' + ('''
 w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic; use ↓
     (e a)←|⍺                         ⍝├ 0 0 1 1 1  dyadic; use /
     T←⌽⍣(0&gt;⊃⌽⍺)                      ⍝└──→⍺⍺←─────┐
@@ -326,13 +341,24 @@ w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic
     a=2:(⊖¯1↓need⍴⊢⍵)Pad(¯1↓need⍴⊖⍵) ⍝  2 1│1 2 3 4 5│5 4  Reverse
     a=3:(⊖⊢1↓need⍴⊢⍵)Pad(⊢1↓need⍴⊖⍵) ⍝  3 2│1 2 3 4 5│4 3  Mirror
     a=4:(⊖¯1↓need⍴⊖⍵)Pad(¯1↓need⍴⊢⍵) ⍝  4 5│1 2 3 4 5│1 2  Wrap
-}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵          ⍝     └────⍵────┘</pre></blockquote>
+}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵          ⍝     └────⍵────┘''' if not propo else '''
+w←⊃(⊃0⍴⍵){
+    (e a)←|⍺
+    T←⌽⍣(0&gt;⊃⌽⍺)
+    Pad←⍵⍵⍉(T⊣)⍪⍵⍪(T⊢)
+    need←(1+e),1↓⍴⍵
+    a=0:(1↓need⍴0↑⍵)Pad(1↓need⍴0↑⊢⍵)
+    a=1:(1↓need⍴1↑⍵)Pad(1↓need⍴1↑⊖⍵)
+    a=2:(⊖¯1↓need⍴⊢⍵)Pad(¯1↓need⍴⊖⍵)
+    a=3:(⊖⊢1↓need⍴⊢⍵)Pad(⊢1↓need⍴⊖⍵)
+    a=4:(⊖¯1↓need⍴⊖⍵)Pad(¯1↓need⍴⊢⍵)
+}(¯1⌽⍳≢⍴⍵)/(⌽extra,¨⍺⊣0),⊂⍵''') + f'''</pre></blockquote>
     <p>Sample text:</p>
     <blockquote>APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.</blockquote>
   </body>
-  <script src="features.js"></script>
+  <script src="features.js" data-base="{new}"></script>
 </html>		 
-  ''')
+    ''')
 
 def bake_feature(lookup: str):
   subtable = apl387.getLookupSubtables(lookup)[0]
@@ -378,6 +404,8 @@ def export_all(name, font):
       bake_feature(lookup)
 
 export_all('APL387', apl387)
+compare_page(apl387, 'APL385', 'APL387')
+index_page('APL385', 'APL387')
 
 apl335 = apl387 # no need to clone, original font isn't needed anymore
 
@@ -389,3 +417,5 @@ for glyph in apl335.glyphs():
 apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
 
 export_all('APL335', apl335)
+compare_page(apl335, 'APL333', 'APL335', propo = True, name = 'compare335')
+index_page('APL333', 'APL335', propo = True, name = '335', compare_name = 'compare335')
