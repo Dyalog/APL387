@@ -1,5 +1,7 @@
 @font-face {font-family: 'APL387';src: url('APL387.ttf');}
+@font-face {font-family: 'APL335';src: url('APL335.ttf');}
 @font-face {font-family: 'APL385';src: url('APL385.ttf');}
+@font-face {font-family: 'APL333';src: url('APL333.ttf');}
 #c{
   position: fixed;
   background: rgba(255,255,255,0.7);
@@ -10,7 +12,9 @@
   font-feature-settings: inherit;
 }
 :has(#APL387:checked) *:not(.x){font-family: 'APL387'!important;}
+:has(#APL335:checked) *:not(.x){font-family: 'APL335'!important;}
 :has(#APL385:checked) *:not(.x){font-family: 'APL385'!important;}
+:has(#APL333:checked) *:not(.x){font-family: 'APL333'!important;}
 label{
   left:2em;
 }
