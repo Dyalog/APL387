@@ -423,6 +423,32 @@ lookup markMarkPositioninglookup3 {
 	<anchor 340 183> mark @Anchor5;
   pos base [\uni03FF ] <anchor 319 0> mark @Anchor4
 	<anchor 262 183> mark @Anchor5;
+  pos base [\NameMe.1583 ] <anchor 256 0> mark @Anchor4
+	<anchor 376 661> mark @Anchor5;
+  pos base [\NameMe.1586 ] <anchor 141 0> mark @Anchor4
+	<anchor 296 670> mark @Anchor5;
+  pos base [\NameMe.1587 ] <anchor 240 0> mark @Anchor4
+	<anchor 395 670> mark @Anchor5;
+  pos base [\NameMe.1588 ] <anchor 234 0> mark @Anchor4
+	<anchor 389 670> mark @Anchor5;
+  pos base [\NameMe.1590 ] <anchor 165 0> mark @Anchor4
+	<anchor 320 670> mark @Anchor5;
+  pos base [\NameMe.1591 ] <anchor 218 0> mark @Anchor4
+	<anchor 373 670> mark @Anchor5;
+  pos base [\NameMe.1593 \NameMe.1594 ] <anchor 235 0> mark @Anchor4
+	<anchor 390 670> mark @Anchor5;
+  pos base [\NameMe.1596 ] <anchor 225 0> mark @Anchor4
+	<anchor 384 690> mark @Anchor5;
+  pos base [\NameMe.1598 ] <anchor 202 0> mark @Anchor4
+	<anchor 357 670> mark @Anchor5;
+  pos base [\NameMe.1600 ] <anchor 135 0> mark @Anchor4
+	<anchor 290 670> mark @Anchor5;
+  pos base [\NameMe.1601 ] <anchor 142 0> mark @Anchor4
+	<anchor 297 670> mark @Anchor5;
+  pos base [\NameMe.1603 ] <anchor 211 0> mark @Anchor4
+	<anchor 366 670> mark @Anchor5;
+  pos base [\NameMe.1614 ] <anchor 240 0> mark @Anchor4
+	<anchor 399 690> mark @Anchor5;
 } markMarkPositioninglookup3;
 
 lookup markMarkPositioninglookup4 {
@@ -683,6 +709,56 @@ lookup markMarkPositioninglookup4 {
   pos base [\uni004A0301 ] <anchor 252 0> mark @Anchor6
 	<anchor 358 956> mark @Anchor7;
   pos base [\uni006A0301 ] <anchor 220 906> mark @Anchor7;
+  pos base [\NameMe.1528 ] <anchor 300 0> mark @Anchor6
+	<anchor 450 650> mark @Anchor7;
+  pos base [\NameMe.1529 ] <anchor 256 0> mark @Anchor6
+	<anchor 376 661> mark @Anchor7;
+  pos base [\NameMe.1530 ] <anchor 221 0> mark @Anchor6
+	<anchor 387 677> mark @Anchor7;
+  pos base [\NameMe.1531 ] <anchor 228 0> mark @Anchor6
+	<anchor 382 668> mark @Anchor7;
+  pos base [\NameMe.1532 ] <anchor 141 0> mark @Anchor6
+	<anchor 296 670> mark @Anchor7;
+  pos base [\NameMe.1533 ] <anchor 176 0> mark @Anchor6
+	<anchor 331 670> mark @Anchor7;
+  pos base [\NameMe.1534 ] <anchor 240 0> mark @Anchor6
+	<anchor 397 680> mark @Anchor7;
+  pos base [\NameMe.1535 ] <anchor 234 0> mark @Anchor6
+	<anchor 389 670> mark @Anchor7;
+  pos base [\NameMe.1536 \NameMe.1547 ] <anchor 165 0> mark @Anchor6
+	<anchor 320 670> mark @Anchor7;
+  pos base [\NameMe.1537 ] <anchor 162 0> mark @Anchor6
+	<anchor 317 670> mark @Anchor7;
+  pos base [\NameMe.1538 ] <anchor 218 0> mark @Anchor6
+	<anchor 373 670> mark @Anchor7;
+  pos base [\NameMe.1539 ] <anchor 238 0> mark @Anchor6
+	<anchor 393 670> mark @Anchor7;
+  pos base [\NameMe.1540 \NameMe.1541 ] <anchor 235 0> mark @Anchor6
+	<anchor 390 670> mark @Anchor7;
+  pos base [\NameMe.1542 ] <anchor 225 0> mark @Anchor6
+	<anchor 384 690> mark @Anchor7;
+  pos base [\NameMe.1543 ] <anchor 202 0> mark @Anchor6
+	<anchor 357 670> mark @Anchor7;
+  pos base [\NameMe.1544 ] <anchor 225 0> mark @Anchor6
+	<anchor 382 680> mark @Anchor7;
+  pos base [\NameMe.1545 ] <anchor 239 0> mark @Anchor6
+	<anchor 394 670> mark @Anchor7;
+  pos base [\NameMe.1546 ] <anchor 244 0> mark @Anchor6
+	<anchor 413 690> mark @Anchor7;
+  pos base [\NameMe.1548 ] <anchor 210 0> mark @Anchor6
+	<anchor 365 670> mark @Anchor7;
+  pos base [\NameMe.1549 ] <anchor 180 0> mark @Anchor6
+	<anchor 335 670> mark @Anchor7;
+  pos base [\NameMe.1550 ] <anchor 198 0> mark @Anchor6
+	<anchor 353 670> mark @Anchor7;
+  pos base [\NameMe.1551 ] <anchor 211 0> mark @Anchor6
+	<anchor 366 670> mark @Anchor7;
+  pos base [\NameMe.1552 ] <anchor 157 0> mark @Anchor6
+	<anchor 312 670> mark @Anchor7;
+  pos base [\NameMe.1553 ] <anchor 240 0> mark @Anchor6
+	<anchor 395 670> mark @Anchor7;
+  pos base [\NameMe.1554 ] <anchor 227 -10> mark @Anchor6
+	<anchor 378 483> mark @Anchor7;
 } markMarkPositioninglookup4;
 
 lookup mkmkMarktoMarklookup5 {
@@ -780,7 +856,6 @@ feature mkmk {
       lookup mkmkMarktoMarklookup5;
       lookup mkmkMarktoMarklookup6;
 } mkmk;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
@@ -965,7 +1040,25 @@ feature mkmk {
 	\parenright.top \arrowdblright \arrowright.left \arrowh.extender 
 	\arrowright.right \arrowdblright.left \arrowdblh.extender 
 	\arrowdblright.right \arrowleft.left \arrowleft.right \arrowdblleft.left 
-	\arrowdblleft.right ];
+	\arrowdblleft.right \NameMe.1528 \NameMe.1529 \NameMe.1530 \NameMe.1531 
+	\NameMe.1532 \NameMe.1533 \NameMe.1534 \NameMe.1535 \NameMe.1536 \NameMe.1537 
+	\NameMe.1538 \NameMe.1539 \NameMe.1540 \NameMe.1541 \NameMe.1542 \NameMe.1543 
+	\NameMe.1544 \NameMe.1545 \NameMe.1546 \NameMe.1547 \NameMe.1548 \NameMe.1549 
+	\NameMe.1550 \NameMe.1551 \NameMe.1552 \NameMe.1553 \NameMe.1554 \NameMe.1555 
+	\NameMe.1556 \NameMe.1557 \NameMe.1558 \NameMe.1559 \NameMe.1560 \NameMe.1561 
+	\NameMe.1562 \NameMe.1563 \NameMe.1564 \NameMe.1565 \NameMe.1566 \NameMe.1567 
+	\NameMe.1568 \NameMe.1569 \NameMe.1570 \NameMe.1571 \NameMe.1572 \NameMe.1573 
+	\NameMe.1574 \NameMe.1575 \NameMe.1576 \NameMe.1577 \NameMe.1578 \NameMe.1579 
+	\NameMe.1580 \NameMe.1581 \NameMe.1582 \NameMe.1583 \NameMe.1584 \NameMe.1585 
+	\NameMe.1586 \NameMe.1587 \NameMe.1588 \NameMe.1589 \NameMe.1590 \NameMe.1591 
+	\NameMe.1592 \NameMe.1593 \NameMe.1594 \NameMe.1595 \NameMe.1596 \NameMe.1597 
+	\NameMe.1598 \NameMe.1599 \NameMe.1600 \NameMe.1601 \NameMe.1602 \NameMe.1603 
+	\NameMe.1604 \NameMe.1605 \NameMe.1606 \NameMe.1607 \NameMe.1608 \NameMe.1609 
+	\NameMe.1610 \NameMe.1611 \NameMe.1612 \NameMe.1613 \NameMe.1614 \NameMe.1615 
+	\NameMe.1616 \NameMe.1617 \NameMe.1618 \NameMe.1619 \NameMe.1620 \NameMe.1621 
+	\NameMe.1622 \NameMe.1623 \NameMe.1624 \NameMe.1625 \NameMe.1626 \NameMe.1627 
+	\NameMe.1628 \NameMe.1629 \NameMe.1630 \NameMe.1631 \NameMe.1632 \NameMe.1633 
+	\NameMe.1634 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
