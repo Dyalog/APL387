@@ -3,7 +3,7 @@ import os
 import sys
 from itertools import chain, combinations
 import csv
-import tomllib
+import json
 
 def powerset(iterable):
     s = list(iterable)
@@ -437,8 +437,8 @@ with open(f'{path}/kerning.tsv') as kerning:
     kern = int(line[2])
     first.addPosSub('kern-0', second.glyphname, kern)
 
-with open(f'{path}/math.toml', 'rb') as math:
-  data = tomllib.load(math)
+with open(f'{path}/math.json', 'rb') as math:
+  data = json.load(math)
   for k, v in data['properties'].items():
     # font.math doesn't support [] assignment sadly
     exec(f'apl335.math.{k} = {int(v)}', { 'apl335': apl335 })
