@@ -397,8 +397,17 @@ def swap_glyphs(a, b):
 def export_all(name, font):
   for subset in powerset(font.gsub_lookups):
     baked_features = [font.getLookupInfo(lookup)[2][0][0] for lookup in subset]
-    font.familyname = f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'
-    font.fontname = f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'
+    font.familyname = name
+    font.fontname = f'{name}{"".join(baked_features)}' if len(subset) else f'{name}'
+    font.fullname = f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'
+    font.sfnt_names = (
+      ('English (US)', 'Copyright', 'Public Domain'),
+      ('English (US)', 'Designer', 'Adám Brudzewsky'),
+      ('English (US)', 'Family', name),
+      ('English (US)', 'SubFamily', 'Book'),
+      ('English (US)', 'Preferred Family', f'{name} Unicode {" ".join(baked_features)}' if len(subset) else f'{name} Unicode'),
+      ('English (US)', 'Preferred Styles', 'Regular'),
+    )
     file_name = f'{name}-{"-".join(baked_features)}' if len(subset) else name
     for lookup in subset:
       bake_feature(lookup)
