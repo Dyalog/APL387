@@ -3,6 +3,7 @@ import os
 import sys
 from itertools import chain, combinations
 import csv
+import tomllib
 
 def powerset(iterable):
     s = list(iterable)
@@ -414,7 +415,13 @@ index_page('APL385', 'APL387')
 apl335 = apl387 # no need to clone, original font isn't needed anymore
 
 for glyph in apl335.glyphs():
-	if glyph.glyphname.startswith('part_'): continue # ignore parts
+	if (glyph.glyphname.startswith('part_') # ignore parts
+  or glyph.glyphname.endswith('.bottom')  # ignore math components
+  or glyph.glyphname.endswith('.top')
+  or glyph.glyphname.endswith('.left')
+  or glyph.glyphname.endswith('.right')
+  or glyph.glyphname.endswith('.extender')
+  ): continue 
 	glyph.left_side_bearing = 50
 	glyph.right_side_bearing = 50
    
@@ -429,6 +436,18 @@ with open(f'{path}/kerning.tsv') as kerning:
     second = apl335.createChar(ord(line[1]))
     kern = int(line[2])
     first.addPosSub('kern-0', second.glyphname, kern)
+
+with open(f'{path}/math.toml', 'rb') as math:
+  data = tomllib.load(math)
+  for k, v in data['properties'].items():
+    # font.math doesn't support [] assignment sadly
+    exec(f'apl335.math.{k} = {int(v)}', { 'apl335': apl335 })
+  for k, v in data['vconstruct'].items():
+    glyph = apl335.createMappedChar(k)
+    glyph.verticalComponents = tuple(tuple(part) for part in v)
+  for k, v in data['hconstruct'].items():
+    glyph = apl335.createMappedChar(k)
+    glyph.horizontalComponents = tuple(tuple(part) for part in v)
 
 export_all('APL335', apl335)
 compare_page(apl335, 'APL333', 'APL335', propo = True, name = 'compare335')
