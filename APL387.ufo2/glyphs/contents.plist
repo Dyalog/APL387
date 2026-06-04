@@ -3018,5 +3018,45 @@
     <string>part_curly_wedge_up.glif</string>
     <key>part_three_dots</key>
     <string>part_three_dots.glif</string>
+    <key>radical.bottom</key>
+    <string>radical.bottom.glif</string>
+    <key>radical.extender</key>
+    <string>radical.extender.glif</string>
+    <key>radical.top</key>
+    <string>radical.top.glif</string>
+    <key>parenleft.bottom</key>
+    <string>parenleft.bottom.glif</string>
+    <key>parenleft.extender</key>
+    <string>parenleft.extender.glif</string>
+    <key>parenleft.top</key>
+    <string>parenleft.top.glif</string>
+    <key>parenright.bottom</key>
+    <string>parenright.bottom.glif</string>
+    <key>parenright.extender</key>
+    <string>parenright.extender.glif</string>
+    <key>parenright.top</key>
+    <string>parenright.top.glif</string>
+    <key>arrowdblright</key>
+    <string>arrowdblright.glif</string>
+    <key>arrowright.left</key>
+    <string>arrowright.left.glif</string>
+    <key>arrowh.extender</key>
+    <string>arrowh.extender.glif</string>
+    <key>arrowright.right</key>
+    <string>arrowright.right.glif</string>
+    <key>arrowdblright.left</key>
+    <string>arrowdblright.left.glif</string>
+    <key>arrowdblh.extender</key>
+    <string>arrowdblh.extender.glif</string>
+    <key>arrowdblright.right</key>
+    <string>arrowdblright.right.glif</string>
+    <key>arrowleft.left</key>
+    <string>arrowleft.left.glif</string>
+    <key>arrowleft.right</key>
+    <string>arrowleft.right.glif</string>
+    <key>arrowdblleft.left</key>
+    <string>arrowdblleft.left.glif</string>
+    <key>arrowdblleft.right</key>
+    <string>arrowdblleft.right.glif</string>
   </dict>
 </plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical.top" format="1">
+  <advance width="367"/>
+  <outline>
+    <contour>
+      <point x="195" y="676" type="qcurve" smooth="yes"/>
+      <point x="368" y="676" type="line"/>
+      <point x="368" y="591" type="line"/>
+      <point x="260" y="591" type="line"/>
+      <point x="238" y="591" type="line"/>
+      <point x="238" y="526" type="line"/>
+      <point x="151" y="526" type="line"/>
+      <point x="151" y="625" type="line" smooth="yes"/>
+      <point x="151" y="647"/>
+      <point x="176" y="676"/>
+    </contour>
+  </outline>
+</glyph>

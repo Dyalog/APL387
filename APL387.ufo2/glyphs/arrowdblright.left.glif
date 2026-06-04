@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowdblright.left" format="1">
+  <advance width="350"/>
+  <outline>
+    <contour>
+      <point x="42" y="382" type="qcurve" smooth="yes"/>
+      <point x="100" y="382" type="line"/>
+      <point x="250" y="382" type="line"/>
+      <point x="350" y="382" type="line"/>
+      <point x="350" y="303" type="line"/>
+      <point x="250" y="303" type="line"/>
+      <point x="100" y="303" type="line"/>
+      <point x="42" y="303" type="line" smooth="yes"/>
+      <point x="0" y="303"/>
+      <point x="0" y="342" type="qcurve" smooth="yes"/>
+      <point x="0" y="382"/>
+    </contour>
+    <contour>
+      <point x="42" y="224" type="qcurve" smooth="yes"/>
+      <point x="100" y="224" type="line"/>
+      <point x="250" y="224" type="line"/>
+      <point x="350" y="224" type="line"/>
+      <point x="350" y="145" type="line"/>
+      <point x="250" y="145" type="line"/>
+      <point x="100" y="145" type="line"/>
+      <point x="42" y="145" type="line" smooth="yes"/>
+      <point x="0" y="145"/>
+      <point x="0" y="184" type="qcurve" smooth="yes"/>
+      <point x="0" y="224"/>
+    </contour>
+  </outline>
+</glyph>

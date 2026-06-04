@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowright.left" format="1">
+  <advance width="250"/>
+  <outline>
+    <contour>
+      <point x="44" y="366" type="qcurve" smooth="yes"/>
+      <point x="52.1094" y="366" type="line"/>
+      <point x="250" y="366" type="line"/>
+      <point x="250" y="280" type="line"/>
+      <point x="52.1094" y="280" type="line"/>
+      <point x="44" y="280" type="line" smooth="yes"/>
+      <point x="0.000488281" y="280"/>
+      <point x="0" y="366"/>
+    </contour>
+  </outline>
+</glyph>

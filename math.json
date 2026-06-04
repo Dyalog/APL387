@@ -1,0 +1,77 @@
+{
+	"properties": {
+		"ScriptPercentScaleDown": 75,
+		"ScriptScriptPercentScaleDown": 55,
+		"SubscriptShiftDown": 75,
+		"SubscriptTopMax": 300,
+		"SuperscriptShiftUp": 0,
+		"SuperscriptShiftUpCramped": 0,
+		"SuperscriptBottomMin": 300,
+		"SuperscriptBaselineDropMax": 400,
+		"SubSuperscriptGapMin": 100,
+		"SuperscriptBottomMaxWithSubscript": 400,
+		"SpaceAfterScript": 20,
+		"FractionNumeratorGapMin": 84,
+		"FractionNumeratorDisplayStyleGapMin": 258,
+		"FractionRuleThickness": 84,
+		"FractionDenominatorGapMin": 84,
+		"FractionDenominatorDisplayStyleGapMin": 258,
+		"OverbarVerticalGap": 258,
+		"OverbarRuleThickness": 84,
+		"OverbarExtraAscender": 84,
+		"UnderbarVerticalGap": 258,
+		"UnderbarRuleThickness": 84,
+		"UnderbarExtraDescender": 84,
+		"RadicalVerticalGap": 84,
+		"RadicalDisplayStyleVerticalGap": 204,
+		"RadicalRuleThickness": 84,
+		"RadicalExtraAscender": 84,
+		"RadicalKernBeforeDegree": 0,
+		"RadicalKernAfterDegree": -100,
+		"MinConnectorOverlap": 20
+	},
+	"vconstruct": {
+		"radical": [
+			["radical.bottom", false, 100, 100, 300],
+			["radical.extender", true, 83, 83, 250],
+			["radical.top", false, 50, 50, 150]
+		],
+		"parenleft": [
+			["parenleft.bottom", false, 138, 138, 414],
+			["parenleft.extender", true, 83, 83, 250],
+			["parenleft.top", false, 138, 138, 415]
+		],
+		"parenright": [
+			["parenright.bottom", false, 138, 138, 414],
+  		["parenright.extender", true, 83, 83, 250],
+			["parenright.top", false, 138, 138, 415]
+		]
+	},
+	"hconstruct": {
+		"arrowright": [
+			["arrowright.left", false, 83, 83, 250],
+			["arrowh.extender", true, 83, 83, 250],
+			["arrowright.right", false, 83, 83, 250]
+		],
+		"arrowleft": [
+			["arrowleft.left", false, 83, 83, 250],
+			["arrowh.extender", true, 83, 83, 250],
+			["arrowleft.right", false, 83, 83, 250]
+		],
+		"arrowboth": [
+			["arrowleft.left", false, 83, 83, 250],
+			["arrowh.extender", true, 83, 83, 250],
+			["arrowright.right", false, 83, 83, 250]
+		],
+		"arrowdblright": [
+			["arrowdblright.left", false, 117, 117, 350],
+			["arrowdblh.extender", true, 117, 117, 350],
+			["arrowdblright.right", false, 117, 117, 350]
+		],
+		"arrowdblleft": [
+			["arrowdblleft.left", false, 117, 117, 350],
+			["arrowdblh.extender", true, 117, 117, 350],
+			["arrowdblleft.right", false, 117, 117, 350]
+		]
+	}
+}
