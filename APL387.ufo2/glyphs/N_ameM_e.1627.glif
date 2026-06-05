@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NameMe.1627" format="1">
+  <advance width="600"/>
+  <unicode hex="1D710"/>
+  <outline>
+    <contour>
+      <point x="165.709" y="172" type="line" smooth="yes"/>
+      <point x="153.242" y="118"/>
+      <point x="189.93" y="69"/>
+      <point x="291.93" y="69"/>
+      <point x="351.242" y="118"/>
+      <point x="363.709" y="172" type="qcurve" smooth="yes"/>
+      <point x="421.427" y="422" type="line" smooth="yes"/>
+      <point x="433.2" y="473"/>
+      <point x="474.2" y="473" type="qcurve" smooth="yes"/>
+      <point x="516.2" y="473"/>
+      <point x="504.427" y="422" type="qcurve" smooth="yes"/>
+      <point x="446.709" y="172" type="line" smooth="yes"/>
+      <point x="428.701" y="94"/>
+      <point x="313.691" y="-10"/>
+      <point x="131.691" y="-10"/>
+      <point x="64.7012" y="94"/>
+      <point x="82.709" y="172" type="qcurve" smooth="yes"/>
+      <point x="140.427" y="422" type="line" smooth="yes"/>
+      <point x="152.2" y="473"/>
+      <point x="194.2" y="473" type="qcurve" smooth="yes"/>
+      <point x="235.2" y="473"/>
+      <point x="223.427" y="422" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
