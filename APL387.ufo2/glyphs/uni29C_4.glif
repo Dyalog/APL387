@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni29C4" format="1">
+  <advance width="600"/>
+  <unicode hex="29C4"/>
+  <outline>
+    <component base="part_bar" xScale="0.707107" yScale="0.707107" xyScale="0.707107" yxScale="-0.707107" xOffset="321.213" yOffset="-115.477"/>
+    <component base="part_square"/>
+  </outline>
+</glyph>

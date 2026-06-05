@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A2B" format="1">
+  <advance width="600"/>
+  <unicode hex="2A2B"/>
+  <outline>
+    <component base="part_bar"/>
+    <component base="part_dot_below" xOffset="150"/>
+    <component base="part_dot_above" xOffset="-150"/>
+  </outline>
+</glyph>
