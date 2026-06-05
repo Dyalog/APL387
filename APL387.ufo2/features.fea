@@ -1058,7 +1058,8 @@ feature mkmk {
 	\NameMe.1616 \NameMe.1617 \NameMe.1618 \NameMe.1619 \NameMe.1620 \NameMe.1621 
 	\NameMe.1622 \NameMe.1623 \NameMe.1624 \NameMe.1625 \NameMe.1626 \NameMe.1627 
 	\NameMe.1628 \NameMe.1629 \NameMe.1630 \NameMe.1631 \NameMe.1632 \NameMe.1633 
-	\NameMe.1634 ];
+	\NameMe.1634 \uni2305 \uni2938 \uni2045 \uni2046 \uni29C8 \uni2A2B \uni2A2C 
+	\uni25EB \uni29C5 \uni29C4 \uni231D \uni231E \uni231F ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
