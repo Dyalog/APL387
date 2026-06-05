@@ -3,15 +3,6 @@
   <advance width="600"/>
   <unicode hex="02D9"/>
   <outline>
-    <contour>
-      <point x="247" y="614"/>
-      <point x="278" y="646"/>
-      <point x="322" y="646"/>
-      <point x="353" y="614"/>
-      <point x="353" y="570"/>
-      <point x="322" y="539"/>
-      <point x="278" y="539"/>
-      <point x="247" y="570"/>
-    </contour>
+    <component base="part_dot_above"/>
   </outline>
 </glyph>
