@@ -18,9 +18,9 @@ EXTENSIONS = [
 ]
 
 FEATURES = {
-  'ss01': 'Dotless zero',
-  'ss02': 'Centered tilde in Nand/Nor/Obverse',
-  'cv01': 'Diaeresis and dot composition in Therefore/Because',
+  'ss01': 'Dotless zeros',
+  'ss02': 'Centered tilde in ⍱⍲⍫',
+  'cv01': 'Diaeresis and dot composition in ∵∴',
 }
 
 path = sys.argv[1]
