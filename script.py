@@ -17,6 +17,12 @@ EXTENSIONS = [
   'svg',
 ]
 
+FEATURES = {
+  'ss01': 'Dotless zeros',
+  'ss02': 'Centered tilde in ⍱⍲⍫',
+  'cv01': 'Diaeresis and dot composition in ∵∴',
+}
+
 path = sys.argv[1]
 commit = sys.argv[2]
 
@@ -122,7 +128,7 @@ section{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top
     <body>
     ''')
     for feature in features:
-      compare.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+      compare.write(f'<div><input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{f"{feature} ({FEATURES[feature]})" if feature in FEATURES else feature}</label></div>')
     compare.write('<br><a href="./chars">compare characters individually</a>')
     same = '''
 <textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta387.value=this.value"></textarea>
@@ -256,7 +262,7 @@ def index_page(old, new, propo = False, name = 'index', compare_name = 'compare'
       <br>
   ''')
     for feature in features:
-      index.write(f'<input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{feature}</label>')
+      index.write(f'<div><input id="{feature}" type="checkbox" name="{feature}" value="{feature}"><label for="{feature}">{f"{feature} ({FEATURES[feature]})" if feature in FEATURES else feature}</label></div>')
     index.write(f'''
     </div>
     <h1>{new} Unicode<sup> <a href="{new}.ttf">download</a> <a href="" id="wb">download with baked features</a></sup> <span><sup><a href="./{compare_name}">side by side with {old}</a></sup> <sup><a href="https://github.com/dyalog/APL387">source</a></sup></span></h1>
