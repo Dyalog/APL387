@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni030F" format="1">
+  <advance width="0"/>
+  <unicode hex="030F"/>
+  <outline>
+    <contour>
+      <point x="-250.5" y="670" type="move" name="MkTop"/>
+    </contour>
+    <contour>
+      <point x="-250.5" y="473" type="move" name="_MkTop"/>
+    </contour>
+    <contour>
+      <point x="-250.5" y="473" type="move" name="_Top"/>
+    </contour>
+    <contour>
+      <point x="-115.5" y="510" type="qcurve" smooth="yes"/>
+      <point x="-91.5" y="536"/>
+      <point x="-116.5" y="560" type="qcurve" smooth="yes"/>
+      <point x="-227.5" y="669" type="line" smooth="yes"/>
+      <point x="-240.5" y="680"/>
+      <point x="-266.5" y="680"/>
+      <point x="-286.5" y="660"/>
+      <point x="-285.5" y="631"/>
+      <point x="-275.5" y="621" type="qcurve" smooth="yes"/>
+      <point x="-163.5" y="512" type="line" smooth="yes"/>
+      <point x="-152.5" y="501"/>
+      <point x="-124.5" y="500"/>
+    </contour>
+    <contour>
+      <point x="-265.5" y="510" type="qcurve" smooth="yes"/>
+      <point x="-241.5" y="536"/>
+      <point x="-266.5" y="560" type="qcurve" smooth="yes"/>
+      <point x="-377.5" y="669" type="line" smooth="yes"/>
+      <point x="-390.5" y="680"/>
+      <point x="-416.5" y="680"/>
+      <point x="-436.5" y="660"/>
+      <point x="-435.5" y="631"/>
+      <point x="-425.5" y="621" type="qcurve" smooth="yes"/>
+      <point x="-313.5" y="512" type="line" smooth="yes"/>
+      <point x="-302.5" y="501"/>
+      <point x="-274.5" y="500"/>
+    </contour>
+  </outline>
+</glyph>

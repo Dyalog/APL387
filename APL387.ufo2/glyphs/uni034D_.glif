@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni034D" format="1">
+  <advance width="0"/>
+  <unicode hex="034D"/>
+  <outline>
+    <contour>
+      <point x="-300" y="-306" type="move" name="MkBottom"/>
+    </contour>
+    <contour>
+      <point x="-300" y="0" type="move" name="_MkBottom"/>
+    </contour>
+    <contour>
+      <point x="-300" y="0" type="move" name="Bottom"/>
+    </contour>
+    <component base="part_arrow_horizontal" xOffset="-600" yOffset="-475"/>
+  </outline>
+</glyph>
