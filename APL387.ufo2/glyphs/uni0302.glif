@@ -4,6 +4,12 @@
   <unicode hex="0302"/>
   <outline>
     <contour>
+      <point x="-330" y="654" type="move" name="MkTop"/>
+    </contour>
+    <contour>
+      <point x="-330" y="473" type="move" name="_MkTop"/>
+    </contour>
+    <contour>
       <point x="-330" y="473" type="move" name="_Top"/>
     </contour>
     <contour>

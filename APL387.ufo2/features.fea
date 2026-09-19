@@ -145,7 +145,7 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\uni0326 ] <anchor -307 0> @Bottom;
   markClass [\uni0327 ] <anchor -303 0> @Bottom;
   markClass [\uni0328 ] <anchor -302 0> @Bottom;
-  markClass [\gravecomb ] <anchor -342 479> @Top;
+  markClass [\gravecomb ] <anchor -349 483> @Top;
   markClass [\acutecomb ] <anchor -331 483> @Top;
   markClass [\uni0302 ] <anchor -330 473> @Top;
   markClass [\tildecomb ] <anchor -297 473> @Top;
@@ -204,7 +204,42 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 296 483> mark @Top;
   pos base [\z ] <anchor 300 0> mark @Bottom
 	<anchor 288 470> mark @Top;
+  pos base [\uni25CC ] <anchor 299 614> mark @Top
+	<anchor 299 36> mark @Bottom;
 } Marktobaseattachmentlookup0;
+
+lookup Marktomarklookup1 {
+  lookupflag 0;
+  markClass [\gravecomb ] <anchor -349 483> @MkTop;
+  markClass [\acutecomb ] <anchor -331 483> @MkTop;
+  markClass [\uni0302 ] <anchor -330 473> @MkTop;
+  markClass [\tildecomb ] <anchor -297 473> @MkTop;
+  markClass [\uni0304 ] <anchor -300 484> @MkTop;
+  markClass [\uni0305 ] <anchor -299 481> @MkTop;
+  markClass [\uni0306 ] <anchor -304 482> @MkTop;
+  markClass [\uni0307 \uni030C ] <anchor -300 473> @MkTop;
+  markClass [\uni0308 ] <anchor -304 473> @MkTop;
+  markClass [\uni030A ] <anchor -337 473> @MkTop;
+  markClass [\uni030B ] <anchor -301 473> @MkTop;
+  markClass [\uni0326 ] <anchor -307 0> @MkBottom;
+  markClass [\uni0327 ] <anchor -303 0> @MkBottom;
+  markClass [\uni0328 ] <anchor -302 0> @MkBottom;
+  pos mark [\gravecomb ] <anchor -337 701> mark @MkTop;
+  pos mark [\acutecomb ] <anchor -312 701> mark @MkTop;
+  pos mark [\uni0302 ] <anchor -330 654> mark @MkTop;
+  pos mark [\tildecomb ] <anchor -297 645> mark @MkTop;
+  pos mark [\uni0304 ] <anchor -300 616> mark @MkTop;
+  pos mark [\uni0305 ] <anchor -299 614> mark @MkTop;
+  pos mark [\uni0306 ] <anchor -304 673> mark @MkTop;
+  pos mark [\uni0307 ] <anchor -300 646> mark @MkTop;
+  pos mark [\uni0308 ] <anchor -304 617> mark @MkTop;
+  pos mark [\uni030A ] <anchor -337 698> mark @MkTop;
+  pos mark [\uni030B ] <anchor -301 670> mark @MkTop;
+  pos mark [\uni030C ] <anchor -300 654> mark @MkTop;
+  pos mark [\uni0326 ] <anchor -300 -217> mark @MkBottom;
+  pos mark [\uni0327 ] <anchor -288 -200> mark @MkBottom;
+  pos mark [\uni0328 ] <anchor -308 -183> mark @MkBottom;
+} Marktomarklookup1;
 
 feature mark {
 
@@ -240,6 +275,41 @@ feature mark {
      language dflt ;
       lookup Marktobaseattachmentlookup0;
 } mark;
+
+feature mkmk {
+
+ script DFLT;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script cans;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script cyrl;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script grek;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script latn;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script math;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script nko ;
+     language dflt ;
+      lookup Marktomarklookup1;
+
+ script tfng;
+     language dflt ;
+      lookup Marktomarklookup1;
+} mkmk;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
@@ -444,7 +514,7 @@ feature mark {
 	\NameMe.1622 \NameMe.1623 \NameMe.1624 \NameMe.1625 \NameMe.1626 \NameMe.1627 
 	\NameMe.1628 \NameMe.1629 \NameMe.1630 \NameMe.1631 \NameMe.1632 \NameMe.1633 
 	\NameMe.1634 \uni2305 \uni2938 \uni2045 \uni2046 \uni29C8 \uni2A2B \uni2A2C 
-	\uni25EB \uni29C5 \uni29C4 \uni231D \uni231E \uni231F ];
+	\uni25EB \uni29C5 \uni29C4 \uni231D \uni231E \uni231F \uni25CC ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
