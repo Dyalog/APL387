@@ -32,6 +32,19 @@ lookup cv01CharacterVariants01lookup0 {
     sub \therefore by \therefore.cv01 ;
 } cv01CharacterVariants01lookup0;
 
+lookup undotij {
+  lookupflag 0;
+    sub \i by \dotlessi ;
+    sub \j by \uni0237 ;
+} undotij;
+
+lookup dotlessij {
+  lookupflag 0;
+    sub [\i \j ]'lookup undotij  [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
+	\uni0308 \uni030A \uni030B \uni030C \uni20D7 \uni20D6 \uni20E1 \uni030F 
+	\hookabovecomb ]' ;
+} dotlessij;
+
 feature ss01 {
 
  script DFLT;
@@ -137,6 +150,76 @@ feature cv01 {
       lookup cv01CharacterVariants01lookup0;
 } cv01;
 
+feature NEVR {
+
+ script DFLT;
+     language dflt ;
+      lookup undotij;
+
+ script cans;
+     language dflt ;
+      lookup undotij;
+
+ script cyrl;
+     language dflt ;
+      lookup undotij;
+
+ script grek;
+     language dflt ;
+      lookup undotij;
+
+ script latn;
+     language dflt ;
+      lookup undotij;
+
+ script math;
+     language dflt ;
+      lookup undotij;
+
+ script nko ;
+     language dflt ;
+      lookup undotij;
+
+ script tfng;
+     language dflt ;
+      lookup undotij;
+} NEVR;
+
+feature ccmp {
+
+ script DFLT;
+     language dflt ;
+      lookup dotlessij;
+
+ script cans;
+     language dflt ;
+      lookup dotlessij;
+
+ script cyrl;
+     language dflt ;
+      lookup dotlessij;
+
+ script grek;
+     language dflt ;
+      lookup dotlessij;
+
+ script latn;
+     language dflt ;
+      lookup dotlessij;
+
+ script math;
+     language dflt ;
+      lookup dotlessij;
+
+ script nko ;
+     language dflt ;
+      lookup dotlessij;
+
+ script tfng;
+     language dflt ;
+      lookup dotlessij;
+} ccmp;
+
 # GPOS 
 
 
@@ -230,6 +313,10 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 296 483> mark @Top;
   pos base [\z ] <anchor 300 0> mark @Bottom
 	<anchor 288 470> mark @Top;
+  pos base [\dotlessi ] <anchor 266 473> mark @Top
+	<anchor 324 0> mark @Bottom;
+  pos base [\uni0237 ] <anchor 283 472> mark @Top
+	<anchor 218 -188> mark @Bottom;
   pos base [\uni25CC ] <anchor 299 614> mark @Top
 	<anchor 299 36> mark @Bottom;
   pos base [\uni20EE \uni20EF \uni034D ] <anchor -300 0> mark @Bottom;
