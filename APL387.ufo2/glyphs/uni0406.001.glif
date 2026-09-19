@@ -3,18 +3,6 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="324" y="0" type="move" name="Anchor2"/>
-    </contour>
-    <contour>
-      <point x="324" y="670" type="move" name="Anchor3"/>
-    </contour>
-    <contour>
-      <point x="324" y="670" type="move" name="Anchor-3"/>
-    </contour>
-    <contour>
-      <point x="324" y="0" type="move" name="Anchor-2"/>
-    </contour>
-    <contour>
       <point x="343" y="50" type="line" smooth="yes"/>
       <point x="343" y="-2"/>
       <point x="299" y="-2" type="qcurve" smooth="yes"/>

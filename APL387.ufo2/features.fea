@@ -1,11 +1,3 @@
-# GDEF Mark Attachment Sets
-@MarkSet0=[\uni0326 ];
-@MarkSet1=[\gravecomb \acutecomb \uni0302 \tildecomb \uni0305 \uni0306 \uni0307 \uni0308 
-	\uni030A \uni030B \uni030C \uni0302.alt01 \uni0304.alt01 
-	\uni0308.case \uni0307.case \gravecomb.case \acutecomb.case 
-	\uni030B.case \uni0302.case \uni030A.case \tildecomb.case 
-	\uni0304.case ];
-
 languagesystem DFLT dflt;
 languagesystem cans dflt;
 languagesystem cyrl dflt;
@@ -148,714 +140,107 @@ feature cv01 {
 # GPOS 
 
 
-lookup markMarkPositioninglookup1 {
+lookup Marktobaseattachmentlookup0 {
   lookupflag 0;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor0;
-  markClass [\gravecomb ] <anchor 251 483> @Anchor1;
-  markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor1;
-  markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor1;
-  markClass [\tildecomb \tildecomb.case ] <anchor 303 473> @Anchor1;
-  markClass [\uni0305 ] <anchor 301 481> @Anchor1;
-  markClass [\uni0306 ] <anchor 296 482> @Anchor1;
-  markClass [\uni0307 \uni030C \uni0302.alt01 ] <anchor 300 473> @Anchor1;
-  markClass [\uni0308 ] <anchor 296 473> @Anchor1;
-  markClass [\uni030A ] <anchor 263 473> @Anchor1;
-  markClass [\uni030B \uni030B.case ] <anchor 299 473> @Anchor1;
-  markClass [\uni0304.alt01 ] <anchor 300 484> @Anchor1;
-  markClass [\uni0308.case ] <anchor 296 623> @Anchor1;
-  markClass [\uni0307.case ] <anchor 300 650> @Anchor1;
-  markClass [\gravecomb.case ] <anchor 280 650> @Anchor1;
-  markClass [\uni030A.case ] <anchor 263 628> @Anchor1;
-  markClass [\uni0304.case ] <anchor 306 650> @Anchor1;
-  pos base [\peseta ] <anchor 337 0> mark @Anchor0
-	<anchor 337 670> mark @Anchor1;
-  pos base [\Euro ] <anchor 354 0> mark @Anchor0
-	<anchor 364 677> mark @Anchor1;
-  pos base [\trademark \Tcommaaccent1 ] <anchor 285 0> mark @Anchor0
-	<anchor 285 670> mark @Anchor1;
-  pos base [\existential ] <anchor 259 0> mark @Anchor0
-	<anchor 259 670> mark @Anchor1;
-  pos base [\uni2400 ] <anchor 474 0> mark @Anchor0
-	<anchor 474 234> mark @Anchor1;
-  pos base [\uni2401 ] <anchor 502 0> mark @Anchor0
-	<anchor 502 234> mark @Anchor1;
-  pos base [\uni2402 ] <anchor 479 1> mark @Anchor0
-	<anchor 479 235> mark @Anchor1;
-  pos base [\uni2403 ] <anchor 477 0> mark @Anchor0
-	<anchor 477 234> mark @Anchor1;
-  pos base [\uni2404 ] <anchor 491 2> mark @Anchor0
-	<anchor 491 236> mark @Anchor1;
-  pos base [\uni2405 ] <anchor 489 3> mark @Anchor0
-	<anchor 489 241> mark @Anchor1;
-  pos base [\uni2406 \uni2415 ] <anchor 483 0> mark @Anchor0
-	<anchor 483 234> mark @Anchor1;
-  pos base [\uni2407 ] <anchor 481 1> mark @Anchor0
-	<anchor 481 235> mark @Anchor1;
-  pos base [\uni2409 ] <anchor 416 24> mark @Anchor0
-	<anchor 416 259> mark @Anchor1;
-  pos base [\uni240A ] <anchor 412 25> mark @Anchor0
-	<anchor 412 260> mark @Anchor1;
-  pos base [\uni240B ] <anchor 416 15> mark @Anchor0
-	<anchor 416 249> mark @Anchor1;
-  pos base [\uni240C ] <anchor 407 24> mark @Anchor0
-	<anchor 407 259> mark @Anchor1;
-  pos base [\uni2410 ] <anchor 473 2> mark @Anchor0
-	<anchor 473 236> mark @Anchor1;
-  pos base [\uni2411 ] <anchor 292 218> mark @Anchor0
-	<anchor 296 455> mark @Anchor1;
-  pos base [\uni2412 \uni2413 \uni2414 ] <anchor 110 448> mark @Anchor0
-	<anchor 110 682> mark @Anchor1;
-  pos base [\uni2416 ] <anchor 292 223> mark @Anchor0
-	<anchor 292 458> mark @Anchor1;
-  pos base [\uni2417 ] <anchor 83 442> mark @Anchor0
-	<anchor 83 677> mark @Anchor1;
-  pos base [\uni2418 ] <anchor 276 225> mark @Anchor0
-	<anchor 276 453> mark @Anchor1;
-  pos base [\uni241A ] <anchor 289 194> mark @Anchor0
-	<anchor 289 429> mark @Anchor1;
-  pos base [\uni241B ] <anchor 293 224> mark @Anchor0
-	<anchor 296 466> mark @Anchor1;
-  pos base [\uni2421 ] <anchor 474 10> mark @Anchor0
-	<anchor 474 244> mark @Anchor1;
-  pos base [\uni24B6 ] <anchor 300 0> mark @Anchor0
-	<anchor 300 650> mark @Anchor1;
-  pos base [\uni24B7 ] <anchor 286 0> mark @Anchor0
-	<anchor 253 661> mark @Anchor1;
-  pos base [\uni24B8 ] <anchor 281 0> mark @Anchor0
-	<anchor 291 677> mark @Anchor1;
-  pos base [\uni24B9 ] <anchor 288 0> mark @Anchor0
-	<anchor 288 668> mark @Anchor1;
-  pos base [\uni24BA ] <anchor 231 0> mark @Anchor0
-	<anchor 231 670> mark @Anchor1;
-  pos base [\uni24BB ] <anchor 251 0> mark @Anchor0
-	<anchor 251 670> mark @Anchor1;
-  pos base [\uni24BC \uni24C6 ] <anchor 300 0> mark @Anchor0
-	<anchor 300 680> mark @Anchor1;
-  pos base [\uni24BD ] <anchor 299 0> mark @Anchor0
-	<anchor 299 670> mark @Anchor1;
-  pos base [\uni24BE ] <anchor 240 -4> mark @Anchor0
-	<anchor 240 666> mark @Anchor1;
-  pos base [\uni24BF ] <anchor 252 0> mark @Anchor0
-	<anchor 252 670> mark @Anchor1;
-  pos base [\uni24C0 ] <anchor 278 0> mark @Anchor0
-	<anchor 278 670> mark @Anchor1;
-  pos base [\uni24C1 ] <anchor 232 0> mark @Anchor0
-	<anchor 232 670> mark @Anchor1;
-  pos base [\uni24C2 \uni24C3 \uni24CF ] <anchor 310 0> mark @Anchor0
-	<anchor 310 670> mark @Anchor1;
-  pos base [\uni24C4 ] <anchor 300 0> mark @Anchor0
-	<anchor 300 690> mark @Anchor1;
-  pos base [\uni24C5 ] <anchor 267 0> mark @Anchor0
-	<anchor 267 670> mark @Anchor1;
-  pos base [\uni24C7 ] <anchor 279 0> mark @Anchor0
-	<anchor 279 670> mark @Anchor1;
-  pos base [\uni24C8 ] <anchor 274 0> mark @Anchor0
-	<anchor 284 690> mark @Anchor1;
-  pos base [\uni24C9 ] <anchor 281 0> mark @Anchor0
-	<anchor 281 670> mark @Anchor1;
-  pos base [\uni24CA ] <anchor 307 0> mark @Anchor0
-	<anchor 307 670> mark @Anchor1;
-  pos base [\uni24CB ] <anchor 300 0> mark @Anchor0
-	<anchor 300 670> mark @Anchor1;
-  pos base [\uni24CC ] <anchor 320 0> mark @Anchor0
-	<anchor 320 670> mark @Anchor1;
-  pos base [\uni24CD ] <anchor 271 0> mark @Anchor0
-	<anchor 271 670> mark @Anchor1;
-  pos base [\uni24CE ] <anchor 275 0> mark @Anchor0
-	<anchor 275 670> mark @Anchor1;
-  pos base [\uni24D0 ] <anchor 256 -10> mark @Anchor0
-	<anchor 293 483> mark @Anchor1;
-  pos base [\Ccommaaccent ] <anchor 311 0> mark @Anchor0
-	<anchor 311 680> mark @Anchor1;
-} markMarkPositioninglookup1;
-
-lookup markMarkPositioninglookup2 {
-  lookupflag 0;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor2;
-  markClass [\gravecomb ] <anchor 251 483> @Anchor3;
-  markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor3;
-  markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor3;
-  markClass [\tildecomb \tildecomb.case ] <anchor 303 473> @Anchor3;
-  markClass [\uni0305 ] <anchor 301 481> @Anchor3;
-  markClass [\uni0306 ] <anchor 296 482> @Anchor3;
-  markClass [\uni0307 \uni030C \uni0302.alt01 ] <anchor 300 473> @Anchor3;
-  markClass [\uni0308 ] <anchor 296 473> @Anchor3;
-  markClass [\uni030A ] <anchor 263 473> @Anchor3;
-  markClass [\uni030B \uni030B.case ] <anchor 299 473> @Anchor3;
-  markClass [\uni0304.alt01 ] <anchor 300 484> @Anchor3;
-  markClass [\uni0308.case ] <anchor 296 623> @Anchor3;
-  markClass [\uni0307.case ] <anchor 300 650> @Anchor3;
-  markClass [\gravecomb.case ] <anchor 280 650> @Anchor3;
-  markClass [\uni030A.case ] <anchor 263 628> @Anchor3;
-  markClass [\uni0304.case ] <anchor 306 650> @Anchor3;
-  pos base [\uni0400 ] <anchor 241 0> mark @Anchor2
-	<anchor 233 721> mark @Anchor3;
-  pos base [\uni0401 ] <anchor 241 0> mark @Anchor2
-	<anchor 258 767> mark @Anchor3;
-  pos base [\uni0403 ] <anchor 348 957> mark @Anchor3;
-  pos base [\uni0404 \uni0421 ] <anchor 281 0> mark @Anchor2
-	<anchor 291 677> mark @Anchor3;
-  pos base [\uni0405 ] <anchor 274 0> mark @Anchor2
-	<anchor 284 690> mark @Anchor3;
-  pos base [\uni0406 ] <anchor 11 0> mark @Anchor2
-	<anchor 11 670> mark @Anchor3;
-  pos base [\uni0407 ] <anchor 300 0> mark @Anchor2
-	<anchor 300 670> mark @Anchor3;
-  pos base [\uni0408 ] <anchor 252 0> mark @Anchor2
-	<anchor 252 670> mark @Anchor3;
-  pos base [\uni040C ] <anchor 278 0> mark @Anchor2
-	<anchor 288 946> mark @Anchor3;
-  pos base [\uni040D ] <anchor 290 0> mark @Anchor2
-	<anchor 263 721> mark @Anchor3;
-  pos base [\uni040F \uni041C ] <anchor 310 0> mark @Anchor2
-	<anchor 310 670> mark @Anchor3;
-  pos base [\uni0410 ] <anchor 300 0> mark @Anchor2
-	<anchor 300 650> mark @Anchor3;
-  pos base [\uni0411 ] <anchor 295 0> mark @Anchor2
-	<anchor 262 661> mark @Anchor3;
-  pos base [\uni0412 ] <anchor 286 0> mark @Anchor2
-	<anchor 253 661> mark @Anchor3;
-  pos base [\uni0415 ] <anchor 231 0> mark @Anchor2
-	<anchor 231 670> mark @Anchor3;
-  pos base [\uni0416 ] <anchor 426 0> mark @Anchor2
-	<anchor 426 670> mark @Anchor3;
-  pos base [\uni0418 \uni0419 ] <anchor 290 0> mark @Anchor2
-	<anchor 290 670> mark @Anchor3;
-  pos base [\uni041A ] <anchor 278 0> mark @Anchor2
-	<anchor 278 670> mark @Anchor3;
-  pos base [\uni041D ] <anchor 309 0> mark @Anchor2
-	<anchor 309 670> mark @Anchor3;
-  pos base [\uni041E ] <anchor 300 0> mark @Anchor2
-	<anchor 300 690> mark @Anchor3;
-  pos base [\uni0420 ] <anchor 277 0> mark @Anchor2
-	<anchor 277 670> mark @Anchor3;
-  pos base [\uni0422 ] <anchor 285 0> mark @Anchor2
-	<anchor 285 670> mark @Anchor3;
-  pos base [\uni0423 ] <anchor 284 0> mark @Anchor2
-	<anchor 284 670> mark @Anchor3;
-  pos base [\uni0425 ] <anchor 271 0> mark @Anchor2
-	<anchor 271 670> mark @Anchor3;
-  pos base [\uni042E ] <anchor 301 0> mark @Anchor2
-	<anchor 301 690> mark @Anchor3;
-  pos base [\uni042F ] <anchor 280 0> mark @Anchor2
-	<anchor 280 670> mark @Anchor3;
-  pos base [\uni0430 ] <anchor 259 -10> mark @Anchor2
-	<anchor 296 483> mark @Anchor3;
-  pos base [\uni043C ] <anchor 270 0> mark @Anchor2
-	<anchor 270 670> mark @Anchor3;
-  pos base [\uni0450 ] <anchor 293 701> mark @Anchor3;
-  pos base [\uni0453 ] <anchor 308 926> mark @Anchor3;
-  pos base [\uni0406.001 ] <anchor 324 0> mark @Anchor2
-	<anchor 324 670> mark @Anchor3;
-} markMarkPositioninglookup2;
-
-lookup markMarkPositioninglookup3 {
-  lookupflag 0;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor4;
-  markClass [\gravecomb ] <anchor 251 483> @Anchor5;
-  markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor5;
-  markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor5;
-  markClass [\tildecomb \tildecomb.case ] <anchor 303 473> @Anchor5;
-  markClass [\uni0305 ] <anchor 301 481> @Anchor5;
-  markClass [\uni0306 ] <anchor 296 482> @Anchor5;
-  markClass [\uni0307 \uni030C \uni0302.alt01 ] <anchor 300 473> @Anchor5;
-  markClass [\uni0308 ] <anchor 296 473> @Anchor5;
-  markClass [\uni030A ] <anchor 263 473> @Anchor5;
-  markClass [\uni030B \uni030B.case ] <anchor 299 473> @Anchor5;
-  markClass [\uni0304.alt01 ] <anchor 300 484> @Anchor5;
-  markClass [\uni0308.case ] <anchor 296 623> @Anchor5;
-  markClass [\uni0307.case ] <anchor 300 650> @Anchor5;
-  markClass [\gravecomb.case ] <anchor 280 650> @Anchor5;
-  markClass [\uni030A.case ] <anchor 263 628> @Anchor5;
-  markClass [\uni0304.case ] <anchor 306 650> @Anchor5;
-  pos base [\uni0376 ] <anchor 290 0> mark @Anchor4
-	<anchor 290 670> mark @Anchor5;
-  pos base [\Alphatonos ] <anchor 300 0> mark @Anchor4
-	<anchor 34 910> mark @Anchor5;
-  pos base [\Epsilontonos ] <anchor 281 0> mark @Anchor4
-	<anchor -13 910> mark @Anchor5;
-  pos base [\Etatonos ] <anchor 367 0> mark @Anchor4
-	<anchor -110 872> mark @Anchor5;
-  pos base [\Iotatonos ] <anchor 366 0> mark @Anchor4
-	<anchor 366 670> mark @Anchor5;
-  pos base [\Omicrontonos ] <anchor 324 0> mark @Anchor4
-	<anchor 324 690> mark @Anchor5;
-  pos base [\Upsilontonos ] <anchor 376 0> mark @Anchor4
-	<anchor 376 670> mark @Anchor5;
-  pos base [\Omegatonos ] <anchor -15 910> mark @Anchor5;
-  pos base [\iotadieresistonos ] <anchor 118 617> mark @Anchor5;
-  pos base [\Beta ] <anchor 286 0> mark @Anchor4
-	<anchor 253 661> mark @Anchor5;
-  pos base [\Epsilon ] <anchor 231 0> mark @Anchor4
-	<anchor 231 670> mark @Anchor5;
-  pos base [\Zeta ] <anchor 300 0> mark @Anchor4
-	<anchor 300 670> mark @Anchor5;
-  pos base [\Eta ] <anchor 309 0> mark @Anchor4
-	<anchor 309 670> mark @Anchor5;
-  pos base [\Iota \Iotadieresis ] <anchor 240 0> mark @Anchor4
-	<anchor 240 670> mark @Anchor5;
-  pos base [\Kappa ] <anchor 278 0> mark @Anchor4
-	<anchor 278 670> mark @Anchor5;
-  pos base [\Mu \Nu ] <anchor 310 0> mark @Anchor4
-	<anchor 310 670> mark @Anchor5;
-  pos base [\Omicron \theta ] <anchor 300 0> mark @Anchor4
-	<anchor 300 690> mark @Anchor5;
-  pos base [\Rho \Upsilon \Upsilondieresis ] <anchor 277 0> mark @Anchor4
-	<anchor 277 670> mark @Anchor5;
-  pos base [\Tau ] <anchor 285 0> mark @Anchor4
-	<anchor 285 670> mark @Anchor5;
-  pos base [\Chi ] <anchor 271 0> mark @Anchor4
-	<anchor 271 670> mark @Anchor5;
-  pos base [\alphatonos \upsilontonos ] <anchor 308 926> mark @Anchor5;
-  pos base [\epsilontonos ] <anchor 368 936> mark @Anchor5;
-  pos base [\etatonos ] <anchor 288 926> mark @Anchor5;
-  pos base [\iotatonos ] <anchor 307 926> mark @Anchor5;
-  pos base [\upsilondieresistonos ] <anchor 193 611> mark @Anchor5;
-  pos base [\omicrontonos ] <anchor 298 926> mark @Anchor5;
-  pos base [\omegatonos ] <anchor 339 926> mark @Anchor5;
-  pos base [\uni03DC ] <anchor 251 0> mark @Anchor4
-	<anchor 251 670> mark @Anchor5;
-  pos base [\uni03F9 ] <anchor 281 0> mark @Anchor4
-	<anchor 291 677> mark @Anchor5;
-  pos base [\uni03FD ] <anchor 323 0> mark @Anchor4
-	<anchor 313 677> mark @Anchor5;
-  pos base [\uni03FE ] <anchor 281 0> mark @Anchor4
-	<anchor 340 183> mark @Anchor5;
-  pos base [\uni03FF ] <anchor 319 0> mark @Anchor4
-	<anchor 262 183> mark @Anchor5;
-  pos base [\NameMe.1583 ] <anchor 256 0> mark @Anchor4
-	<anchor 376 661> mark @Anchor5;
-  pos base [\NameMe.1586 ] <anchor 141 0> mark @Anchor4
-	<anchor 296 670> mark @Anchor5;
-  pos base [\NameMe.1587 ] <anchor 240 0> mark @Anchor4
-	<anchor 395 670> mark @Anchor5;
-  pos base [\NameMe.1588 ] <anchor 234 0> mark @Anchor4
-	<anchor 389 670> mark @Anchor5;
-  pos base [\NameMe.1590 ] <anchor 165 0> mark @Anchor4
-	<anchor 320 670> mark @Anchor5;
-  pos base [\NameMe.1591 ] <anchor 218 0> mark @Anchor4
-	<anchor 373 670> mark @Anchor5;
-  pos base [\NameMe.1593 \NameMe.1594 ] <anchor 235 0> mark @Anchor4
-	<anchor 390 670> mark @Anchor5;
-  pos base [\NameMe.1596 ] <anchor 225 0> mark @Anchor4
-	<anchor 384 690> mark @Anchor5;
-  pos base [\NameMe.1598 ] <anchor 202 0> mark @Anchor4
-	<anchor 357 670> mark @Anchor5;
-  pos base [\NameMe.1600 ] <anchor 135 0> mark @Anchor4
-	<anchor 290 670> mark @Anchor5;
-  pos base [\NameMe.1601 ] <anchor 142 0> mark @Anchor4
-	<anchor 297 670> mark @Anchor5;
-  pos base [\NameMe.1603 ] <anchor 211 0> mark @Anchor4
-	<anchor 366 670> mark @Anchor5;
-  pos base [\NameMe.1614 ] <anchor 240 0> mark @Anchor4
-	<anchor 399 690> mark @Anchor5;
-} markMarkPositioninglookup3;
-
-lookup markMarkPositioninglookup4 {
-  lookupflag 0;
-  markClass [\gravecomb ] <anchor 251 483> @Anchor7;
-  markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor7;
-  markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor7;
-  markClass [\tildecomb \tildecomb.case ] <anchor 303 473> @Anchor7;
-  markClass [\uni0305 ] <anchor 301 481> @Anchor7;
-  markClass [\uni0306 ] <anchor 296 482> @Anchor7;
-  markClass [\uni0307 \uni030C \uni0302.alt01 ] <anchor 300 473> @Anchor7;
-  markClass [\uni0308 ] <anchor 296 473> @Anchor7;
-  markClass [\uni030A ] <anchor 263 473> @Anchor7;
-  markClass [\uni030B \uni030B.case ] <anchor 299 473> @Anchor7;
-  markClass [\uni0304.alt01 ] <anchor 300 484> @Anchor7;
-  markClass [\uni0308.case ] <anchor 296 623> @Anchor7;
-  markClass [\uni0307.case ] <anchor 300 650> @Anchor7;
-  markClass [\gravecomb.case ] <anchor 280 650> @Anchor7;
-  markClass [\uni030A.case ] <anchor 263 628> @Anchor7;
-  markClass [\uni0304.case ] <anchor 306 650> @Anchor7;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor6;
-  pos base [\A \Amacron \Abreve \Aogonek ] <anchor 300 0> mark @Anchor6
-	<anchor 300 650> mark @Anchor7;
-  pos base [\B ] <anchor 286 0> mark @Anchor6
-	<anchor 253 661> mark @Anchor7;
-  pos base [\C ] <anchor 281 0> mark @Anchor6
-	<anchor 291 677> mark @Anchor7;
-  pos base [\D \Eth ] <anchor 288 0> mark @Anchor6
-	<anchor 288 668> mark @Anchor7;
-  pos base [\E \Emacron \Ebreve \Eogonek \uni0228 ] <anchor 231 0> mark @Anchor6
-	<anchor 231 670> mark @Anchor7;
-  pos base [\F ] <anchor 251 0> mark @Anchor6
-	<anchor 251 670> mark @Anchor7;
-  pos base [\G \Q \Gbreve \uni0122 \Gcaron \uni1E20 ] <anchor 300 0> mark @Anchor6
-	<anchor 300 680> mark @Anchor7;
-  pos base [\H \uni021E ] <anchor 309 0> mark @Anchor6
-	<anchor 309 670> mark @Anchor7;
-  pos base [\I \Imacron \Ibreve \Iogonek \Idotaccent \uni0196 ] <anchor 240 0> mark @Anchor6
-	<anchor 240 670> mark @Anchor7;
-  pos base [\J ] <anchor 252 0> mark @Anchor6
-	<anchor 252 670> mark @Anchor7;
-  pos base [\K \uni01E8 ] <anchor 278 0> mark @Anchor6
-	<anchor 278 670> mark @Anchor7;
-  pos base [\L \uni013B \Ldot ] <anchor 238 0> mark @Anchor6
-	<anchor 238 670> mark @Anchor7;
-  pos base [\M \N \uni0145 ] <anchor 310 0> mark @Anchor6
-	<anchor 310 670> mark @Anchor7;
-  pos base [\O \Oslash \Omacron \Obreve \uni022E ] <anchor 300 0> mark @Anchor6
-	<anchor 300 690> mark @Anchor7;
-  pos base [\P \Y ] <anchor 277 0> mark @Anchor6
-	<anchor 277 670> mark @Anchor7;
-  pos base [\R \uni0156 ] <anchor 299 0> mark @Anchor6
-	<anchor 299 670> mark @Anchor7;
-  pos base [\S \Scedilla \uni0218 ] <anchor 274 0> mark @Anchor6
-	<anchor 284 690> mark @Anchor7;
-  pos base [\T \uni0162 \Tbar ] <anchor 285 0> mark @Anchor6
-	<anchor 285 670> mark @Anchor7;
-  pos base [\U \V \Z \Umacron \Ubreve \Uogonek \uni01D3 ] <anchor 300 0> mark @Anchor6
-	<anchor 300 670> mark @Anchor7;
-  pos base [\W ] <anchor 318 0> mark @Anchor6
-	<anchor 318 670> mark @Anchor7;
-  pos base [\X ] <anchor 271 0> mark @Anchor6
-	<anchor 271 670> mark @Anchor7;
-  pos base [\a \adieresis \aring \amacron \abreve \aogonek ] <anchor 259 -10> mark @Anchor6
-	<anchor 296 483> mark @Anchor7;
-  pos base [\Agrave \Ograve ] <anchor 300 0> mark @Anchor6
-	<anchor 263 721> mark @Anchor7;
-  pos base [\Aacute \uni01F4 ] <anchor 300 0> mark @Anchor6
-	<anchor 288 956> mark @Anchor7;
-  pos base [\Acircumflex \Ocircumflex \Ucircumflex ] <anchor 300 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\Atilde ] <anchor 300 0> mark @Anchor6
-	<anchor 303 797> mark @Anchor7;
-  pos base [\Adieresis \Odieresis ] <anchor 300 0> mark @Anchor6
-	<anchor 218 767> mark @Anchor7;
-  pos base [\Aring ] <anchor 300 0> mark @Anchor6
-	<anchor 295 803> mark @Anchor7;
-  pos base [\Egrave ] <anchor 241 0> mark @Anchor6
-	<anchor 233 721> mark @Anchor7;
-  pos base [\Eacute ] <anchor 241 0> mark @Anchor6
-	<anchor 298 956> mark @Anchor7;
-  pos base [\Ecircumflex ] <anchor 241 0> mark @Anchor6
-	<anchor 310 654> mark @Anchor7;
-  pos base [\Edieresis ] <anchor 241 0> mark @Anchor6
-	<anchor 258 767> mark @Anchor7;
-  pos base [\Igrave ] <anchor 240 0> mark @Anchor6
-	<anchor 223 721> mark @Anchor7;
-  pos base [\Iacute ] <anchor 240 0> mark @Anchor6
-	<anchor 328 958> mark @Anchor7;
-  pos base [\Icircumflex ] <anchor 240 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\Idieresis ] <anchor 240 0> mark @Anchor6
-	<anchor 218 767> mark @Anchor7;
-  pos base [\Ntilde ] <anchor 310 0> mark @Anchor6
-	<anchor 303 831> mark @Anchor7;
-  pos base [\Oacute ] <anchor 300 0> mark @Anchor6
-	<anchor 318 956> mark @Anchor7;
-  pos base [\Otilde ] <anchor 300 0> mark @Anchor6
-	<anchor 303 812> mark @Anchor7;
-  pos base [\Ugrave ] <anchor 300 0> mark @Anchor6
-	<anchor 213 701> mark @Anchor7;
-  pos base [\Uacute ] <anchor 300 0> mark @Anchor6
-	<anchor 338 946> mark @Anchor7;
-  pos base [\Udieresis ] <anchor 300 0> mark @Anchor6
-	<anchor 213 767> mark @Anchor7;
-  pos base [\Yacute ] <anchor 277 0> mark @Anchor6
-	<anchor 338 956> mark @Anchor7;
-  pos base [\agrave ] <anchor 259 -10> mark @Anchor6
-	<anchor 263 701> mark @Anchor7;
-  pos base [\aacute ] <anchor 259 -10> mark @Anchor6
-	<anchor 288 926> mark @Anchor7;
-  pos base [\acircumflex ] <anchor 259 -10> mark @Anchor6
-	<anchor 300 654> mark @Anchor7;
-  pos base [\atilde ] <anchor 259 -10> mark @Anchor6
-	<anchor 303 645> mark @Anchor7;
-  pos base [\egrave \ograve ] <anchor 293 701> mark @Anchor7;
-  pos base [\eacute \cacute \nacute \racute \zacute ] <anchor 288 926> mark @Anchor7;
-  pos base [\ecircumflex \ocircumflex \jcircumflex \scircumflex \wcircumflex ] <anchor 300 654> mark @Anchor7;
-  pos base [\igrave ] <anchor 242 926> mark @Anchor7;
-  pos base [\iacute ] <anchor 368 956> mark @Anchor7;
-  pos base [\ntilde ] <anchor 313 655> mark @Anchor7;
-  pos base [\oacute \uacute ] <anchor 318 926> mark @Anchor7;
-  pos base [\otilde \utilde ] <anchor 303 645> mark @Anchor7;
-  pos base [\ugrave ] <anchor 283 701> mark @Anchor7;
-  pos base [\ucircumflex ] <anchor 300 674> mark @Anchor7;
-  pos base [\yacute ] <anchor 338 926> mark @Anchor7;
-  pos base [\Cacute ] <anchor 281 0> mark @Anchor6
-	<anchor 318 956> mark @Anchor7;
-  pos base [\Ccircumflex ] <anchor 281 0> mark @Anchor6
-	<anchor 350 654> mark @Anchor7;
-  pos base [\ccircumflex \gcircumflex ] <anchor 320 654> mark @Anchor7;
-  pos base [\Cdotaccent ] <anchor 281 0> mark @Anchor6
-	<anchor 330 796> mark @Anchor7;
-  pos base [\Ccaron ] <anchor 281 0> mark @Anchor6
-	<anchor 330 834> mark @Anchor7;
-  pos base [\Dcaron ] <anchor 288 0> mark @Anchor6
-	<anchor 290 824> mark @Anchor7;
-  pos base [\Edotaccent ] <anchor 231 0> mark @Anchor6
-	<anchor 320 796> mark @Anchor7;
-  pos base [\Ecaron ] <anchor 231 0> mark @Anchor6
-	<anchor 320 834> mark @Anchor7;
-  pos base [\Gcircumflex ] <anchor 300 0> mark @Anchor6
-	<anchor 330 654> mark @Anchor7;
-  pos base [\Gdotaccent \Zdotaccent ] <anchor 300 0> mark @Anchor6
-	<anchor 300 796> mark @Anchor7;
-  pos base [\gdotaccent ] <anchor 300 646> mark @Anchor7;
-  pos base [\Hcircumflex ] <anchor 309 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\hcircumflex ] <anchor 320 874> mark @Anchor7;
-  pos base [\Hbar ] <anchor 301 0> mark @Anchor6
-	<anchor 301 670> mark @Anchor7;
-  pos base [\Itilde ] <anchor 240 0> mark @Anchor6
-	<anchor 297 830> mark @Anchor7;
-  pos base [\itilde ] <anchor 302 655> mark @Anchor7;
-  pos base [\IJ ] <anchor 134 0> mark @Anchor6
-	<anchor 134 670> mark @Anchor7;
-  pos base [\Jcircumflex ] <anchor 252 0> mark @Anchor6
-	<anchor 390 654> mark @Anchor7;
-  pos base [\uni0136 ] <anchor 288 0> mark @Anchor6
-	<anchor 288 670> mark @Anchor7;
-  pos base [\Lacute ] <anchor 238 0> mark @Anchor6
-	<anchor 288 966> mark @Anchor7;
-  pos base [\lacute ] <anchor 314 976> mark @Anchor7;
-  pos base [\Lcaron ] <anchor 238 0> mark @Anchor6
-	<anchor 292 795> mark @Anchor7;
-  pos base [\Lslash ] <anchor 279 0> mark @Anchor6
-	<anchor 279 670> mark @Anchor7;
-  pos base [\Nacute ] <anchor 310 0> mark @Anchor6
-	<anchor 288 926> mark @Anchor7;
-  pos base [\Ncaron ] <anchor 310 0> mark @Anchor6
-	<anchor 290 814> mark @Anchor7;
-  pos base [\Ohungarumlaut ] <anchor 300 0> mark @Anchor6
-	<anchor 319 840> mark @Anchor7;
-  pos base [\ohungarumlaut \uhungarumlaut ] <anchor 299 670> mark @Anchor7;
-  pos base [\Racute ] <anchor 299 0> mark @Anchor6
-	<anchor 288 966> mark @Anchor7;
-  pos base [\Rcaron ] <anchor 299 0> mark @Anchor6
-	<anchor 300 824> mark @Anchor7;
-  pos base [\Sacute ] <anchor 274 0> mark @Anchor6
-	<anchor 298 966> mark @Anchor7;
-  pos base [\sacute ] <anchor 308 926> mark @Anchor7;
-  pos base [\Scircumflex ] <anchor 274 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\Scaron ] <anchor 274 0> mark @Anchor6
-	<anchor 300 834> mark @Anchor7;
-  pos base [\Tcaron ] <anchor 285 0> mark @Anchor6
-	<anchor 300 824> mark @Anchor7;
-  pos base [\tcaron ] <anchor 300 824> mark @Anchor7;
-  pos base [\Utilde ] <anchor 300 0> mark @Anchor6
-	<anchor 303 821> mark @Anchor7;
-  pos base [\Uring ] <anchor 300 0> mark @Anchor6
-	<anchor 293 848> mark @Anchor7;
-  pos base [\uring ] <anchor 293 698> mark @Anchor7;
-  pos base [\Uhungarumlaut ] <anchor 300 0> mark @Anchor6
-	<anchor 329 830> mark @Anchor7;
-  pos base [\Wcircumflex ] <anchor 318 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\Ycircumflex ] <anchor 277 0> mark @Anchor6
-	<anchor 320 654> mark @Anchor7;
-  pos base [\ycircumflex \zcaron ] <anchor 310 654> mark @Anchor7;
-  pos base [\Ydieresis ] <anchor 277 0> mark @Anchor6
-	<anchor 218 777> mark @Anchor7;
-  pos base [\Zacute ] <anchor 300 0> mark @Anchor6
-	<anchor 288 966> mark @Anchor7;
-  pos base [\zdotaccent ] <anchor 310 626> mark @Anchor7;
-  pos base [\Zcaron ] <anchor 300 0> mark @Anchor6
-	<anchor 300 824> mark @Anchor7;
-  pos base [\uni0186 ] <anchor 319 0> mark @Anchor6
-	<anchor 309 677> mark @Anchor7;
-  pos base [\uni01CD \uni01D1 ] <anchor 300 0> mark @Anchor6
-	<anchor 300 844> mark @Anchor7;
-  pos base [\uni01CE ] <anchor 259 -10> mark @Anchor6
-	<anchor 290 654> mark @Anchor7;
-  pos base [\uni01CF ] <anchor 240 0> mark @Anchor6
-	<anchor 280 844> mark @Anchor7;
-  pos base [\uni01D0 ] <anchor 326 654> mark @Anchor7;
-  pos base [\uni01E2 ] <anchor 306 608> mark @Anchor7;
-  pos base [\uni01F5 ] <anchor 298 926> mark @Anchor7;
-  pos base [\uni01F8 ] <anchor 310 0> mark @Anchor6
-	<anchor 223 721> mark @Anchor7;
-  pos base [\uni01F9 ] <anchor 313 701> mark @Anchor7;
-  pos base [\Aringacute ] <anchor 300 0> mark @Anchor6
-	<anchor 380 872> mark @Anchor7;
-  pos base [\aringacute ] <anchor 259 -10> mark @Anchor6
-	<anchor 330 781> mark @Anchor7;
-  pos base [\AEacute ] <anchor 378 956> mark @Anchor7;
-  pos base [\aeacute ] <anchor 358 926> mark @Anchor7;
-  pos base [\Oslashacute ] <anchor 300 0> mark @Anchor6
-	<anchor 288 976> mark @Anchor7;
-  pos base [\oslashacute ] <anchor 328 926> mark @Anchor7;
-  pos base [\uni0226 ] <anchor 300 0> mark @Anchor6
-	<anchor 300 646> mark @Anchor7;
-  pos base [\uni0227 ] <anchor 259 -10> mark @Anchor6
-	<anchor 300 646> mark @Anchor7;
-  pos base [\uni0232 ] <anchor 277 0> mark @Anchor6
-	<anchor 306 628> mark @Anchor7;
-  pos base [\uni0250 ] <anchor 301 -10> mark @Anchor6
-	<anchor 338 483> mark @Anchor7;
-  pos base [\uni026B ] <anchor 189 405> mark @Anchor7;
-  pos base [\Wgrave ] <anchor 318 0> mark @Anchor6
-	<anchor 263 701> mark @Anchor7;
-  pos base [\wgrave ] <anchor 263 661> mark @Anchor7;
-  pos base [\Wacute ] <anchor 318 0> mark @Anchor6
-	<anchor 348 926> mark @Anchor7;
-  pos base [\wacute ] <anchor 328 886> mark @Anchor7;
-  pos base [\Wdieresis ] <anchor 318 0> mark @Anchor6
-	<anchor 218 747> mark @Anchor7;
-  pos base [\uni1EAC ] <anchor 300 0> mark @Anchor6
-	<anchor 300 -174> mark @Anchor7;
-  pos base [\uni1EBC ] <anchor 231 0> mark @Anchor6
-	<anchor 343 825> mark @Anchor7;
-  pos base [\uni1EBD \uni1EF9 ] <anchor 313 645> mark @Anchor7;
-  pos base [\Ygrave ] <anchor 277 0> mark @Anchor6
-	<anchor 263 701> mark @Anchor7;
-  pos base [\ygrave ] <anchor 263 701> mark @Anchor7;
-  pos base [\uni1EF8 ] <anchor 277 0> mark @Anchor6
-	<anchor 303 815> mark @Anchor7;
-  pos base [\uni004A0301 ] <anchor 252 0> mark @Anchor6
-	<anchor 358 956> mark @Anchor7;
-  pos base [\uni006A0301 ] <anchor 220 906> mark @Anchor7;
-  pos base [\NameMe.1528 ] <anchor 300 0> mark @Anchor6
-	<anchor 450 650> mark @Anchor7;
-  pos base [\NameMe.1529 ] <anchor 256 0> mark @Anchor6
-	<anchor 376 661> mark @Anchor7;
-  pos base [\NameMe.1530 ] <anchor 221 0> mark @Anchor6
-	<anchor 387 677> mark @Anchor7;
-  pos base [\NameMe.1531 ] <anchor 228 0> mark @Anchor6
-	<anchor 382 668> mark @Anchor7;
-  pos base [\NameMe.1532 ] <anchor 141 0> mark @Anchor6
-	<anchor 296 670> mark @Anchor7;
-  pos base [\NameMe.1533 ] <anchor 176 0> mark @Anchor6
-	<anchor 331 670> mark @Anchor7;
-  pos base [\NameMe.1534 ] <anchor 240 0> mark @Anchor6
-	<anchor 397 680> mark @Anchor7;
-  pos base [\NameMe.1535 ] <anchor 234 0> mark @Anchor6
-	<anchor 389 670> mark @Anchor7;
-  pos base [\NameMe.1536 \NameMe.1547 ] <anchor 165 0> mark @Anchor6
-	<anchor 320 670> mark @Anchor7;
-  pos base [\NameMe.1537 ] <anchor 162 0> mark @Anchor6
-	<anchor 317 670> mark @Anchor7;
-  pos base [\NameMe.1538 ] <anchor 218 0> mark @Anchor6
-	<anchor 373 670> mark @Anchor7;
-  pos base [\NameMe.1539 ] <anchor 238 0> mark @Anchor6
-	<anchor 393 670> mark @Anchor7;
-  pos base [\NameMe.1540 \NameMe.1541 ] <anchor 235 0> mark @Anchor6
-	<anchor 390 670> mark @Anchor7;
-  pos base [\NameMe.1542 ] <anchor 225 0> mark @Anchor6
-	<anchor 384 690> mark @Anchor7;
-  pos base [\NameMe.1543 ] <anchor 202 0> mark @Anchor6
-	<anchor 357 670> mark @Anchor7;
-  pos base [\NameMe.1544 ] <anchor 225 0> mark @Anchor6
-	<anchor 382 680> mark @Anchor7;
-  pos base [\NameMe.1545 ] <anchor 239 0> mark @Anchor6
-	<anchor 394 670> mark @Anchor7;
-  pos base [\NameMe.1546 ] <anchor 244 0> mark @Anchor6
-	<anchor 413 690> mark @Anchor7;
-  pos base [\NameMe.1548 ] <anchor 210 0> mark @Anchor6
-	<anchor 365 670> mark @Anchor7;
-  pos base [\NameMe.1549 ] <anchor 180 0> mark @Anchor6
-	<anchor 335 670> mark @Anchor7;
-  pos base [\NameMe.1550 ] <anchor 198 0> mark @Anchor6
-	<anchor 353 670> mark @Anchor7;
-  pos base [\NameMe.1551 ] <anchor 211 0> mark @Anchor6
-	<anchor 366 670> mark @Anchor7;
-  pos base [\NameMe.1552 ] <anchor 157 0> mark @Anchor6
-	<anchor 312 670> mark @Anchor7;
-  pos base [\NameMe.1553 ] <anchor 240 0> mark @Anchor6
-	<anchor 395 670> mark @Anchor7;
-  pos base [\NameMe.1554 ] <anchor 227 -10> mark @Anchor6
-	<anchor 378 483> mark @Anchor7;
-} markMarkPositioninglookup4;
-
-lookup mkmkMarktoMarklookup5 {
-  lookupflag UseMarkFilteringSet @MarkSet0;
-  markClass [\uni0326 ] <anchor 293 0> @Anchor8;
-  pos mark [\uni0326 ] <anchor 293 -217> mark @Anchor8;
-} mkmkMarktoMarklookup5;
-
-lookup mkmkMarktoMarklookup6 {
-  lookupflag UseMarkFilteringSet @MarkSet1;
-  markClass [\gravecomb ] <anchor 251 483> @Anchor9;
-  markClass [\acutecomb \acutecomb.case ] <anchor 269 483> @Anchor9;
-  markClass [\uni0302 \uni0302.case ] <anchor 270 473> @Anchor9;
-  markClass [\tildecomb \tildecomb.case ] <anchor 303 473> @Anchor9;
-  markClass [\uni0305 ] <anchor 301 481> @Anchor9;
-  markClass [\uni0306 ] <anchor 296 482> @Anchor9;
-  markClass [\uni0307 \uni030C \uni0302.alt01 ] <anchor 300 473> @Anchor9;
-  markClass [\uni0308 ] <anchor 296 473> @Anchor9;
-  markClass [\uni030A ] <anchor 263 473> @Anchor9;
-  markClass [\uni030B \uni030B.case ] <anchor 299 473> @Anchor9;
-  markClass [\uni0304.alt01 ] <anchor 300 484> @Anchor9;
-  markClass [\uni0308.case ] <anchor 296 623> @Anchor9;
-  markClass [\uni0307.case ] <anchor 300 650> @Anchor9;
-  markClass [\gravecomb.case ] <anchor 280 650> @Anchor9;
-  markClass [\uni030A.case ] <anchor 263 628> @Anchor9;
-  markClass [\uni0304.case ] <anchor 306 650> @Anchor9;
-  pos mark [\gravecomb \gravecomb.case ] <anchor 263 701> mark @Anchor9;
-  pos mark [\acutecomb \acutecomb.case ] <anchor 288 926> mark @Anchor9;
-  pos mark [\uni0302 \uni0302.case ] <anchor 270 654> mark @Anchor9;
-  pos mark [\tildecomb ] <anchor 303 645> mark @Anchor9;
-  pos mark [\uni0305 ] <anchor 301 614> mark @Anchor9;
-  pos mark [\uni0306 ] <anchor 296 673> mark @Anchor9;
-  pos mark [\uni0307 \uni0307.case ] <anchor 300 646> mark @Anchor9;
-  pos mark [\uni0308 ] <anchor 218 617> mark @Anchor9;
-  pos mark [\uni030A \uni030A.case ] <anchor 263 698> mark @Anchor9;
-  pos mark [\uni030B \uni030B.case ] <anchor 299 670> mark @Anchor9;
-  pos mark [\uni030C ] <anchor 300 654> mark @Anchor9;
-  pos mark [\uni0302.alt01 ] <anchor 300 921> mark @Anchor9;
-  pos mark [\uni0304.alt01 ] <anchor 300 616> mark @Anchor9;
-  pos mark [\uni0308.case ] <anchor 218 767> mark @Anchor9;
-  pos mark [\tildecomb.case ] <anchor 303 661> mark @Anchor9;
-  pos mark [\uni0304.case ] <anchor 306 608> mark @Anchor9;
-} mkmkMarktoMarklookup6;
+  markClass [\uni0326 ] <anchor -307 0> @Bottom;
+  markClass [\uni0327 ] <anchor -303 0> @Bottom;
+  markClass [\uni0328 ] <anchor -302 0> @Bottom;
+  markClass [\gravecomb ] <anchor -342 479> @Top;
+  markClass [\acutecomb ] <anchor -331 483> @Top;
+  markClass [\uni0302 ] <anchor -330 473> @Top;
+  markClass [\tildecomb ] <anchor -297 473> @Top;
+  markClass [\uni0304 ] <anchor -300 484> @Top;
+  markClass [\uni0305 ] <anchor -299 481> @Top;
+  markClass [\uni0306 ] <anchor -304 482> @Top;
+  markClass [\uni0307 \uni030C ] <anchor -300 473> @Top;
+  markClass [\uni0308 ] <anchor -304 473> @Top;
+  markClass [\uni030A ] <anchor -337 473> @Top;
+  markClass [\uni030B ] <anchor -301 473> @Top;
+  pos base [\a ] <anchor 296 483> mark @Top
+	<anchor 259 -10> mark @Bottom;
+  pos base [\b ] <anchor 346 -10> mark @Bottom
+	<anchor 343 665> mark @Top;
+  pos base [\c ] <anchor 318 -11> mark @Bottom
+	<anchor 310 484> mark @Top;
+  pos base [\d ] <anchor 254 -10> mark @Bottom
+	<anchor 257 665> mark @Top;
+  pos base [\e ] <anchor 318 -11> mark @Bottom
+	<anchor 300 484> mark @Top;
+  pos base [\f ] <anchor 252 0> mark @Bottom
+	<anchor 354 697> mark @Top;
+  pos base [\g ] <anchor 285 -214> mark @Bottom
+	<anchor 282 483> mark @Top;
+  pos base [\h ] <anchor 318 0> mark @Bottom
+	<anchor 358 665> mark @Top;
+  pos base [\i ] <anchor 324 0> mark @Bottom
+	<anchor 319 666> mark @Top;
+  pos base [\j ] <anchor 218 -188> mark @Bottom
+	<anchor 329 666> mark @Top;
+  pos base [\k ] <anchor 314 0> mark @Bottom
+	<anchor 298 675> mark @Top;
+  pos base [\l ] <anchor 384 0> mark @Bottom
+	<anchor 252 680> mark @Top;
+  pos base [\m ] <anchor 295 0> mark @Bottom
+	<anchor 315 483> mark @Top;
+  pos base [\n ] <anchor 314 0> mark @Bottom
+	<anchor 312 483> mark @Top;
+  pos base [\o ] <anchor 301 -11> mark @Bottom
+	<anchor 301 484> mark @Top;
+  pos base [\p ] <anchor 336 -10> mark @Bottom
+	<anchor 333 483> mark @Top;
+  pos base [\q ] <anchor 264 -10> mark @Bottom
+	<anchor 267 483> mark @Top;
+  pos base [\r ] <anchor 161 0> mark @Bottom
+	<anchor 315 483> mark @Top;
+  pos base [\s ] <anchor 310 -10> mark @Bottom
+	<anchor 306 482> mark @Top;
+  pos base [\t ] <anchor 371 -11> mark @Bottom
+	<anchor 239 665> mark @Top;
+  pos base [\u ] <anchor 258 -11> mark @Bottom
+	<anchor 296 475> mark @Top;
+  pos base [\v \w \x ] <anchor 309 -9> mark @Bottom
+	<anchor 296 473> mark @Top;
+  pos base [\y ] <anchor 222 -216> mark @Bottom
+	<anchor 296 483> mark @Top;
+  pos base [\z ] <anchor 300 0> mark @Bottom
+	<anchor 288 470> mark @Top;
+} Marktobaseattachmentlookup0;
 
 feature mark {
 
  script DFLT;
      language dflt ;
-      lookup markMarkPositioninglookup1;
-      lookup markMarkPositioninglookup2;
-      lookup markMarkPositioninglookup3;
-      lookup markMarkPositioninglookup4;
+      lookup Marktobaseattachmentlookup0;
+
+ script cans;
+     language dflt ;
+      lookup Marktobaseattachmentlookup0;
 
  script cyrl;
      language dflt ;
-      lookup markMarkPositioninglookup1;
-      lookup markMarkPositioninglookup2;
-      lookup markMarkPositioninglookup3;
-      lookup markMarkPositioninglookup4;
+      lookup Marktobaseattachmentlookup0;
 
  script grek;
      language dflt ;
-      lookup markMarkPositioninglookup1;
-      lookup markMarkPositioninglookup2;
-      lookup markMarkPositioninglookup3;
-      lookup markMarkPositioninglookup4;
+      lookup Marktobaseattachmentlookup0;
 
  script latn;
      language dflt ;
-      lookup markMarkPositioninglookup1;
-      lookup markMarkPositioninglookup2;
-      lookup markMarkPositioninglookup3;
-      lookup markMarkPositioninglookup4;
+      lookup Marktobaseattachmentlookup0;
+
+ script math;
+     language dflt ;
+      lookup Marktobaseattachmentlookup0;
+
+ script nko ;
+     language dflt ;
+      lookup Marktobaseattachmentlookup0;
+
+ script tfng;
+     language dflt ;
+      lookup Marktobaseattachmentlookup0;
 } mark;
-
-feature mkmk {
-
- script DFLT;
-     language dflt ;
-      lookup mkmkMarktoMarklookup5;
-      lookup mkmkMarktoMarklookup6;
-
- script cyrl;
-     language dflt ;
-      lookup mkmkMarktoMarklookup5;
-      lookup mkmkMarktoMarklookup6;
-
- script grek;
-     language dflt ;
-      lookup mkmkMarktoMarklookup5;
-      lookup mkmkMarktoMarklookup6;
-
- script latn;
-     language dflt ;
-      lookup mkmkMarktoMarklookup5;
-      lookup mkmkMarktoMarklookup6;
-} mkmk;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 

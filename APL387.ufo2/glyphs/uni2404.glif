@@ -4,18 +4,6 @@
   <unicode hex="2404"/>
   <outline>
     <contour>
-      <point x="491" y="2" type="move" name="Anchor0"/>
-    </contour>
-    <contour>
-      <point x="491" y="236" type="move" name="Anchor1"/>
-    </contour>
-    <contour>
-      <point x="491" y="236" type="move" name="Anchor-1"/>
-    </contour>
-    <contour>
-      <point x="491" y="2" type="move" name="Anchor-0"/>
-    </contour>
-    <contour>
       <point x="33" y="650" type="line" smooth="yes"/>
       <point x="33" y="677"/>
       <point x="60" y="677" type="qcurve" smooth="yes"/>
