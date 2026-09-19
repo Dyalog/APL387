@@ -159,6 +159,29 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\uni20D7 \uni20D6 \uni20E1 ] <anchor -300 445> @Top;
   markClass [\uni030F ] <anchor -250 473> @Top;
   markClass [\hookabovecomb ] <anchor -303 500> @Top;
+  pos base [\A ] <anchor 298 661> mark @Top;
+  pos base [\B ] <anchor 227 650> mark @Top;
+  pos base [\C \G ] <anchor 312 659> mark @Top;
+  pos base [\D ] <anchor 231 650> mark @Top;
+  pos base [\E ] <anchor 322 650> mark @Top;
+  pos base [\F ] <anchor 308 650> mark @Top;
+  pos base [\H \T ] <anchor 300 650> mark @Top;
+  pos base [\I \U ] <anchor 300 651> mark @Top;
+  pos base [\J ] <anchor 400 651> mark @Top;
+  pos base [\K ] <anchor 282 649> mark @Top;
+  pos base [\L ] <anchor 295 651> mark @Top;
+  pos base [\M ] <anchor 300 657> mark @Top;
+  pos base [\N ] <anchor 295 650> mark @Top;
+  pos base [\O ] <anchor 300 664> mark @Top;
+  pos base [\P ] <anchor 309 651> mark @Top;
+  pos base [\Q ] <anchor 301 660> mark @Top;
+  pos base [\R ] <anchor 274 650> mark @Top;
+  pos base [\S ] <anchor 283 660> mark @Top;
+  pos base [\V ] <anchor 300 649> mark @Top;
+  pos base [\W ] <anchor 300 653> mark @Top;
+  pos base [\X ] <anchor 300 644> mark @Top;
+  pos base [\Y ] <anchor 300 648> mark @Top;
+  pos base [\Z ] <anchor 286 650> mark @Top;
   pos base [\a ] <anchor 296 483> mark @Top
 	<anchor 259 -10> mark @Bottom;
   pos base [\b ] <anchor 346 -10> mark @Bottom
@@ -214,6 +237,10 @@ lookup Marktobaseattachmentlookup0 {
 
 lookup Marktomarklookup1 {
   lookupflag 0;
+  markClass [\uni0326 ] <anchor -307 0> @MkBottom;
+  markClass [\uni0327 ] <anchor -303 0> @MkBottom;
+  markClass [\uni0328 ] <anchor -302 0> @MkBottom;
+  markClass [\uni20EE \uni20EF \uni034D ] <anchor -300 0> @MkBottom;
   markClass [\gravecomb ] <anchor -349 483> @MkTop;
   markClass [\acutecomb ] <anchor -331 483> @MkTop;
   markClass [\uni0302 ] <anchor -330 473> @MkTop;
@@ -228,10 +255,6 @@ lookup Marktomarklookup1 {
   markClass [\uni20D7 \uni20D6 \uni20E1 ] <anchor -300 445> @MkTop;
   markClass [\uni030F ] <anchor -250 473> @MkTop;
   markClass [\hookabovecomb ] <anchor -303 500> @MkTop;
-  markClass [\uni0326 ] <anchor -307 0> @MkBottom;
-  markClass [\uni0327 ] <anchor -303 0> @MkBottom;
-  markClass [\uni0328 ] <anchor -302 0> @MkBottom;
-  markClass [\uni20EE \uni20EF \uni034D ] <anchor -300 0> @MkBottom;
   pos mark [\gravecomb ] <anchor -337 701> mark @MkTop;
   pos mark [\acutecomb ] <anchor -312 701> mark @MkTop;
   pos mark [\uni0302 ] <anchor -330 654> mark @MkTop;
@@ -322,7 +345,6 @@ feature mkmk {
      language dflt ;
       lookup Marktomarklookup1;
 } mkmk;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
