@@ -242,29 +242,58 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\uni20D7 \uni20D6 \uni20E1 ] <anchor -300 445> @Top;
   markClass [\uni030F ] <anchor -250 473> @Top;
   markClass [\hookabovecomb ] <anchor -303 500> @Top;
-  pos base [\A ] <anchor 298 661> mark @Top;
-  pos base [\B ] <anchor 227 650> mark @Top;
-  pos base [\C \G ] <anchor 312 659> mark @Top;
-  pos base [\D ] <anchor 231 650> mark @Top;
-  pos base [\E ] <anchor 322 650> mark @Top;
-  pos base [\F ] <anchor 308 650> mark @Top;
-  pos base [\H \T ] <anchor 300 650> mark @Top;
-  pos base [\I \U ] <anchor 300 651> mark @Top;
-  pos base [\J ] <anchor 400 651> mark @Top;
-  pos base [\K ] <anchor 282 649> mark @Top;
-  pos base [\L ] <anchor 295 651> mark @Top;
-  pos base [\M ] <anchor 300 657> mark @Top;
-  pos base [\N ] <anchor 295 650> mark @Top;
-  pos base [\O ] <anchor 300 664> mark @Top;
-  pos base [\P ] <anchor 309 651> mark @Top;
-  pos base [\Q ] <anchor 301 660> mark @Top;
-  pos base [\R ] <anchor 274 650> mark @Top;
-  pos base [\S ] <anchor 283 660> mark @Top;
-  pos base [\V ] <anchor 300 649> mark @Top;
-  pos base [\W ] <anchor 300 653> mark @Top;
-  pos base [\X ] <anchor 300 644> mark @Top;
-  pos base [\Y ] <anchor 300 648> mark @Top;
-  pos base [\Z ] <anchor 286 650> mark @Top;
+  pos base [\A ] <anchor 298 0> mark @Bottom
+	<anchor 298 661> mark @Top;
+  pos base [\B ] <anchor 306 0> mark @Bottom
+	<anchor 227 650> mark @Top;
+  pos base [\C ] <anchor 312 -10> mark @Bottom
+	<anchor 312 659> mark @Top;
+  pos base [\D ] <anchor 256 0> mark @Bottom
+	<anchor 231 650> mark @Top;
+  pos base [\E ] <anchor 322 0> mark @Bottom
+	<anchor 322 650> mark @Top;
+  pos base [\F ] <anchor 114 -1> mark @Bottom
+	<anchor 308 650> mark @Top;
+  pos base [\G ] <anchor 312 -9> mark @Bottom
+	<anchor 312 659> mark @Top;
+  pos base [\H ] <anchor 298 0> mark @Bottom
+	<anchor 300 650> mark @Top;
+  pos base [\I ] <anchor 302 0> mark @Bottom
+	<anchor 300 651> mark @Top;
+  pos base [\J ] <anchor 241 -10> mark @Bottom
+	<anchor 400 651> mark @Top;
+  pos base [\K ] <anchor 287 0> mark @Bottom
+	<anchor 282 649> mark @Top;
+  pos base [\L ] <anchor 303 0> mark @Bottom
+	<anchor 295 651> mark @Top;
+  pos base [\M ] <anchor 303 0> mark @Bottom
+	<anchor 300 657> mark @Top;
+  pos base [\N ] <anchor 303 0> mark @Bottom
+	<anchor 295 650> mark @Top;
+  pos base [\O ] <anchor 300 -10> mark @Bottom
+	<anchor 300 664> mark @Top;
+  pos base [\P ] <anchor 114 -1> mark @Bottom
+	<anchor 309 651> mark @Top;
+  pos base [\Q ] <anchor 301 -10> mark @Bottom
+	<anchor 301 660> mark @Top;
+  pos base [\R ] <anchor 301 0> mark @Bottom
+	<anchor 274 650> mark @Top;
+  pos base [\S ] <anchor 299 -8> mark @Bottom
+	<anchor 283 660> mark @Top;
+  pos base [\T ] <anchor 299 0> mark @Bottom
+	<anchor 300 650> mark @Top;
+  pos base [\U ] <anchor 300 -10> mark @Bottom
+	<anchor 300 651> mark @Top;
+  pos base [\V ] <anchor 300 -10> mark @Bottom
+	<anchor 300 649> mark @Top;
+  pos base [\W ] <anchor 300 -10> mark @Bottom
+	<anchor 300 653> mark @Top;
+  pos base [\X ] <anchor 293 0> mark @Bottom
+	<anchor 300 644> mark @Top;
+  pos base [\Y ] <anchor 299 0> mark @Bottom
+	<anchor 300 648> mark @Top;
+  pos base [\Z ] <anchor 300 0> mark @Bottom
+	<anchor 286 650> mark @Top;
   pos base [\a ] <anchor 296 483> mark @Top
 	<anchor 259 -10> mark @Bottom;
   pos base [\b ] <anchor 346 -10> mark @Bottom
