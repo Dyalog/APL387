@@ -244,13 +244,13 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\hookabovecomb ] <anchor -303 500> @Top;
   pos base [\A ] <anchor 298 0> mark @Bottom
 	<anchor 298 661> mark @Top;
-  pos base [\B ] <anchor 306 0> mark @Bottom
+  pos base [\B \Beta ] <anchor 306 0> mark @Bottom
 	<anchor 227 650> mark @Top;
   pos base [\C ] <anchor 312 -10> mark @Bottom
 	<anchor 312 659> mark @Top;
   pos base [\D ] <anchor 256 0> mark @Bottom
 	<anchor 231 650> mark @Top;
-  pos base [\E ] <anchor 322 0> mark @Bottom
+  pos base [\E \Epsilon ] <anchor 322 0> mark @Bottom
 	<anchor 322 650> mark @Top;
   pos base [\F ] <anchor 114 -1> mark @Bottom
 	<anchor 308 650> mark @Top;
@@ -268,11 +268,11 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 295 651> mark @Top;
   pos base [\M ] <anchor 303 0> mark @Bottom
 	<anchor 300 657> mark @Top;
-  pos base [\N ] <anchor 303 0> mark @Bottom
+  pos base [\N \Nu ] <anchor 303 0> mark @Bottom
 	<anchor 295 650> mark @Top;
-  pos base [\O ] <anchor 300 -10> mark @Bottom
+  pos base [\O \Omicron \theta ] <anchor 300 -10> mark @Bottom
 	<anchor 300 664> mark @Top;
-  pos base [\P ] <anchor 114 -1> mark @Bottom
+  pos base [\P \Rho ] <anchor 114 -1> mark @Bottom
 	<anchor 309 651> mark @Top;
   pos base [\Q ] <anchor 301 -10> mark @Bottom
 	<anchor 301 660> mark @Top;
@@ -280,7 +280,7 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 274 650> mark @Top;
   pos base [\S ] <anchor 299 -8> mark @Bottom
 	<anchor 283 660> mark @Top;
-  pos base [\T ] <anchor 299 0> mark @Bottom
+  pos base [\T \Phi ] <anchor 299 0> mark @Bottom
 	<anchor 300 650> mark @Top;
   pos base [\U ] <anchor 300 -10> mark @Bottom
 	<anchor 300 651> mark @Top;
@@ -288,11 +288,11 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 300 649> mark @Top;
   pos base [\W ] <anchor 300 -10> mark @Bottom
 	<anchor 300 653> mark @Top;
-  pos base [\X ] <anchor 293 0> mark @Bottom
+  pos base [\X \Chi ] <anchor 293 0> mark @Bottom
 	<anchor 300 644> mark @Top;
-  pos base [\Y ] <anchor 299 0> mark @Bottom
+  pos base [\Y \Upsilon ] <anchor 299 0> mark @Bottom
 	<anchor 300 648> mark @Top;
-  pos base [\Z ] <anchor 300 0> mark @Bottom
+  pos base [\Z \Zeta ] <anchor 300 0> mark @Bottom
 	<anchor 286 650> mark @Top;
   pos base [\a ] <anchor 296 483> mark @Top
 	<anchor 259 -10> mark @Bottom;
@@ -322,7 +322,7 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 315 483> mark @Top;
   pos base [\n ] <anchor 314 0> mark @Bottom
 	<anchor 312 483> mark @Top;
-  pos base [\o ] <anchor 301 -11> mark @Bottom
+  pos base [\o \omicron ] <anchor 301 -11> mark @Bottom
 	<anchor 301 484> mark @Top;
   pos base [\p ] <anchor 336 -10> mark @Bottom
 	<anchor 333 483> mark @Top;
@@ -346,6 +346,76 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 324 0> mark @Bottom;
   pos base [\uni0237 ] <anchor 283 472> mark @Top
 	<anchor 218 -188> mark @Bottom;
+  pos base [\Alpha ] <anchor 299 659> mark @Top
+	<anchor 299 3> mark @Bottom;
+  pos base [\Gamma ] <anchor 310 650> mark @Top
+	<anchor 123 0> mark @Bottom;
+  pos base [\uni0394 \Lambda ] <anchor 300 0> mark @Bottom
+	<anchor 300 659> mark @Top;
+  pos base [\Eta \Pi ] <anchor 300 0> mark @Bottom
+	<anchor 300 650> mark @Top;
+  pos base [\Theta ] <anchor 301 664> mark @Top
+	<anchor 301 -10> mark @Bottom;
+  pos base [\Iota \Xi ] <anchor 300 651> mark @Top
+	<anchor 300 0> mark @Bottom;
+  pos base [\Kappa ] <anchor 282 650> mark @Top
+	<anchor 287 0> mark @Bottom;
+  pos base [\Mu ] <anchor 300 657> mark @Top
+	<anchor 303 -1> mark @Bottom;
+  pos base [\Sigma ] <anchor 295 651> mark @Top
+	<anchor 295 0> mark @Bottom;
+  pos base [\Tau ] <anchor 299 650> mark @Top
+	<anchor 299 0> mark @Bottom;
+  pos base [\Psi ] <anchor 299 650> mark @Top
+	<anchor 298 0> mark @Bottom;
+  pos base [\uni03A9 ] <anchor 294 664> mark @Top
+	<anchor 294 0> mark @Bottom;
+  pos base [\alpha ] <anchor 283 479> mark @Top
+	<anchor 273 -10> mark @Bottom;
+  pos base [\beta ] <anchor 305 646> mark @Top
+	<anchor 305 0> mark @Bottom;
+  pos base [\gamma ] <anchor 300 474> mark @Top
+	<anchor 296 -240> mark @Bottom;
+  pos base [\delta ] <anchor 354 650> mark @Top
+	<anchor 286 -11> mark @Bottom;
+  pos base [\epsilon ] <anchor 309 482> mark @Top
+	<anchor 321 -15> mark @Bottom;
+  pos base [\zeta ] <anchor 288 651> mark @Top
+	<anchor 232 -11> mark @Bottom;
+  pos base [\eta ] <anchor 312 483> mark @Top
+	<anchor 315 0> mark @Bottom;
+  pos base [\iota ] <anchor 275 473> mark @Top
+	<anchor 275 0> mark @Bottom;
+  pos base [\kappa ] <anchor 300 474> mark @Top
+	<anchor 300 0> mark @Bottom;
+  pos base [\lambda ] <anchor 191 649> mark @Top
+	<anchor 300 -10> mark @Bottom;
+  pos base [\uni03BC ] <anchor 297 476> mark @Top
+	<anchor 373 -11> mark @Bottom;
+  pos base [\nu ] <anchor 284 472> mark @Top
+	<anchor 293 -10> mark @Bottom;
+  pos base [\xi ] <anchor 263 646> mark @Top
+	<anchor 267 -21> mark @Bottom;
+  pos base [\pi ] <anchor 287 473> mark @Top
+	<anchor 300 0> mark @Bottom;
+  pos base [\rho ] <anchor 318 483> mark @Top
+	<anchor 317 -10> mark @Bottom;
+  pos base [\uni03C2 ] <anchor 326 484> mark @Top
+	<anchor 243 15> mark @Bottom;
+  pos base [\sigma ] <anchor 350 484> mark @Top
+	<anchor 270 -11> mark @Bottom;
+  pos base [\tau ] <anchor 299 473> mark @Top
+	<anchor 299 0> mark @Bottom;
+  pos base [\upsilon ] <anchor 300 473> mark @Top
+	<anchor 300 -10> mark @Bottom;
+  pos base [\phi ] <anchor 300 467> mark @Top
+	<anchor 306 -199> mark @Bottom;
+  pos base [\chi ] <anchor 299 464> mark @Top
+	<anchor 299 -241> mark @Bottom;
+  pos base [\psi ] <anchor 298 473> mark @Top
+	<anchor 298 -240> mark @Bottom;
+  pos base [\omega ] <anchor 300 471> mark @Top
+	<anchor 300 -7> mark @Bottom;
   pos base [\uni25CC ] <anchor 299 614> mark @Top
 	<anchor 299 36> mark @Bottom;
   pos base [\uni20EE \uni20EF \uni034D ] <anchor -300 0> mark @Bottom;
