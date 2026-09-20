@@ -10,7 +10,7 @@
       <point x="-300" y="0" type="move" name="_MkBottom"/>
     </contour>
     <contour>
-      <point x="-300" y="0" type="move" name="Bottom"/>
+      <point x="-300" y="0" type="move" name="_Bottom"/>
     </contour>
     <component base="part_arrow_right" xOffset="-600" yOffset="-475"/>
   </outline>

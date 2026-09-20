@@ -53,7 +53,7 @@ try:
 except:
   pass
 
-features = [apl387.getLookupInfo(lookup)[2][0][0] for lookup in apl387.gsub_lookups]
+features = [apl387.getLookupInfo(lookup)[2][0][0] for lookup in apl387.gsub_lookups if apl387.getLookupInfo(lookup)[2][0][0][:2] in ('cv', 'ss')]
 
 with open(f'{path}/output/chars.html', 'w') as chars:
   chars.write('''
@@ -401,7 +401,7 @@ def swap_glyphs(a, b):
   apl387.paste()
 
 def export_all(name, font):
-  for subset in powerset(font.gsub_lookups):
+  for subset in powerset(lookup for lookup in font.gsub_lookups if font.getLookupInfo(lookup)[2][0][0][:2] in ('cv', 'ss')):
     baked_features = [font.getLookupInfo(lookup)[2][0][0] for lookup in subset]
     font.familyname = name
     font.fontname = f'{name}{"".join(baked_features)}' if len(subset) else f'{name}'
@@ -430,15 +430,21 @@ index_page('APL385', 'APL387')
 apl335 = apl387 # no need to clone, original font isn't needed anymore
 
 for glyph in apl335.glyphs():
-	if (glyph.glyphname.startswith('part_') # ignore parts
+  if not (
+     glyph.glyphname.startswith('part_') # ignore parts
   or glyph.glyphname.endswith('.bottom')  # ignore math components
   or glyph.glyphname.endswith('.top')
   or glyph.glyphname.endswith('.left')
   or glyph.glyphname.endswith('.right')
   or glyph.glyphname.endswith('.extender')
-  ): continue 
-	glyph.left_side_bearing = 50
-	glyph.right_side_bearing = 50
+  or glyph.width == 0                     # ignore combining characters
+  ):
+    glyph.left_side_bearing = 50
+    glyph.right_side_bearing = 50
+  for anchor in glyph.anchorPoints:
+    # in math mode, top and bottom accents must use the same offset
+    if anchor[0] == 'Top' or (anchor[0] == 'Bottom' and anchor[1] == 'mark'):
+      glyph.topaccent = round(anchor[2])
    
 apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
 

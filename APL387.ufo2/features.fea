@@ -36,6 +36,8 @@ lookup undotij {
   lookupflag 0;
     sub \i by \dotlessi ;
     sub \j by \uni0237 ;
+    sub \NameMe.1562 by \NameMe.1580 ;
+    sub \NameMe.1563 by \NameMe.1581 ;
 } undotij;
 
 lookup dotlessij {
@@ -150,7 +152,7 @@ feature cv01 {
       lookup cv01CharacterVariants01lookup0;
 } cv01;
 
-feature NEVR {
+feature dtls {
 
  script DFLT;
      language dflt ;
@@ -183,7 +185,7 @@ feature NEVR {
  script tfng;
      language dflt ;
       lookup undotij;
-} NEVR;
+} dtls;
 
 feature ccmp {
 
@@ -228,6 +230,7 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\uni0326 ] <anchor -307 0> @Bottom;
   markClass [\uni0327 ] <anchor -303 0> @Bottom;
   markClass [\uni0328 ] <anchor -302 0> @Bottom;
+  markClass [\uni20EE \uni20EF \uni034D ] <anchor -300 0> @Bottom;
   markClass [\gravecomb ] <anchor -349 483> @Top;
   markClass [\acutecomb ] <anchor -331 483> @Top;
   markClass [\uni0302 ] <anchor -330 473> @Top;
@@ -260,8 +263,7 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 300 650> mark @Top;
   pos base [\I ] <anchor 302 0> mark @Bottom
 	<anchor 300 651> mark @Top;
-  pos base [\J ] <anchor 241 -10> mark @Bottom
-	<anchor 400 651> mark @Top;
+  pos base [\J ] <anchor 400 651> mark @Top;
   pos base [\K ] <anchor 287 0> mark @Bottom
 	<anchor 282 649> mark @Top;
   pos base [\L ] <anchor 303 0> mark @Bottom
@@ -416,9 +418,206 @@ lookup Marktobaseattachmentlookup0 {
 	<anchor 298 -240> mark @Bottom;
   pos base [\omega ] <anchor 300 471> mark @Top
 	<anchor 300 -7> mark @Bottom;
+  pos base [\NameMe.1528 ] <anchor 451 661> mark @Top
+	<anchor 300 0> mark @Bottom;
+  pos base [\NameMe.1529 ] <anchor 347 650> mark @Top
+	<anchor 276 0> mark @Bottom;
+  pos base [\NameMe.1530 ] <anchor 404 659> mark @Top
+	<anchor 250 -10> mark @Bottom;
+  pos base [\NameMe.1531 ] <anchor 321 650> mark @Top
+	<anchor 196 0> mark @Bottom;
+  pos base [\NameMe.1532 \NameMe.1586 ] <anchor 388 650> mark @Top
+	<anchor 238 0> mark @Bottom;
+  pos base [\NameMe.1533 ] <anchor 388 650> mark @Top
+	<anchor 39 -1> mark @Bottom;
+  pos base [\NameMe.1534 ] <anchor 404 659> mark @Top
+	<anchor 250 -9> mark @Bottom;
+  pos base [\NameMe.1535 \NameMe.1588 ] <anchor 376 650> mark @Top
+	<anchor 224 0> mark @Bottom;
+  pos base [\NameMe.1536 \NameMe.1590 \NameMe.1595 ] <anchor 375 651> mark @Top
+	<anchor 225 0> mark @Bottom;
+  pos base [\NameMe.1537 ] <anchor 460 651> mark @Top
+	<anchor 149 -10> mark @Bottom;
+  pos base [\NameMe.1538 ] <anchor 382 641> mark @Top
+	<anchor 287 0> mark @Bottom;
+  pos base [\NameMe.1539 ] <anchor 445 654> mark @Top
+	<anchor 312 -1> mark @Bottom;
+  pos base [\NameMe.1540 ] <anchor 377 657> mark @Top
+	<anchor 224 -1> mark @Bottom;
+  pos base [\NameMe.1541 ] <anchor 370 650> mark @Top
+	<anchor 224 0> mark @Bottom;
+  pos base [\NameMe.1542 \NameMe.1596 ] <anchor 378 664> mark @Top
+	<anchor 223 -10> mark @Bottom;
+  pos base [\NameMe.1543 \NameMe.1598 ] <anchor 384 651> mark @Top
+	<anchor 39 -1> mark @Bottom;
+  pos base [\NameMe.1544 ] <anchor 378 660> mark @Top
+	<anchor 224 -10> mark @Bottom;
+  pos base [\NameMe.1545 ] <anchor 364 650> mark @Top
+	<anchor 246 -1> mark @Bottom;
+  pos base [\NameMe.1546 ] <anchor 405 660> mark @Top
+	<anchor 267 -8> mark @Bottom;
+  pos base [\NameMe.1547 ] <anchor 330 650> mark @Top
+	<anchor 192 -2> mark @Bottom;
+  pos base [\NameMe.1548 ] <anchor 360 651> mark @Top
+	<anchor 208 -10> mark @Bottom;
+  pos base [\NameMe.1549 ] <anchor 330 649> mark @Top
+	<anchor 178 -10> mark @Bottom;
+  pos base [\NameMe.1550 ] <anchor 331 653> mark @Top
+	<anchor 178 -10> mark @Bottom;
+  pos base [\NameMe.1551 \NameMe.1603 ] <anchor 391 644> mark @Top
+	<anchor 241 6> mark @Bottom;
+  pos base [\NameMe.1552 ] <anchor 330 648> mark @Top
+	<anchor 179 0> mark @Bottom;
+  pos base [\NameMe.1553 \NameMe.1587 ] <anchor 375 650> mark @Top
+	<anchor 237 0> mark @Bottom;
+  pos base [\NameMe.1554 ] <anchor 378 483> mark @Top
+	<anchor 227 -10> mark @Bottom;
+  pos base [\NameMe.1555 ] <anchor 466 665> mark @Top
+	<anchor 314 -10> mark @Bottom;
+  pos base [\NameMe.1556 ] <anchor 362 484> mark @Top
+	<anchor 255 -11> mark @Bottom;
+  pos base [\NameMe.1557 ] <anchor 350 665> mark @Top
+	<anchor 192 -10> mark @Bottom;
+  pos base [\NameMe.1558 ] <anchor 352 484> mark @Top
+	<anchor 255 -11> mark @Bottom;
+  pos base [\NameMe.1559 ] <anchor 425 697> mark @Top
+	<anchor 174 6> mark @Bottom;
+  pos base [\NameMe.1560 ] <anchor 379 483> mark @Top
+	<anchor 221 -214> mark @Bottom;
+  pos base [\NameMe.1561 ] <anchor 485 665> mark @Top
+	<anchor 286 -1> mark @Bottom;
+  pos base [\NameMe.1562 ] <anchor 383 666> mark @Top
+	<anchor 234 0> mark @Bottom;
+  pos base [\NameMe.1563 ] <anchor 483 666> mark @Top
+	<anchor 164 -192> mark @Bottom;
+  pos base [\NameMe.1564 ] <anchor 425 680> mark @Top
+	<anchor 294 -1> mark @Bottom;
+  pos base [\NameMe.1565 ] <anchor 349 680> mark @Top
+	<anchor 324 0> mark @Bottom;
+  pos base [\NameMe.1566 ] <anchor 395 483> mark @Top
+	<anchor 250 0> mark @Bottom;
+  pos base [\NameMe.1567 ] <anchor 364 483> mark @Top
+	<anchor 256 -1> mark @Bottom;
+  pos base [\NameMe.1568 ] <anchor 383 484> mark @Top
+	<anchor 268 -11> mark @Bottom;
+  pos base [\NameMe.1569 ] <anchor 445 483> mark @Top
+	<anchor 334 -10> mark @Bottom;
+  pos base [\NameMe.1570 ] <anchor 349 483> mark @Top
+	<anchor 232 -10> mark @Bottom;
+  pos base [\NameMe.1571 ] <anchor 367 483> mark @Top
+	<anchor 101 0> mark @Bottom;
+  pos base [\NameMe.1572 ] <anchor 357 482> mark @Top
+	<anchor 248 -10> mark @Bottom;
+  pos base [\NameMe.1573 ] <anchor 333 665> mark @Top
+	<anchor 308 -11> mark @Bottom;
+  pos base [\NameMe.1574 ] <anchor 349 472> mark @Top
+	<anchor 195 -11> mark @Bottom;
+  pos base [\NameMe.1575 ] <anchor 319 469> mark @Top
+	<anchor 217 -9> mark @Bottom;
+  pos base [\NameMe.1576 ] <anchor 319 472> mark @Top
+	<anchor 208 -9> mark @Bottom;
+  pos base [\NameMe.1577 ] <anchor 346 464> mark @Top
+	<anchor 242 6> mark @Bottom;
+  pos base [\NameMe.1578 ] <anchor 320 474> mark @Top
+	<anchor 67 -211> mark @Bottom;
+  pos base [\NameMe.1579 ] <anchor 341 473> mark @Top
+	<anchor 240 0> mark @Bottom;
+  pos base [\NameMe.1580 ] <anchor 343 473> mark @Top
+	<anchor 234 0> mark @Bottom;
+  pos base [\NameMe.1581 ] <anchor 455 472> mark @Top
+	<anchor 175 -188> mark @Bottom;
+  pos base [\NameMe.1582 ] <anchor 451 659> mark @Top
+	<anchor 300 0> mark @Bottom;
+  pos base [\NameMe.1583 ] <anchor 355 649> mark @Top
+	<anchor 276 0> mark @Bottom;
+  pos base [\NameMe.1584 ] <anchor 370 650> mark @Top
+	<anchor 33 0> mark @Bottom;
+  pos base [\NameMe.1585 ] <anchor 422 659> mark @Top
+	<anchor 264 0> mark @Bottom;
+  pos base [\NameMe.1589 ] <anchor 379 664> mark @Top
+	<anchor 224 -10> mark @Bottom;
+  pos base [\NameMe.1591 ] <anchor 379 642> mark @Top
+	<anchor 289 0> mark @Bottom;
+  pos base [\NameMe.1592 ] <anchor 422 659> mark @Top
+	<anchor 271 3> mark @Bottom;
+  pos base [\NameMe.1593 ] <anchor 377 656> mark @Top
+	<anchor 227 2> mark @Bottom;
+  pos base [\NameMe.1594 ] <anchor 372 644> mark @Top
+	<anchor 224 0> mark @Bottom;
+  pos base [\NameMe.1597 ] <anchor 345 650> mark @Top
+	<anchor 194 0> mark @Bottom;
+  pos base [\NameMe.1599 ] <anchor 370 651> mark @Top
+	<anchor 220 0> mark @Bottom;
+  pos base [\NameMe.1600 ] <anchor 300 650> mark @Top
+	<anchor 149 0> mark @Bottom;
+  pos base [\NameMe.1601 ] <anchor 330 648> mark @Top
+	<anchor 164 0> mark @Bottom;
+  pos base [\NameMe.1602 ] <anchor 375 650> mark @Top
+	<anchor 224 0> mark @Bottom;
+  pos base [\NameMe.1604 ] <anchor 344 650> mark @Top
+	<anchor 193 0> mark @Bottom;
+  pos base [\NameMe.1605 ] <anchor 402 664> mark @Top
+	<anchor 254 0> mark @Bottom;
+  pos base [\NameMe.1606 ] <anchor 310 617> mark @Top
+	<anchor 162 -15> mark @Bottom;
+  pos base [\NameMe.1607 ] <anchor 334 479> mark @Top
+	<anchor 211 -10> mark @Bottom;
+  pos base [\NameMe.1608 ] <anchor 409 646> mark @Top
+	<anchor 260 0> mark @Bottom;
+  pos base [\NameMe.1609 ] <anchor 319 469> mark @Top
+	<anchor 151 -240> mark @Bottom;
+  pos base [\NameMe.1610 ] <anchor 429 651> mark @Top
+	<anchor 208 -11> mark @Bottom;
+  pos base [\NameMe.1611 ] <anchor 360 482> mark @Top
+	<anchor 258 -15> mark @Bottom;
+  pos base [\NameMe.1612 ] <anchor 378 650> mark @Top
+	<anchor 169 -11> mark @Bottom;
+  pos base [\NameMe.1613 ] <anchor 255 0> mark @Bottom
+	<anchor 410 483> mark @Top;
+  pos base [\NameMe.1614 ] <anchor 393 664> mark @Top
+	<anchor 238 -10> mark @Bottom;
+  pos base [\NameMe.1615 ] <anchor 324 473> mark @Top
+	<anchor 215 0> mark @Bottom;
+  pos base [\NameMe.1616 ] <anchor 355 474> mark @Top
+	<anchor 265 0> mark @Bottom;
+  pos base [\NameMe.1617 ] <anchor 311 649> mark @Top
+	<anchor 271 0> mark @Bottom;
+  pos base [\NameMe.1618 ] <anchor 377 476> mark @Top
+	<anchor 340 -11> mark @Bottom;
+  pos base [\NameMe.1619 ] <anchor 296 472> mark @Top
+	<anchor 201 -10> mark @Bottom;
+  pos base [\NameMe.1620 ] <anchor 353 646> mark @Top
+	<anchor 202 -21> mark @Bottom;
+  pos base [\NameMe.1621 ] <anchor 353 484> mark @Top
+	<anchor 238 -11> mark @Bottom;
+  pos base [\NameMe.1622 ] <anchor 336 473> mark @Top
+	<anchor 248 0> mark @Bottom;
+  pos base [\NameMe.1623 ] <anchor 415 483> mark @Top
+	<anchor 300 -10> mark @Bottom;
+  pos base [\NameMe.1624 ] <anchor 378 484> mark @Top
+	<anchor 186 15> mark @Bottom;
+  pos base [\NameMe.1625 ] <anchor 402 484> mark @Top
+	<anchor 207 -11> mark @Bottom;
+  pos base [\NameMe.1626 ] <anchor 319 473> mark @Top
+	<anchor 209 0> mark @Bottom;
+  pos base [\NameMe.1627 ] <anchor 334 473> mark @Top
+	<anchor 223 -10> mark @Bottom;
+  pos base [\NameMe.1628 ] <anchor 349 470> mark @Top
+	<anchor 201 -199> mark @Bottom;
+  pos base [\NameMe.1629 ] <anchor 256 -241> mark @Bottom
+	<anchor 370 473> mark @Top;
+  pos base [\NameMe.1630 ] <anchor 347 473> mark @Top
+	<anchor 183 -240> mark @Bottom;
+  pos base [\NameMe.1631 ] <anchor 363 471> mark @Top
+	<anchor 253 -7> mark @Bottom;
+  pos base [\NameMe.1632 ] <anchor 342 653> mark @Top
+	<anchor 238 -11> mark @Bottom;
+  pos base [\NameMe.1633 ] <anchor 419 484> mark @Top
+	<anchor 304 -11> mark @Bottom;
+  pos base [\NameMe.1634 ] <anchor 238 -7> mark @Bottom
+	<anchor 351 478> mark @Top;
   pos base [\uni25CC ] <anchor 299 614> mark @Top
 	<anchor 299 36> mark @Bottom;
-  pos base [\uni20EE \uni20EF \uni034D ] <anchor -300 0> mark @Bottom;
 } Marktobaseattachmentlookup0;
 
 lookup Marktomarklookup1 {
@@ -531,6 +730,7 @@ feature mkmk {
      language dflt ;
       lookup Marktomarklookup1;
 } mkmk;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
