@@ -227,10 +227,6 @@ feature ccmp {
 
 lookup Marktobaseattachmentlookup0 {
   lookupflag 0;
-  markClass [\uni0326 ] <anchor -307 0> @Bottom;
-  markClass [\uni0327 ] <anchor -303 0> @Bottom;
-  markClass [\uni0328 ] <anchor -302 0> @Bottom;
-  markClass [\uni20EE \uni20EF \uni034D ] <anchor -300 0> @Bottom;
   markClass [\gravecomb ] <anchor -349 483> @Top;
   markClass [\acutecomb ] <anchor -331 483> @Top;
   markClass [\uni0302 ] <anchor -330 473> @Top;
@@ -245,6 +241,10 @@ lookup Marktobaseattachmentlookup0 {
   markClass [\uni20D7 \uni20D6 \uni20E1 ] <anchor -300 445> @Top;
   markClass [\uni030F ] <anchor -250 473> @Top;
   markClass [\hookabovecomb ] <anchor -303 500> @Top;
+  markClass [\uni0326 ] <anchor -307 0> @Bottom;
+  markClass [\uni0327 ] <anchor -303 0> @Bottom;
+  markClass [\uni0328 ] <anchor -302 0> @Bottom;
+  markClass [\uni20EE \uni20EF \uni034D ] <anchor -300 0> @Bottom;
   pos base [\A ] <anchor 298 0> mark @Bottom
 	<anchor 298 661> mark @Top;
   pos base [\B \Beta ] <anchor 306 0> mark @Bottom
@@ -730,7 +730,6 @@ feature mkmk {
      language dflt ;
       lookup Marktomarklookup1;
 } mkmk;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign 
 	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
@@ -935,7 +934,9 @@ feature mkmk {
 	\NameMe.1628 \NameMe.1629 \NameMe.1630 \NameMe.1631 \NameMe.1632 \NameMe.1633 
 	\NameMe.1634 \uni2305 \uni2938 \uni2045 \uni2046 \uni29C8 \uni2A2B \uni2A2C 
 	\uni25EB \uni29C5 \uni29C4 \uni231D \uni231E \uni231F \uni25CC 
-	\part_arrow_horizontal \part_arrow_vertical ];
+	\part_arrow_horizontal \part_arrow_vertical \uni291A \uni2919 \uni2607 
+	\uni21AF \uni2680 \uni2681 \uni2682 \uni2683 \uni2684 \uni2685 \uni21E0 \uni21E1 
+	\uni21E2 \uni21E3 \uni21CB \uni21CC \uni21BB ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
