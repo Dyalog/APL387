@@ -4,18 +4,6 @@
   <unicode hex="01FA"/>
   <outline>
     <contour>
-      <point x="300" y="0" type="move" name="Anchor6"/>
-    </contour>
-    <contour>
-      <point x="380" y="872" type="move" name="Anchor7"/>
-    </contour>
-    <contour>
-      <point x="380" y="872" type="move" name="Anchor-7"/>
-    </contour>
-    <contour>
-      <point x="300" y="0" type="move" name="Anchor-6"/>
-    </contour>
-    <contour>
       <point x="260" y="632" type="line"/>
       <point x="261" y="635" type="line"/>
       <point x="228" y="647"/>

@@ -4,6 +4,12 @@
   <unicode hex="044F"/>
   <outline>
     <contour>
+      <point x="287" y="0" type="move" name="Bottom"/>
+    </contour>
+    <contour>
+      <point x="265" y="473" type="move" name="Top"/>
+    </contour>
+    <contour>
       <point x="265" y="398" type="line" smooth="yes"/>
       <point x="177" y="398"/>
       <point x="177" y="319" type="qcurve" smooth="yes"/>
@@ -13,7 +19,6 @@
       <point x="400" y="398" type="line"/>
     </contour>
     <contour>
-      <point x="400" y="0"/>
       <point x="400" y="48" type="qcurve" smooth="yes"/>
       <point x="400" y="164" type="line"/>
       <point x="283" y="164" type="line"/>
@@ -42,6 +47,7 @@
       <point x="482" y="402" type="qcurve" smooth="yes"/>
       <point x="482" y="48" type="line" smooth="yes"/>
       <point x="482" y="0"/>
+      <point x="400" y="0"/>
     </contour>
   </outline>
 </glyph>

@@ -4,16 +4,10 @@
   <unicode hex="0412"/>
   <outline>
     <contour>
-      <point x="286" y="0" type="move" name="Anchor2"/>
+      <point x="306" y="0" type="move" name="Bottom"/>
     </contour>
     <contour>
-      <point x="253" y="661" type="move" name="Anchor3"/>
-    </contour>
-    <contour>
-      <point x="253" y="661" type="move" name="Anchor-3"/>
-    </contour>
-    <contour>
-      <point x="286" y="0" type="move" name="Anchor-2"/>
+      <point x="214" y="650" type="move" name="Top"/>
     </contour>
     <contour>
       <point x="146" y="0" type="line" smooth="yes"/>

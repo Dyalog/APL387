@@ -4,6 +4,12 @@
   <unicode hex="1D6A5"/>
   <outline>
     <contour>
+      <point x="454.97" y="472" type="move" name="Top"/>
+    </contour>
+    <contour>
+      <point x="174.597" y="-188" type="move" name="Bottom"/>
+    </contour>
+    <contour>
       <point x="328.2" y="473" type="qcurve" smooth="yes"/>
       <point x="454.97" y="472" type="line" smooth="yes"/>
       <point x="500.97" y="472"/>

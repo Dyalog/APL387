@@ -3,42 +3,6 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="299" y="473" type="move" name="_Anchor9"/>
-    </contour>
-    <contour>
-      <point x="299" y="670" type="move" name="Anchor9"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor7"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor5"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor3"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor1"/>
-    </contour>
-    <contour>
-      <point x="299" y="670" type="move" name="Anchor-9"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor-9"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor-7"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor-5"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor-3"/>
-    </contour>
-    <contour>
-      <point x="299" y="473" type="move" name="_Anchor-1"/>
-    </contour>
-    <contour>
       <point x="109" y="599" type="qcurve" smooth="yes"/>
       <point x="101" y="611"/>
       <point x="107" y="639"/>

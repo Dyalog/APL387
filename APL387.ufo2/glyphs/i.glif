@@ -4,7 +4,12 @@
   <unicode hex="0069"/>
   <outline>
     <contour>
-      <point x="257" y="579"/>
+      <point x="324" y="0" type="move" name="Bottom"/>
+    </contour>
+    <contour>
+      <point x="319" y="666" type="move" name="Top"/>
+    </contour>
+    <contour>
       <point x="257" y="605" type="qcurve" smooth="yes"/>
       <point x="257" y="630"/>
       <point x="293" y="666"/>
@@ -15,9 +20,9 @@
       <point x="380" y="579"/>
       <point x="345" y="543"/>
       <point x="293" y="543"/>
+      <point x="257" y="579"/>
     </contour>
     <contour>
-      <point x="156" y="473"/>
       <point x="207" y="473" type="qcurve" smooth="yes"/>
       <point x="324" y="473" type="line" smooth="yes"/>
       <point x="365" y="473"/>
@@ -30,6 +35,7 @@
       <point x="284" y="395" type="line"/>
       <point x="207" y="395" type="line" smooth="yes"/>
       <point x="156" y="395"/>
+      <point x="156" y="473"/>
     </contour>
   </outline>
 </glyph>
