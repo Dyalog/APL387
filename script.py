@@ -29,6 +29,7 @@ commit = sys.argv[2]
 apl387 = fontforge.open(f'{path}/APL387.ufo2')
 
 apl387.version = commit
+apl387.os2_version = 2
 
 braille_dots = [apl387.createMappedChar(f'part_braille_dot_{i+1}') for i in range(8)]
 
