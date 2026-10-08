@@ -3332,5 +3332,15 @@
     <string>uni21C_C_.glif</string>
     <key>uni21BB</key>
     <string>uni21B_B_.glif</string>
+    <key>I.propo</key>
+    <string>I_.propo.glif</string>
+    <key>M.propo</key>
+    <string>M_.propo.glif</string>
+    <key>W.propo</key>
+    <string>W_.propo.glif</string>
+    <key>m.propo</key>
+    <string>m.propo.glif</string>
+    <key>w.propo</key>
+    <string>w.propo.glif</string>
   </dict>
 </plist>

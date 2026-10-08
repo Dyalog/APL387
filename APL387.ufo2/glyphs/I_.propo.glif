@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I.propo" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="221" y="651" type="qcurve" smooth="yes"/>
+      <point x="245.633" y="651" type="line"/>
+      <point x="361.5" y="651" type="line"/>
+      <point x="379" y="651" type="line" smooth="yes"/>
+      <point x="430" y="651"/>
+      <point x="430" y="571"/>
+      <point x="379" y="571" type="qcurve" smooth="yes"/>
+      <point x="361.5" y="571" type="line"/>
+      <point x="344" y="571" type="line"/>
+      <point x="344" y="80" type="line"/>
+      <point x="361.5" y="80" type="line"/>
+      <point x="379" y="80" type="line" smooth="yes"/>
+      <point x="430" y="80"/>
+      <point x="430" y="-0.000488281"/>
+      <point x="379" y="0" type="qcurve" smooth="yes"/>
+      <point x="361.5" y="0" type="line"/>
+      <point x="245.633" y="0" type="line"/>
+      <point x="221" y="0" type="line" smooth="yes"/>
+      <point x="170" y="0"/>
+      <point x="170" y="41" type="qcurve" smooth="yes"/>
+      <point x="170" y="80"/>
+      <point x="221" y="80" type="qcurve" smooth="yes"/>
+      <point x="245.633" y="80" type="line"/>
+      <point x="257" y="80" type="line"/>
+      <point x="257" y="571" type="line"/>
+      <point x="245.633" y="571" type="line"/>
+      <point x="221" y="571" type="line" smooth="yes"/>
+      <point x="170" y="571"/>
+      <point x="170" y="612" type="qcurve" smooth="yes"/>
+      <point x="170" y="651"/>
+    </contour>
+  </outline>
+</glyph>

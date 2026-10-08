@@ -439,6 +439,11 @@ for glyph in apl335.glyphs():
   ): continue 
 	glyph.left_side_bearing = 50
 	glyph.right_side_bearing = 50
+
+for glyph in apl335.glyphs():
+  if not glyph.glyphname.endswith('.propo'): continue
+  base = apl335.createMappedChar(glyph.glyphname.strip('.propo'))
+  swap_glyphs(base, glyph)
    
 apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
 
