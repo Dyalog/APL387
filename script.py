@@ -437,6 +437,10 @@ for glyph in apl335.glyphs():
   or glyph.glyphname.endswith('.left')
   or glyph.glyphname.endswith('.right')
   or glyph.glyphname.endswith('.extender')
+  or 0x2500 <= glyph.unicode <= 0x259f    # ignore box drawing and related
+  or 0x1fb00 <= glyph.unicode <= 0x1fbff
+  or 0x1ccc0 <= glyph.unicode <= 0x1cebf
+  or 0x2800 <= glyph.unicode <= 0x28ff    # ignore braille
   ): continue 
 	glyph.left_side_bearing = 50
 	glyph.right_side_bearing = 50
