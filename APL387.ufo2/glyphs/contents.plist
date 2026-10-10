@@ -2617,9 +2617,9 @@
     <key>uni223D</key>
     <string>uni223D_.glif</string>
     <key>uni2240</key>
-    <string>uni223F_.glif</string>
-    <key>uni2241</key>
     <string>uni2240.glif</string>
+    <key>uni2241</key>
+    <string>uni2241.glif</string>
     <key>uni2250</key>
     <string>uni2250.glif</string>
     <key>uni2254</key>
@@ -3342,5 +3342,35 @@
     <string>m.propo.glif</string>
     <key>w.propo</key>
     <string>w.propo.glif</string>
+    <key>uni266D</key>
+    <string>uni266D_.glif</string>
+    <key>uni2315</key>
+    <string>uni2315.glif</string>
+    <key>uni29FB</key>
+    <string>uni29F_B_.glif</string>
+    <key>uni25CC</key>
+    <string>uni25C_C_.glif</string>
+    <key>uni223F</key>
+    <string>uni223F_.glif</string>
+    <key>uni22CB</key>
+    <string>uni22C_B_.glif</string>
+    <key>uni22CC</key>
+    <string>uni22C_C_.glif</string>
+    <key>uni207F</key>
+    <string>uni207F_.glif</string>
+    <key>uni2099</key>
+    <string>uni2099.glif</string>
+    <key>uni2091</key>
+    <string>uni2091.glif</string>
+    <key>uni21A4</key>
+    <string>uni21A_4.glif</string>
+    <key>uni21A5</key>
+    <string>uni21A_5.glif</string>
+    <key>uni21A6</key>
+    <string>uni21A_6.glif</string>
+    <key>uni21A7</key>
+    <string>uni21A_7.glif</string>
+    <key>uni22A8</key>
+    <string>uni22A_8.glif</string>
   </dict>
 </plist>
