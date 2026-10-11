@@ -1062,7 +1062,8 @@ feature mkmk {
 	\uni25EB \uni29C5 \uni29C4 \uni231D \uni231E \uni231F \uni291A \uni2919 \uni2607 
 	\uni21AF \uni2680 \uni2681 \uni2682 \uni2683 \uni2684 \uni2685 \uni21E0 \uni21E1 
 	\uni21E2 \uni21E3 \uni21CB \uni21CC \uni21BB \I.propo \M.propo \W.propo \m.propo 
-	\w.propo ];
+	\w.propo \uni266D \uni2315 \uni29FB \uni25CC \uni223F \uni22CB \uni22CC \uni207F 
+	\uni2099 \uni2091 \uni21A4 \uni21A5 \uni21A6 \uni21A7 \uni22A8 ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
 	\uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0326 \uni0327 \uni0328 
 	\uni0302.alt01 \uni0304.alt01 \uni0308.case \uni0307.case \gravecomb.case 
