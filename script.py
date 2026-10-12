@@ -401,6 +401,19 @@ def swap_glyphs(a, b):
   apl387.selection.select(b)
   apl387.paste()
 
+left, lefts, right, rights = 'lfbd', 'lfbd-0', 'rtbd', 'rtbd-0'
+
+def add_bounds():
+  apl387.addLookup(left, 'gpos_single', None, (('lfbd', (('DFLT', ('dflt',)), ('brai', ('dflt',)), ('cans', ('dflt',)), ('cyrl', ('dflt',)), ('grek', ('dflt',)), ('latn', ('dflt',)), ('math', ('dflt',)), ('nko ', ('dflt',)), ('tfng', ('dflt',)))),))
+  apl387.addLookupSubtable(left, lefts)
+  apl387.addLookup(right, 'gpos_single', None, (('rtbd', (('DFLT', ('dflt',)), ('brai', ('dflt',)), ('cans', ('dflt',)), ('cyrl', ('dflt',)), ('grek', ('dflt',)), ('latn', ('dflt',)), ('math', ('dflt',)), ('nko ', ('dflt',)), ('tfng', ('dflt',)))),))
+  apl387.addLookupSubtable(right, rights)
+  for glyph in apl387.glyphs():
+    leftb = round(glyph.left_side_bearing)
+    rightb = round(glyph.right_side_bearing)
+    glyph.addPosSub(lefts, -leftb, 0, -leftb, 0)
+    glyph.addPosSub(rights, 0, 0, -rightb, 0)
+
 def export_all(name, font):
   for subset in powerset(font.gsub_lookups):
     baked_features = [font.getLookupInfo(lookup)[2][0][0] for lookup in subset]
@@ -418,11 +431,14 @@ def export_all(name, font):
     file_name = f'{name}-{"-".join(baked_features)}' if len(subset) else name
     for lookup in subset:
       bake_feature(lookup)
+    add_bounds()
     for ext in EXTENSIONS:
       font.generate(f'{path}/output/{file_name}.{ext}')	
     # undo swaps
     for lookup in subset:
       bake_feature(lookup)
+    font.removeLookup(left)
+    font.removeLookup(right)
 
 export_all('APL387', apl387)
 compare_page(apl387, 'APL385', 'APL387')
