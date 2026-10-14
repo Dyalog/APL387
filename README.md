@@ -8,6 +8,6 @@ Work is also progressing on [_APL335 Unicode_](https://dyalog.github.io/APL387/3
 
 The intent is for these fonts to become part of the identity of APL, much in the same way the glyphs themselves currently are. An APL dialect designer might be relieved to find a font with support for so many potential glyphs, and be free to pick one that isn't widely included in fontfaces, without needing to design it themselves or settle for a font that isn't geared for APL just to have a specific glyph.
 
-Eventually, we plan on giving the new fonts more catchy names, maybe _Array Sans Mono_ and _Array Sans Text_.
+We want to rename these two fonts to have a catchier and easier name, and we want your input. In the first phase, which ends Dec 31, we're looking for suggestions on names; later the second phase will have you vote between all suggestions we received. The [**form for the first phase**](https://forms.gle/SRtE3D4wKVwdVPZk9) contains more information about exactly what we're looking for.
 
 <img width="3364" height="556" alt="image" src="https://github.com/user-attachments/assets/8a74774b-4972-4318-8007-cc60d583caa2" />

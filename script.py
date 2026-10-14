@@ -272,6 +272,7 @@ def index_page(old, new, propo = False, name = 'index', compare_name = 'compare'
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
     </blockquote>
+    <p>We want to rename this font and its sibling to have a catchier and easier name, and we want your input. In the first phase, which ends Dec 31, we're looking for suggestions on names; later the second phase will have you vote between all suggestions we received. The <a href="https://forms.gle/SRtE3D4wKVwdVPZk9"><strong>form for the first phase</strong></a> contains more information about exactly what we're looking for.</p>
     <p>Supports every special character used by any APL implementation:</p>
 <table>
 <tbody><tr><th>Class</th>
