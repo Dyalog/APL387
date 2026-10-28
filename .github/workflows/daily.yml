@@ -65,3 +65,4 @@ jobs:
           artifacts: "APL387*,APL335*"
           makeLatest: 'false'
           tag: "${{ steps.date.outputs.date }}"
+          immutableCreate: true
