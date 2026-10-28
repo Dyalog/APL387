@@ -40,14 +40,85 @@ for braille_index in range(0x100):
 	apl387.selection.select(glyph)
 	apl387.paste()
 	bits = [ch == '1' for ch in bin(braille_index)[2:].rjust(8, '0')][::-1]
-	if braille_index in [0x1b, 0xc0]:
-		print(bits)
 	for bit_idx, bit in enumerate(bits):
 		if bit:
 			apl387.selection.select(braille_dots[bit_idx])
 			apl387.copy()
 			apl387.selection.select(glyph)
 			apl387.pasteInto()
+
+control_pictures = {
+  0x2400: 'NUL',
+  0x2401: 'SOH',
+  0x2402: 'STX',
+  0x2403: 'ETX',
+  0x2404: 'EOT',
+  0x2405: 'ENQ',
+  0x2406: 'ACK',
+  0x2407: 'BEL',
+  0x2408: 'BS',
+  0x2409: 'HT',
+  0x240a: 'LF',
+  0x240b: 'VT',
+  0x240c: 'FF',
+  0x240d: 'CR',
+  0x240e: 'SO',
+  0x240f: 'SI',
+  0x2410: 'DLE',
+  0x2411: 'DC1',
+  0x2412: 'DC2',
+  0x2413: 'DC3',
+  0x2414: 'DC4',
+  0x2415: 'NAK',
+  0x2416: 'SYN',
+  0x2417: 'ETB',
+  0x2418: 'CAN',
+  0x2419: 'EM',
+  0x241a: 'SUB',
+  0x241b: 'ESC',
+  0x241c: 'FS',
+  0x241d: 'GS',
+  0x241e: 'RS',
+  0x241f: 'US',
+  0x2420: 'SP',
+  0x2421: 'DEL',
+  0x2424: 'NL',
+}
+
+def mmp(y, x):
+  """
+  a2 c2 e2     a1 c1 e1        (a1 a2 + b1 c2) (c1 a2 + d1 c2) (e1 a2 + f1 c2 + e2)
+  b2 d2 f2  *  b1 d1 f1  =     (a1 b2 + b1 d2) (c1 b2 + d1 d2) (e1 b2 + f1 d2 + f2)
+   0  0  1      0  0  1               0               0                  1
+  """
+  a1, b1, c1, d1, e1, f1 = x
+  a2, b2, c2, d2, e2, f2 = y
+  return (a1 * a2 + b1 * c2, a1 * b2 + b1 * d2, c1 * a2 + d1 * c2, d1 * b2 + d1 * d2, e1 * a2 + f1 * c2 + e2, e1 * b2 + f1 * d2 + f2)
+
+def scale_from_center(sx, sy = None):
+  sy = sy or sx
+  return (sx, 0, 0, sy, 300 * (1 - sx), 400 * (1 - sy))
+
+def translate(dx, dy):
+  return (1, 0, 0, 1, dx, dy)
+
+for cp, letters in control_pictures.items():
+  scal = scale_from_center(1 / 3)
+  glyph = apl387.createChar(cp)
+  apl387.selection.select('space')
+  apl387.copy()
+  apl387.selection.select(glyph)
+  apl387.paste()
+  if len(letters) == 3:
+    a, b, c = tuple(apl387.createChar(ord(ch)).glyphname for ch in letters)
+    glyph.addReference(a, mmp(translate(-150, 275), scal))
+    glyph.addReference(b,                           scal )
+    glyph.addReference(c, mmp(translate(150, -275), scal))
+  elif len(letters) == 2:
+    a, b = tuple(apl387.createChar(ord(ch)).glyphname for ch in letters)
+    glyph.addReference(a, mmp(translate(-75, 137.5), scal))
+    glyph.addReference(b, mmp(translate(75, -137.5), scal))
+  else: raise RuntimeError(f'Unsupported control picture composed of letters `{letters}`, should have 2 or 3')
 
 try:
   os.mkdir(f'{path}/output')
