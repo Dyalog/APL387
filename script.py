@@ -539,6 +539,7 @@ for glyph in apl335.glyphs():
   swap_glyphs(base, glyph)
    
 apl335.createChar(0x20).left_side_bearing = 200 # space should be wider
+apl335.createChar(0xa0).left_side_bearing = 200 # and nbsp
 
 apl335.addLookup('kern', 'gpos_pair', (), (('kern', (('DFLT', ('dflt',)), ('brai', ('dflt',)), ('cans', ('dflt',)), ('cyrl', ('dflt',)), ('grek', ('dflt',)), ('latn', ('dflt',)), ('math', ('dflt',)), ('nko ', ('dflt',)), ('tfng', ('dflt',)))),))
 apl335.addLookupSubtable('kern', 'kern-0')
